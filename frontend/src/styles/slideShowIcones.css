@@ -7,32 +7,44 @@
 }
 
 .scroll-button {
-  background: none;
+  background: #b8bcef;
   border: none;
   font-size: 24px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
+  padding: 10px;
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.scroll-button:hover {
+  opacity: 1; /* Rendre le bouton complètement opaque au survol */
 }
 
 .scroll-button.left {
   position: absolute;
-  left: 0;
+  left: -30px;
+  color: white;
 }
 
 .scroll-button.right {
   position: absolute;
-  right: 0;
+  right: -30px;
+  color: white;
 }
 
 .sports-icones-container {
   overflow-x: auto;
   display: flex;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 .sports-liste {
   display: flex;
   gap: 20px;
+  width: max-content;
 }
 
 .sport-item {

@@ -34,7 +34,7 @@ const Menu = () => {
             className={({ isActive }) => (isActive ? "active" : "")}
             onClick={closeMenu}
           >
-            Actualités
+            Accueil
           </NavLink>
         </li>
         <li>

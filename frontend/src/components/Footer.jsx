@@ -7,7 +7,7 @@ import "../styles/footer.css";
 function Footer() {
   return (
     <section className="main-footer">
-      <div>
+      <div className="div-logoFooter">
         <img src={Logo} alt="logo" className="logoFooter" />
       </div>
       <div>

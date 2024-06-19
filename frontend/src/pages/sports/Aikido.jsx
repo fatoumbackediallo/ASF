@@ -133,65 +133,7 @@ const Aikido = () => {
             </p>
           </div>
         </div>
-        <h2 className="h2">INSCRIPTIONS</h2>
-        <hr className="ligne-titre"></hr>
-        <div className="bloc">
-          <h4 className="h4">
-            GUIDE D'INSCRIPTION À DESTINATION DE NOS ADHÉRENT(E)S :
-          </h4>
-          <div>
-            <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
-                PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
-              </a>
-            </span>
-            <p>
-              Il s'agit d'une page du site internet de MonClub qui explique aux
-              adhérents comment s'inscrire pour la première fois avec MonClub ou
-              bien comment se connecter si un compte a déjà été créé.
-            </p>
-          </div>
-        </div>
-        <div className="bloc">
-          <h4 className="h4">
-            DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
-          </h4>
-          <div>
-            <h5 className="h5-bloc">Mineur : </h5>
-            <p className="p-h5-bloc">
-              Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
-            </p>
 
-            <span className="lien-span-h5">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/questionnaire-de-sante-mineurs.pdf">
-                CLIQUEZ ICI
-              </a>
-            </span>
-            <br />
-            <h5 className="h5-bloc">Majeur : </h5>
-            <p className="p-h5-bloc">
-              Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
-            </p>
-
-            <span className="lien-span-h5">
-              <a href="https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Majeur%20-%20Questionnaire%20de%20Sant%C3%A9%202021-2022.pdf">
-                CLIQUEZ ICI
-              </a>
-            </span>
-          </div>
-        </div>
-        <div className="bloc">
-          <h4 className="h4">INSCRIPTION EN LIGNE :</h4>
-          <div>
-            <span className="lien">
-              <a href="https://asfontenaisienne.monclub.app/">
-                LIEN D'INSCRIPTION
-              </a>
-            </span>
-          </div>
-        </div>
         <h2 className="h2">COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
 
@@ -312,6 +254,66 @@ const Aikido = () => {
             <p className="prix-cotisation">
               <b>215€</b>
             </p>
+          </div>
+        </div>
+
+        <h2 className="h2">INSCRIPTIONS</h2>
+        <hr className="ligne-titre"></hr>
+        <div className="bloc">
+          <h4 className="h4">
+            GUIDE D'INSCRIPTION À DESTINATION DE NOS ADHÉRENT(E)S :
+          </h4>
+          <div>
+            <span className="lien">
+              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+                PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
+              </a>
+            </span>
+            <p>
+              Il s'agit d'une page du site internet de MonClub qui explique aux
+              adhérents comment s'inscrire pour la première fois avec MonClub ou
+              bien comment se connecter si un compte a déjà été créé.
+            </p>
+          </div>
+        </div>
+        <div className="bloc">
+          <h4 className="h4">
+            DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
+          </h4>
+          <div>
+            <h5 className="h5-bloc">Mineur : </h5>
+            <p className="p-h5-bloc">
+              Questionnaire de santé (à garder par l'adhérent) ou Certificat
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+            </p>
+
+            <span className="lien-span-h5">
+              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/questionnaire-de-sante-mineurs.pdf">
+                CLIQUEZ ICI
+              </a>
+            </span>
+            <br />
+            <h5 className="h5-bloc">Majeur : </h5>
+            <p className="p-h5-bloc">
+              Questionnaire de santé (à garder par l'adhérent) ou Certificat
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+            </p>
+
+            <span className="lien-span-h5">
+              <a href="https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Majeur%20-%20Questionnaire%20de%20Sant%C3%A9%202021-2022.pdf">
+                CLIQUEZ ICI
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="bloc">
+          <h4 className="h4">INSCRIPTION EN LIGNE :</h4>
+          <div>
+            <span className="lien">
+              <a href="https://asfontenaisienne.monclub.app/">
+                LIEN D'INSCRIPTION
+              </a>
+            </span>
           </div>
         </div>
 

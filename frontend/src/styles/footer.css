@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #b8bcef;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .footerText {
@@ -11,8 +11,8 @@
   font-weight: bolder;
 }
 
-.logoFooter {
-  margin-top: 5px;
+.div-logoFooter {
+  display: flex;
 }
 
 @media (max-width: 760px) {

@@ -16,7 +16,9 @@ function Footer() {
       <div>
         <NavLink
           to="/mentionslegales"
-          className={({ isActive }) => (isActive ? "active" : "")}
+          className={({ isActive }) =>
+            isActive ? "nav-link active" : "nav-link"
+          }
           onClick={MentionsLegales}
         >
           Mentions Légales

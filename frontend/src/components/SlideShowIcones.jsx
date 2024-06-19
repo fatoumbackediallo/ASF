@@ -93,7 +93,9 @@ const SlideShowIcones = () => {
   };
   return (
     <div className="sports-icones-wrapper">
-      <button className="scroll-button left" onClick={scrollLeft}></button>
+      <button className="scroll-button left" onClick={scrollLeft}>
+        {"<"}
+      </button>
       <div className="sports-icones-container" ref={scrollContainerRef}>
         <div className="sports-liste">
           {sports.map((sport, index) => (
@@ -106,7 +108,9 @@ const SlideShowIcones = () => {
           ))}
         </div>
       </div>
-      <button className="scroll-button right" onClick={scrollRight}></button>
+      <button className="scroll-button right" onClick={scrollRight}>
+        {">"}
+      </button>
     </div>
   );
 };

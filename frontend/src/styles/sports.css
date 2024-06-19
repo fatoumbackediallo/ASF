@@ -342,7 +342,8 @@ h4 {
 .lien {
   color: #0913b1;
   text-decoration: underline;
-  font-weight: lighter;
+  font-weight: bolder;
+  font-size: 14px;
 }
 
 .lien-span-h5 {

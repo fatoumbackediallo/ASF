@@ -25,6 +25,26 @@ const Accueil = () => {
       location: "Stade du Panorama",
       contact: "06 89 86 78 11",
     },
+    {
+      title: "Stage Tennis",
+      photo: stageTennis,
+      informations: `<ul>
+                      <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+                      <li>De 9h30 à 16h30</li>
+                      <li>Inscription : www.asftennis.com</li>
+                    </ul>`,
+      date: `<ul>
+                      <li>24 juin au 28 juin 2024)</li>
+                      <li>01 au 05 juillet 2024</li>
+                      <li>08 juillet au 12 juillet 2024</li>
+                      <li>15 au 19 juillet 2024</li>
+                      <li>26 au 30 Août 2024</li>
+                    </ul>`,
+
+      location: "Tennis municipaux",
+      contact:
+        "Responsable administrative : contact@asftennis.com <br/> 06 89 86 78 11",
+    },
 
     {
       title: "Stage Tennis de Table",
@@ -51,27 +71,6 @@ const Accueil = () => {
       date: "8 Juillet au 12 juillet",
       location: "Halle du Panorama",
       contact: "Hugo Brutelle : 06 11 75 85 35",
-    },
-
-    {
-      title: "Stage Tennis",
-      photo: stageTennis,
-      informations: `<ul>
-                      <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
-                      <li>De 9h30 à 16h30</li>
-                      <li>Inscription : www.asftennis.com</li>
-                    </ul>`,
-      date: `<ul>
-                      <li>24 juin au 28 juin 2024)</li>
-                      <li>01 au 05 juillet 2024</li>
-                      <li>08 juillet au 12 juillet 2024</li>
-                      <li>15 au 19 juillet 2024</li>
-                      <li>26 au 30 Août 2024</li>
-                    </ul>`,
-
-      location: "Tennis municipaux",
-      contact:
-        "Responsable administrative : contact@asftennis.com <br/> 06 89 86 78 11",
     },
   ];
   return (

@@ -194,40 +194,7 @@ const Aikido = () => {
         </div>
         <h2 className="h2">COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
-        <div className="cotisations">
-          <div className="case-cotisation">
-            <p>
-              <b>MOINS DE 14 ANS</b>
-            </p>
-            <p className="prix-cotisation">
-              <b>245€</b>
-            </p>
-          </div>
-          <div className="case-cotisation">
-            <p>
-              <b>14-18 ANS</b>
-            </p>
-            <p className="prix-cotisation">
-              <b>280€</b>
-            </p>
-          </div>
-          <div className="case-cotisation">
-            <p>
-              <b>ADULTES</b>
-            </p>
-            <p className="prix-cotisation">
-              <b>350€</b>
-            </p>
-          </div>
-          <div className="case-cotisation">
-            <p>
-              <b>ARMES</b>
-            </p>
-            <p className="prix-cotisation">
-              <b>215€</b>
-            </p>
-          </div>
-        </div>
+
         <div className="paiement">
           <h3>MOYENS DE PAIEMENT</h3>
           <div>
@@ -312,6 +279,42 @@ const Aikido = () => {
             </ul>
           </div>
         </div>
+
+        <div className="cotisations">
+          <div className="case-cotisation">
+            <p>
+              <b>MOINS DE 14 ANS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>245€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>14-18 ANS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>280€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>350€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>ARMES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>215€</b>
+            </p>
+          </div>
+        </div>
+
         <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">

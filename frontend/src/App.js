@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Accueil from "./pages/Accueil.jsx";
 import Contact from "./pages/Contact.jsx";
 import Historique from "./pages/Historique.jsx";
@@ -37,58 +37,61 @@ import Menu from "./components/Menu.jsx";
 import Construction from "./pages/Construction.jsx";
 import Footer from "./components/Footer.jsx";
 import MentionsLegales from "./pages/MentionsLégales.jsx";
+import { DataProvider } from "./pages/DataContext.jsx";
 
 function App() {
   return (
     <ErrorBoundary>
-      <Router>
-        <div>
-          <Menu></Menu>
-          <Routes>
-            <Route path="/" element={<Accueil />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/historique" element={<Historique />} />
-            <Route path="/benevole" element={<Benevole />} />
-            <Route path="/construction" element={<Construction />} />
-            <Route path="/admin" element={<Admin />} />
-            <Route path="/aikido" element={<Aikido />} />
-            <Route path="/athletisme" element={<Athletisme />} />
-            <Route path="/badminton" element={<Badminton />} />
-            <Route path="/basketball" element={<BasketBall />} />
-            <Route path="/boxethailandaise" element={<BoxeThailandaise />} />
-            <Route path="/capoeira" element={<Capoeira />} />
-            <Route path="/ecolededanse" element={<EcoleDeDanse />} />
-            <Route path="/ecoledessports" element={<EcoleDesSports />} />
-            <Route path="/escrime" element={<Escrime />} />
-            <Route path="/fitness" element={<Fitness />} />
-            <Route path="/football" element={<Football />} />
-            <Route
-              path="/gymnastiqueartistique"
-              element={<GymnastiqueArtistique />}
-            />
-            <Route
-              path="/gymnastiquerythmique"
-              element={<GymnastiqueRythmique />}
-            />
-            <Route path="/handball" element={<Handball />} />
-            <Route path="/judojujitsu" element={<JudoJuJitsu />} />
-            <Route path="/karate" element={<Karate />} />
-            <Route path="/kungfu" element={<KungFu />} />
-            <Route path="/marchenordique" element={<MarcheNordique />} />
-            <Route path="/natation" element={<Natation />} />
-            <Route path="/parkour" element={<Parkour />} />
-            <Route path="/rugby" element={<Rugby />} />
-            <Route path="/squash" element={<Squash />} />
-            <Route path="/taekwondo" element={<TaeKwonDo />} />
-            <Route path="/tennis" element={<Tennis />} />
-            <Route path="/tennisdetable" element={<TennisDeTable />} />
-            <Route path="/volleyball" element={<VolleyBall />} />
-            <Route path="/yoga" element={<Yoga />} />
-            <Route path="/mentionslegales" element={<MentionsLegales />} />
-          </Routes>
-          <Footer></Footer>
-        </div>
-      </Router>
+      <DataProvider>
+        <Router>
+          <div>
+            <Menu></Menu>
+            <Routes>
+              <Route path="/" element={<Accueil />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/historique" element={<Historique />} />
+              <Route path="/benevole" element={<Benevole />} />
+              <Route path="/construction" element={<Construction />} />
+              <Route path="/admin" element={<Admin />} />
+              <Route path="/aikido" element={<Aikido />} />
+              <Route path="/athletisme" element={<Athletisme />} />
+              <Route path="/badminton" element={<Badminton />} />
+              <Route path="/basketball" element={<BasketBall />} />
+              <Route path="/boxethailandaise" element={<BoxeThailandaise />} />
+              <Route path="/capoeira" element={<Capoeira />} />
+              <Route path="/ecolededanse" element={<EcoleDeDanse />} />
+              <Route path="/ecoledessports" element={<EcoleDesSports />} />
+              <Route path="/escrime" element={<Escrime />} />
+              <Route path="/fitness" element={<Fitness />} />
+              <Route path="/football" element={<Football />} />
+              <Route
+                path="/gymnastiqueartistique"
+                element={<GymnastiqueArtistique />}
+              />
+              <Route
+                path="/gymnastiquerythmique"
+                element={<GymnastiqueRythmique />}
+              />
+              <Route path="/handball" element={<Handball />} />
+              <Route path="/judojujitsu" element={<JudoJuJitsu />} />
+              <Route path="/karate" element={<Karate />} />
+              <Route path="/kungfu" element={<KungFu />} />
+              <Route path="/marchenordique" element={<MarcheNordique />} />
+              <Route path="/natation" element={<Natation />} />
+              <Route path="/parkour" element={<Parkour />} />
+              <Route path="/rugby" element={<Rugby />} />
+              <Route path="/squash" element={<Squash />} />
+              <Route path="/taekwondo" element={<TaeKwonDo />} />
+              <Route path="/tennis" element={<Tennis />} />
+              <Route path="/tennisdetable" element={<TennisDeTable />} />
+              <Route path="/volleyball" element={<VolleyBall />} />
+              <Route path="/yoga" element={<Yoga />} />
+              <Route path="/mentionslegales" element={<MentionsLegales />} />
+            </Routes>
+            <Footer></Footer>
+          </div>
+        </Router>
+      </DataProvider>
     </ErrorBoundary>
   );
 }

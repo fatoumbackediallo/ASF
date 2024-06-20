@@ -435,6 +435,7 @@ h4 {
 .contacts {
   display: flex;
   align-items: center;
+  margin-left: 5px;
 }
 
 .infos-contact {

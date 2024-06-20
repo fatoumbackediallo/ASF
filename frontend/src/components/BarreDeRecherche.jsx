@@ -25,7 +25,7 @@ const sports = [
   "natation",
   "parkour",
   "petanque",
-  "rygby",
+  "rugby",
   "squash",
   "tae kwon do",
   "tennis",

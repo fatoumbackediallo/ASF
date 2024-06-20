@@ -156,6 +156,13 @@ h4 {
   background-position: center;
 }
 
+.petanque {
+  background-image: url("../images/Sports/banniere-petanque.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .rygby {
   background-image: url("../images/Sports/banniere-rugby.png");
   background-repeat: no-repeat;

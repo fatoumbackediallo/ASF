@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/sports.css";
 
 const KungFu = () => {
+  const [showOthers, setShowOthers] = useState(false);
+
+  const handleToggle = () => {
+    setShowOthers(!showOthers);
+  };
+
   return (
     <div>
       <div className="header kungFu">
@@ -88,28 +94,94 @@ const KungFu = () => {
             </p>
           </div>
         </div>
-        <h2>INSCRIPTIONS</h2>
-        <hr className="ligne-titre"></hr>
-        <div className="inscription">
-          <div className="inscription-h3">
-            <h3>Guide inscription à destination de nos adhérent(e)s : </h3>
-            <span>
-              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
-                Parcours d'inscription sur le web
-              </a>
-            </span>
-          </div>
-          <div className="inscription-h3">
-            <h3>Inscription en ligne :</h3>
-            <span className="lien">
-              <a href="https://asfontenaisienne.monclub.app/">
-                LIEN D'INSCRIPTION
-              </a>
-            </span>
-          </div>
-        </div>
+
         <h2>COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
+        <div className="paiement">
+          <h3>MOYENS DE PAIEMENT</h3>
+          <div>
+            <ul className="ul-paiement">
+              <li>
+                <h4>CARTE BANCAIRE</h4>
+                <p>(en une seule fois)</p>
+              </li>
+              <li>
+                <h4>SEPA (PRÉLÈVEMENTS)</h4>
+                <p>(en 3 fois)</p>
+              </li>
+              <li>
+                <h4>Par virement : </h4>
+                <p>(en 1 seule fois)</p>
+                <ul>
+                  <li>Se rapprocher de la section pour obtenir le RIB</li>
+                  <li>
+                    Se connecter à l'application de votre banque en ligne -
+                    Sélectionner virement
+                  </li>
+                  <li>Ajouter un nouveau bénéficiaire</li>
+                  <li>
+                    Indiquer <b className="gras">obligatoirement</b> le motif du
+                    virement
+                  </li>
+                  <ul>
+                    <li>
+                      a. Section concernée + Nom et Prénom de l'enfant si
+                      inscription d'un mineur ou de l'adulte inscrit{" "}
+                    </li>
+                    <li>
+                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      VOLLEY - adulte AZERTYUI Marc
+                    </li>
+                  </ul>
+                  <li>Effectuer le virement</li>
+                </ul>
+              </li>
+              <li>
+                <h4 onClick={handleToggle} className="menu-deroulant">
+                  AUTRES PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
+                  <span>{showOthers ? "v" : ">"}</span>
+                </h4>
+                {showOthers && (
+                  <div className="autres-moyens">
+                    <h4>Si Bénéficiaire d'Aides :</h4>
+                    <p>
+                      ANVC (coupons sport, chèque-vacances), Coup de pouce
+                      loisirs (CAF), Pass+, Pass'sport, Chèque sport, Labaz,
+                      Coupon Sceaux
+                    </p>
+                    <p>
+                      <i>
+                        (Uniquement : Athlétisme, Badminton (en compétition),
+                        Gymnastique Rythmique, Gymnastique Artistique, Handball,
+                        Rugby, Squash, VolleyBall)
+                      </i>
+                    </p>
+
+                    <h4>Par chèque(s) :</h4>
+                    <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+
+                    <h4>Par espèces : </h4>
+                    <p>(en 1 seule fois)</p>
+                    <div className="remise">
+                      <h4>La remise se fera : </h4>
+                    </div>
+                    <p>
+                      Au Forum des Associations le{" "}
+                      <b className="gras"> 08 septembre</b> au Gymnase du Parc
+                      entre 10h00 et 18h00
+                    </p>
+                    <p>OU</p>
+                    <p>
+                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
+                      château Ste Barbe - 2ème Étage - Porte 7
+                    </p>
+                  </div>
+                )}
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div className="cotisations">
           <div className="ligne-cotisations">
             <div className="case-cotisation">
@@ -138,6 +210,67 @@ const KungFu = () => {
             </div>
           </div>
         </div>
+
+        <h2>INSCRIPTIONS</h2>
+        <hr className="ligne-titre"></hr>
+        <div className="bloc">
+          <h4 className="h4">
+            GUIDE D'INSCRIPTION À DESTINATION DE NOS ADHÉRENT(E)S :
+          </h4>
+          <div>
+            <span className="lien">
+              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+                PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
+              </a>
+            </span>
+            <p>
+              Il s'agit d'une page du site internet de MonClub qui explique aux
+              adhérents comment s'inscrire pour la première fois avec MonClub ou
+              bien comment se connecter si un compte a déjà été créé.
+            </p>
+          </div>
+        </div>
+        <div className="bloc">
+          <h4 className="h4">
+            DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
+          </h4>
+          <div>
+            <h5 className="h5-bloc">Mineur : </h5>
+            <p className="p-h5-bloc">
+              Questionnaire de santé (à garder par l'adhérent) ou Certificat
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+            </p>
+
+            <span className="lien-span-h5">
+              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/questionnaire-de-sante-mineurs.pdf">
+                CLIQUEZ ICI
+              </a>
+            </span>
+            <br />
+            <h5 className="h5-bloc">Majeur : </h5>
+            <p className="p-h5-bloc">
+              Questionnaire de santé (à garder par l'adhérent) ou Certificat
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+            </p>
+
+            <span className="lien-span-h5">
+              <a href="https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Majeur%20-%20Questionnaire%20de%20Sant%C3%A9%202021-2022.pdf">
+                CLIQUEZ ICI
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="bloc">
+          <h4 className="h4">INSCRIPTION EN LIGNE :</h4>
+          <div>
+            <span className="lien">
+              <a href="https://asfontenaisienne.monclub.app/">
+                LIEN D'INSCRIPTION
+              </a>
+            </span>
+          </div>
+        </div>
+
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">

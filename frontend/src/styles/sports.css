@@ -170,13 +170,6 @@ h4 {
   background-position: center;
 }
 
-.squash {
-  background-image: url("../images/Sports/banniere-squash.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .taekwondo {
   background-image: url("../images/Sports/banniere-taekwondo.png");
   background-repeat: no-repeat;
@@ -461,6 +454,11 @@ h4 {
 
 .label {
   font-weight: bolder;
+}
+.h4-inscriptionNatation {
+  margin-top: 10px;
+  color: red;
+  text-align: center;
 }
 
 /**********************

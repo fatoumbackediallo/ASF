@@ -62,14 +62,14 @@ const Natation = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Lundi 30 Septembre 2024
                 </b>
               </p>
             </div>
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>BÉBÉS NAGEURS 3 À 6 MOIS</h4>
+            <h4>BÉBÉS NAGEURS - 6 MOIS À 3 ANS</h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
@@ -78,17 +78,19 @@ const Natation = () => {
             </p>
             <p>
               <b>
-                SAMEDI 09H00-09H30
+                SAMEDI : 09H00-09H30
                 <br />
-                SAMEDI 9H30-10H00
+                SAMEDI : 9H30-10H00
                 <br />
-                SAMEDI 10H00-10H30
+                SAMEDI : 10H00-10H30
+                <br />
+                SAMEDI : 10H30-11H00
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>PETITS BAIGNEURS</h4>
+            <h4>PETITS BAIGNEURS - 4 À 5 ANS</h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
@@ -97,15 +99,15 @@ const Natation = () => {
             </p>
             <p>
               <b>
-                SAMEDI 09H00-09H45
+                SAMEDI : 09H00-09H45
                 <br />
-                SAMEDI 9H45-10H30
+                SAMEDI : 9H45-10H30
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>JEUNES 9 À 18 ANS</h4>
+            <h4>JEUNES - 9 À 18 ANS</h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
@@ -122,7 +124,7 @@ const Natation = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>JEUNES 6 À 9 ANS</h4>
+            <h4>JEUNES - 6 À 9 ANS</h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
@@ -131,11 +133,32 @@ const Natation = () => {
             </p>
             <p>
               <b>
-                JEUDI 17H00-18H00
+                JEUDI : 17H00-18H00
                 <br />
-                JEUDI 18H00-190H00
+                JEUDI : 18H00-19H00
                 <br />
-                VENDREDI 17H00-18H00
+                VENDREDI : 17H00-18H00
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>ADULTES - 18 ANS ET PLUS</h4>
+            <p>
+              <b>PISCINE MUNICIPALE DE FONTENAY</b>
+              <br />
+              <br />
+              22 rue jean jaurès, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                LUNDI : 19H15-20H15
+                <br />
+                MARDI : 20H00-21H00
+                <br />
+                JEUDI : 19H00-20H00
+                <br />
+                JEUDI : 20H00-21H00
               </b>
             </p>
           </div>
@@ -149,7 +172,7 @@ const Natation = () => {
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 17H00-18H00</b>
+              <b>LUNDI : 17H00-18H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -162,11 +185,7 @@ const Natation = () => {
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>
-                LUNDI 19H15-20H15
-                <br />
-                MARDI 20H00-21H00
-              </b>
+              <b>LUNDI : 17H00-18H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -180,11 +199,11 @@ const Natation = () => {
             </p>
             <p>
               <b>
-                MERCREDI 19H15-20H00
+                MERCREDI : 19H15-20H00
                 <br />
-                MERCREDI 20H00-20H45
+                MERCREDI : 20H00-20H45
                 <br />
-                MERCREDI 20H45-21H00
+                MERCREDI : 20H45-21H00
               </b>
             </p>
           </div>
@@ -199,9 +218,9 @@ const Natation = () => {
             </p>
             <p>
               <b>
-                MERCREDI 09H00-09H30
+                MERCREDI : 09H00-09H30
                 <br />
-                MERCREDI 09H30-10H00
+                MERCREDI : 09H30-10H00
               </b>
             </p>
           </div>
@@ -216,11 +235,11 @@ const Natation = () => {
             </p>
             <p>
               <b>
-                LUNDI 11H30-12H30
+                LUNDI : 11H30-12H30
                 <br />
-                LUNDI 12H30-13H30
+                LUNDI : 12H30-13H30
                 <br />
-                LUNDI 16H00-17H00
+                LUNDI : 16H00-17H00
               </b>
             </p>
           </div>
@@ -320,7 +339,7 @@ const Natation = () => {
                 <b>BÉBÉS NAGEURS FONTENAISIENS</b>
               </p>
               <p className="prix-cotisation">
-                <b>260€</b>
+                <b>265€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -328,7 +347,7 @@ const Natation = () => {
                 <b>BÉBÉS NAGEURS HORS COMMUNE</b>
               </p>
               <p className="prix-cotisation">
-                <b>280€</b>
+                <b>285€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -336,16 +355,19 @@ const Natation = () => {
                 <b>PETITS BAIGNEURS FONTENAISIENS</b>
               </p>
               <p className="prix-cotisation">
-                <b>150€</b>
+                <b>155€</b>
               </p>
             </div>
 
             <div className="case-cotisation">
               <p>
-                <b>PETITS BAIGNEURS HORS COMMUNE</b>
+                <b>
+                  PETITS BAIGNEURS <br />
+                  HORS COMMUNE
+                </b>
               </p>
               <p className="prix-cotisation">
-                <b>170€</b>
+                <b>175€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -353,16 +375,19 @@ const Natation = () => {
                 <b>JEUNES 6 À 18 ANS FONTENAISIENS</b>
               </p>
               <p className="prix-cotisation">
-                <b>150€</b>
+                <b>155€</b>
               </p>
               <p>(1H PAR SEMAINE)</p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>JEUNES 6 À 18 ANS HORS COMMUNE</b>
+                <b>
+                  JEUNES 6 À 18 ANS <br />
+                  HORS COMMUNE
+                </b>
               </p>
               <p className="prix-cotisation">
-                <b>160€</b>
+                <b>165€</b>
               </p>
               <p>(1H PAR SEMAINE)</p>
             </div>
@@ -372,7 +397,7 @@ const Natation = () => {
                 <b>HANDISPORT JEUNES</b>
               </p>
               <p className="prix-cotisation">
-                <b>125€</b>
+                <b>130€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -380,7 +405,7 @@ const Natation = () => {
                 <b>HANDISPORT ADULTES</b>
               </p>
               <p className="prix-cotisation">
-                <b>155€</b>
+                <b>160€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -388,25 +413,28 @@ const Natation = () => {
                 <b>ADULTES FONTENAISIENS </b>
               </p>
               <p className="prix-cotisation">
-                <b>170€</b>
+                <b>175€</b>
               </p>
               <p>(1H PAR SEMAINE)</p>
               <p className="prix-cotisation">
-                <b>240€</b>
+                <b>245€</b>
               </p>
               <p>(2H PAR SEMAINE)</p>
             </div>
 
             <div className="case-cotisation">
               <p>
-                <b>ADULTES HORS COMMUNE</b>
+                <b>
+                  ADULTES <br />
+                  HORS COMMUNEE
+                </b>
               </p>
               <p className="prix-cotisation">
-                <b>205€</b>
+                <b>210€</b>
               </p>
               <p>(1H PAR SEMAINE)</p>
               <p className="prix-cotisation">
-                <b>270€</b>
+                <b>275€</b>
               </p>
               <p>(2H PAR SEMAINE)</p>
             </div>
@@ -415,15 +443,18 @@ const Natation = () => {
                 <b>AQUAGYM FONTENAISIENS</b>
               </p>
               <p className="prix-cotisation">
-                <b>190€</b>
+                <b>195€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>AQUAGYM HORS COMMUNE</b>
+                <b>
+                  AQUAGYM <br />
+                  HORS COMMUNE
+                </b>
               </p>
               <p className="prix-cotisation">
-                <b>210€</b>
+                <b>215€</b>
               </p>
             </div>
 
@@ -433,14 +464,23 @@ const Natation = () => {
               </p>
               <p className="prix-cotisation">
                 <b>420€</b>
+                <br />
+                <b>140€ </b>
+                <i>(Trimestre)</i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>AQUA BIKE HORS COMMUNE</b>
+                <b>
+                  AQUA BIKE
+                  <br />
+                  HORS COMMUNE
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>480€</b>
+                <br />
+                <b>160€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -448,15 +488,19 @@ const Natation = () => {
                 <b>LES AÎNÉS FONTENAISIENS</b>
               </p>
               <p className="prix-cotisation">
-                <b>162€</b>
+                <b>165€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>LES AÎNÉS HORS COMMUNE</b>
+                <b>
+                  LES AÎNÉS
+                  <br />
+                  HORS COMMUNE
+                </b>
               </p>
               <p className="prix-cotisation">
-                <b>183€</b>
+                <b>185€</b>
               </p>
             </div>
           </div>
@@ -464,6 +508,32 @@ const Natation = () => {
 
         <h2>INSCRIPTIONS</h2>
         <hr className="ligne-titre"></hr>
+        <div className="bloc">
+          <h4 className="h4">
+            INSCRIPTION ET PAIEMENT A LA PISCINE MUNICIPALE :
+          </h4>
+          <div>
+            <h4 className="h4-inscriptionNatation">
+              AUCUN REMBOURSEMENT NE SERA EFFECTUE EN COURS DE SAISON.
+              <br />
+              CERTIFICAT MEDICAL OBLIGATOIRE !
+            </h4>
+            <div>
+              <b>NATATION JEUNES</b>
+              <br />
+              <i>Né(e) entre 2009 et 2015 : Lundi 09 Septembre de 18h à 20h.</i>
+              <br />
+              <i>Né(e) entre 2016 et 2018 : Jeudi 12 Septembre de 17 à 19h.</i>
+            </div>
+            <div>
+              <b>AQUAGYM AINES</b>
+              <br />
+              <i>
+                Feuille d'inscription à disposition à l'accueil de la piscine.
+              </i>
+            </div>
+          </div>
+        </div>
         <div className="bloc">
           <h4 className="h4">
             GUIDE D'INSCRIPTION À DESTINATION DE NOS ADHÉRENT(E)S :

@@ -98,9 +98,9 @@
   cursor: pointer;
 }
 
-.bouton-accueil :hover {
+.bouton-accueil:hover {
   font-size: medium;
-  transition: transform 0.5s ease-in;
+  transition: transform 0.3s ease-in;
 }
 
 .bouton-accueil a,

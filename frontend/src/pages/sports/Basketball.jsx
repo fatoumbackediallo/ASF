@@ -61,7 +61,7 @@ const BasketBall = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Mardi 03 Septembre 2024
                 </b>
               </p>
             </div>
@@ -372,7 +372,7 @@ const BasketBall = () => {
           <h3>MOYENS DE PAIEMENT</h3>
           <div>
             <ul className="ul-paiement">
-              <li>
+              {/* <li>
                 <h4>CARTE BANCAIRE</h4>
                 <p>(en une seule fois)</p>
               </li>
@@ -406,7 +406,7 @@ const BasketBall = () => {
                   </ul>
                   <li>Effectuer le virement</li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <h4 onClick={handleToggle} className="menu-deroulant">
                   AUTRES PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
@@ -459,12 +459,12 @@ const BasketBall = () => {
               <b>BABIES</b>
             </p>
             <p className="prix-cotisation">
-              <b>160€</b>
+              <b>170€</b>
             </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>U9 À U17 INCLUS</b>
+              <b>U9 À U15 INCLUS</b>
             </p>
             <p className="prix-cotisation">
               <b>208€</b>
@@ -472,10 +472,7 @@ const BasketBall = () => {
           </div>
           <div className="case-cotisation">
             <p>
-              <b>ADULTES</b>
-            </p>
-            <p>
-              <i>(U20 à Séniors)</i>
+              <b>U17 à U20 / SENIORS</b>
             </p>
             <p className="prix-cotisation">
               <b>224€</b>

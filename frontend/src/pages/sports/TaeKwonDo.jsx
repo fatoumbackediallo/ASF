@@ -50,12 +50,17 @@ const TaeKwonDo = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>BABY NINJAS 3 - 4 ANS</h4>
+            <h4>BABY NINJAS 3 - 5 ANS</h4>
             <p>
-              <b>DOJO 2</b>
+              <b>Gymnase de la Roue, </b>
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>
+                Gymnase Jean Fournier 7 Rue des Potiers, 92260
+                Fontenay-aux-Roses
+              </b>
+              <br />
+              <br />
             </p>
             <p>
               <b>SAMEDI 10H30-11H15</b>

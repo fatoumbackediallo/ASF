@@ -461,6 +461,11 @@ h4 {
   text-align: center;
 }
 
+.p-inscription {
+  color: red;
+  font-weight: bold;
+}
+
 /**********************
 
     RESPONSIVE 

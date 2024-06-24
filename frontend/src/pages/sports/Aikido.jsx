@@ -55,7 +55,7 @@ const Aikido = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 04 Septembre 2023
+                  Lundi 09 Septembre 2023
                 </b>
               </p>
             </div>
@@ -64,26 +64,28 @@ const Aikido = () => {
           <div className="entrainement-ligne">
             <h4>MOINS DE 14 ANS</h4>
             <p>
-              <b>DOJO 1</b>
+              <b>DOJO </b>
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 17H00-18H00</b>
+              <b>MERCREDI : 16H00-17H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>14-18 ANS</h4>
             <p>
-              <b>DOJO 1</b>
+              <b>DOJO </b>
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 18H00-19H00</b>
+              <b>MERCREDI : 17H00-18H00</b>
             </p>
           </div>
           {/*<hr className='ligne'></hr>*/}
@@ -98,11 +100,11 @@ const Aikido = () => {
             </p>
             <p>
               <b>
-                LUNDI 20H30-22H30
+                LUNDI : 20H30-22H30
                 <br />
-                MERCREDI 19H00-21H00
+                MERCREDI : 19H00-21H00
                 <br />
-                VENDREDI 20H00-21H00
+                VENDREDI : 20H00-21H00
               </b>
             </p>
           </div>
@@ -116,7 +118,7 @@ const Aikido = () => {
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 21H00-22H00</b>
+              <b>MERCREDI : 21H00-22H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -129,7 +131,7 @@ const Aikido = () => {
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>VENDREDI 21H00-22H00</b>
+              <b>VENDREDI : 21H00-22H00</b>
             </p>
           </div>
         </div>
@@ -228,7 +230,7 @@ const Aikido = () => {
               <b>MOINS DE 14 ANS</b>
             </p>
             <p className="prix-cotisation">
-              <b>245€</b>
+              <b>249€</b>
             </p>
           </div>
           <div className="case-cotisation">
@@ -236,7 +238,7 @@ const Aikido = () => {
               <b>14-18 ANS</b>
             </p>
             <p className="prix-cotisation">
-              <b>280€</b>
+              <b>284€</b>
             </p>
           </div>
           <div className="case-cotisation">
@@ -244,7 +246,7 @@ const Aikido = () => {
               <b>ADULTES</b>
             </p>
             <p className="prix-cotisation">
-              <b>350€</b>
+              <b>354€</b>
             </p>
           </div>
           <div className="case-cotisation">
@@ -252,7 +254,7 @@ const Aikido = () => {
               <b>ARMES</b>
             </p>
             <p className="prix-cotisation">
-              <b>215€</b>
+              <b>219€</b>
             </p>
           </div>
         </div>
@@ -314,6 +316,10 @@ const Aikido = () => {
                 LIEN D'INSCRIPTION
               </a>
             </span>
+            <p className="p-inscription">
+              Remise de 10% à partir du 2e enfant avec le code Mon Club
+              FRATERIE10{" "}
+            </p>
           </div>
         </div>
 
@@ -322,7 +328,7 @@ const Aikido = () => {
         <div className="contacts">
           <h4>PROFESSEUR BENOIT CROZIER</h4>
           <span className="label">Mail : </span>
-          <span className="email"> admin.aikido@sfr.fr</span>
+          <span className="email"> admin.asf.aikido@sfr.fr</span>
         </div>
       </div>
     </div>

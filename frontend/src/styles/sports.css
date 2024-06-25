@@ -465,6 +465,13 @@ h4 {
   color: red;
   font-weight: bold;
 }
+.h4-inscription {
+  display: flex;
+  margin-top: 40px;
+  color: red;
+  text-align: center;
+  margin-left: 100px;
+}
 
 /**********************
 

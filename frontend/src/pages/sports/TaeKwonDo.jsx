@@ -50,136 +50,119 @@ const TaeKwonDo = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>BABY NINJAS 3 - 5 ANS</h4>
+            <h4>BABY NINJAS (3 - 5 ANS)</h4>
             <p>
-              <b>Gymnase de la Roue, </b>
+              <b>Gymnase de la Roue</b>
+              <br />
+              10 Rue des Hautes Sorrières, 92260 Fontenay aux Roses
               <br />
               <br />
               <b>
-                Gymnase Jean Fournier 7 Rue des Potiers, 92260
-                Fontenay-aux-Roses
+                Gymnase Jean Fournier
+                <br />
               </b>
+              7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
               <br />
+              <b>Salle de danse</b>
+              <br />
+              Ecole du Parc, 6 Av. du Parc, 92260 Fontenay-aux-Roses,
             </p>
             <p>
-              <b>SAMEDI 10H30-11H15</b>
+              <b>
+                SAMEDI : 10H30-11H15
+                <br />
+                <i className="i-style">Gymnase de la Roue</i>
+                <br />
+                <br />
+                MERCREDI : 15H-16H
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
+                <br />
+                <br />
+                MERCREDI : 16H30-17H30
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
+                <br />
+                <br />
+                SAMEDI : 10H15-11H15
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
+                <br />
+                <br />
+                SAMEDI : 11H15-12H15
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
+                <br />
+                <br />
+                JEUDI : 17H-18H
+                <br />
+                <i className="i-style">Gymnase de la Roue</i>
+              </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>BABY NINJAS 3 - 5 ANS</h4>
+            <h4>GRAND NINJAS (6 - 10 ANS)</h4>
             <p>
-              <b>DOJO 1</b>
+              <b>Gymnase de la Roue</b>
+              <br />
+              10 Rue des Hautes Sorcières, 92260 Fontenay-aux-Roses
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase de la Roue, 10 Rue des Hautes Sorcières, 92260
-              Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Ecole du Parc, 6 Av. du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 15H00-16H00
+                LUNDI : 18H30-19H30
                 <br />
-                MERCREDI 16H30 - 17H30
+                <i className="i-style">Gymnase de la Roue</i>
                 <br />
-                JEUDI 17H00 - 18H00
-              </b>
-            </p>
-          </div>
-          {/*<hr className='ligne'></hr>*/}
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>BABY NINJAS 5 - 6 ANS</h4>
-            <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase de la Roue, 10 Rue des Hautes Sorcières, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>DOJO 1</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                LUNDI 17H30-18H30
                 <br />
-                SAMEDI 11H15-12H15
-              </b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>GRANDS NINJAS 6 - 10 ANS</h4>
-            <p>
-              <b>DOJO 1</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase de la Roue, 10 Rue des Hautes Sorcières, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>SALLE DE DANSE</b>
-              <br />
-              <br />
-              Ecole du Parc, 6 Av. du Parc, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                LUNDI 18H30-19H30
+                MERCREDI : 14H-15H
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
+                <br />
                 <br />
                 MERCREDI 17H30-18H30
                 <br />
-                <br />
-                MERCREDI 14H00-15H00
-                <br />
-                SAMEDI 14H00-15H00
+                <i className="i-style">Gymnase Jean Fournier</i>
                 <br />
                 <br />
-                JEUDI 18H00 - 19H00
+                VENDREDI : 18H30-19H30
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
+                <br />
+                <br />
+                SAMEDI : 14H00 - 15H00
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
+                <br />
+                <br />
+                JEUDI : 18H00 - 19H00
+                <br />
+                <i className="i-style">Salle de danse</i>
               </b>
             </p>
           </div>
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ADOS 11 - 15 ANS</h4>
+            <h4>ADOS (11 - 15 ANS)</h4>
             <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase de la Roue, 10 Rue des Hautes Sorcières, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>DOJO 1</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
                 LUNDI 18H30-19H30
+                <br />
                 <br />
                 MERCREDI 18H30-19H30
                 <br />
@@ -190,28 +173,26 @@ const TaeKwonDo = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ADOS / ADULTES 16 ANS ET +</h4>
+            <h4>ADOS - ADULTES 16 ANS ET +</h4>
             <p>
-              <b>HALLE</b>
+              <b>Gymnase de la Roue</b>
+              <br />
+              10 Rue des Hautes Sorcières, 92260 Fontenay-aux-Roses
               <br />
               <br />
-              Gymnase de la Roue, 10 Rue des Hautes Sorcières, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>DOJO 1</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI
+                LUNDI : 19H30-21H00
                 <br />
-                MERCREDI 19H30-21H00
+                <i className="i-style">Gymnase de la Roue</i>
                 <br />
                 <br />
-                VENDREDI 19H45-21H15
+                MERCREDI : 19H30-21H00
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
               </b>
             </p>
           </div>
@@ -309,11 +290,23 @@ const TaeKwonDo = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>BABY NINJA 3 À 6 ANS / GRANDS NINJAS 6 À 10 ANS</b>
+                <b>BABY NINJA 3 À 6 ANS</b>
               </p>
               <p className="prix-cotisation">
                 <b>270€</b>
               </p>
+              <br />
+              <i className="i-style">(1 cours/semaine)</i>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b> GRANDS NINJAS 6 À 10 ANS</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>270€</b>
+              </p>
+              <br />
+              <i className="i-style">(1 cours/semaine)</i>
             </div>
             <div className="case-cotisation">
               <p>
@@ -322,17 +315,21 @@ const TaeKwonDo = () => {
               <p className="prix-cotisation">
                 <b>300€</b>
               </p>
+              <br />
+              <i className="i-style">(2 cours/semaine)</i>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>ADOS / ADULTES 16 ANS ET +</b>
+                <b>ADOS - ADULTES 16 ANS ET +</b>
               </p>
               <p className="prix-cotisation">
                 <b>330€</b>
               </p>
+              <br />
+              <i className="i-style">(3 cours/semaine)</i>
             </div>
           </div>
-          <h4>
+          <h4 className="h4-inscription">
             REMISE DE 10% À PARTIR DU 2EME ENFANT LORS DE L'INSCRIPTION EN LIGNE
             SUR MONCLUB AVEC LE CODE DE REMISE FRATERIE10
           </h4>
@@ -400,7 +397,7 @@ const TaeKwonDo = () => {
 
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
-        <div className="contacts">
+        <div className="infos-contact">
           <h4>ASF TAE KWON DO</h4>
           <span className="label">Mail : </span>
           <span className="email"> asftkd@gmail.com</span>

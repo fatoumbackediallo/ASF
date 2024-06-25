@@ -42,27 +42,24 @@ const BoxeThailandaise = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Mardi 10 Septembre 2024
                 </b>
               </p>
             </div>
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>ADOS/ADULTES 13 ANS ET +</h4>
+            <h4>ADOS/ADULTES 12 ANS ET +</h4>
             <p>
-              <b>
-                DOJO 1 <br />
-                DOJO 2
-              </b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 20H30-22H00 <br />
-                SAMEDI 16H30 - 18H00
+                MARDI : 20H00-21H30
+                <br />
+                <br />
+                SAMEDI 16H00 - 17H30
               </b>
             </p>
           </div>
@@ -162,14 +159,15 @@ const BoxeThailandaise = () => {
               <b>ADOS / ADULTES</b>
             </p>
             <p>
-              <i>(13 ans et +)</i>
+              <i>(12 ans et +)</i>
             </p>
             <p className="prix-cotisation">
               <b>300€</b>
             </p>
+            <i>2 cours / semaine</i>
           </div>
         </div>
-        <h4>
+        <h4 className="h4-inscription">
           Remise de 10% à partir du 2ème enfant lors de l'inscription en ligne
           sur MonClub avec le code de remise FRATERIE10
         </h4>
@@ -246,18 +244,16 @@ const BoxeThailandaise = () => {
             </span>
             <span className="label">Téléphone : </span>
             <span className="email">
-              {" "}
               07 60 62 91 21
               <br />
             </span>
             <span className="label">Site Web : </span>
             <span className="email">
-              {" "}
               www.sptrainingfontenayauxroses.com
               <br />
             </span>
             <span className="label">Instagram : </span>
-            <span className="email"> asfteakwondo</span>
+            <span className="email"> asftaekwondo</span>
           </div>
         </div>
       </div>

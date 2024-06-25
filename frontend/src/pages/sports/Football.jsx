@@ -63,291 +63,389 @@ const Football = () => {
             <div>
               <p>
                 <b>
-                  Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Les premières séances d’entrainements se tiendront à partir:
                 </b>
+                <br />
+                <i>du Lundi 19 Août 2024 pour les SENIORS Masculins</i>
+                <br />
+                <i>du Lundi 26 Août 2024 pour les U14 / U16 / U18 / VETERANS</i>
+                <br />
+                <i>du Lundi 02 Septembre 2024 pour les U10 / U11 / U12 / U13</i>
+                <br />
+                <i>du Lundi 11 Septembre 2024 pour les U8 / U9</i>
+                <br />
+                <i>du Mercredi 11 Septembre pour les BABY-FOOT / U6 / U7</i>
               </p>
             </div>
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>BABIES (2017-2019) 3-5 ANS</h4>
+            <h4>BABY-FOOT (2021-2020)</h4>
             <p>
-              <b>TERRAIN SYNTHÉTIQUE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 10H30-12H00</b>
+              <b>MERCREDI 10H00-11H00</b>
+              <br />
+              <br />
+              <b>MERCREDI 11H00-12H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U6/U7 (2017-2018)</h4>
+            <h4>U6 (2019)</h4>
             <p>
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 14H00-15H30
+                MERCREDI : 14H00-15H30
                 <br />
-                SAMEDI 09H00 - 10H30
+                <br />
+                SAMEDI : 09H00 - 10H30
               </b>
             </p>
           </div>
-          {/*<hr className='ligne'></hr>*/}
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U8/U9 (2015-2016) MIXTE À 5</h4>
+            <h4>U7 (2018)</h4>
             <p>
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 15H30-17H00
+                MERCREDI : 15H30-17H00
                 <br />
-                SAMEDI 10H30-12H00
+                <br />
+                SAMEDI : 09H00-10H30
                 <br />
                 <br />
               </b>
-              Séances Gardien U9 uniquement :<br />
-              <b>LUNDI 17H30-18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U10 (2014) MIXTE À 8</h4>
+            <h4>U8 (2017)</h4>
             <p>
-              <b>TERRAIN SYNTHÉTIQUE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>VENDREDI 17H30-19H00</b>
-              <i> (parc)</i>
-              <br />
-              <br />
-              Séances Gardien : <br />
-              <b>
-                LUNDI 17H30 - 18H30 <br />
-                MERCREDI 15H00 - 16H30{" "}
-              </b>
-              <i> (panorama)</i>
-              <br />
-              <br />
-              Matchs à domicile : <br />
-              <b>SAMEDI 10H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>U11C/U12C (2013-2012) MIXTE À 8</h4>
-            <p>
-              <b>TERRAIN SYNTHÉTIQUE</b>
-              <br />
+              <b>TERRAIN SYNTHÉTIQUE </b>
               <br />
               Stade du Panorama 21 Bd du Moulin de la Tour, 92260
               Fontenay-aux-Roses
               <br />
               <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
+              <b>TERRAIN SYNTHÉTIQUE </b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 13H30-15H00</b>
-              <i> (panorama)</i>
-              <br />
-              <b>VENDREDI 17H30-19H00</b>
-              <i> (panorama)</i>
-              <br />
-              <br />
-              Matchs à domicile :<br />
               <b>
-                U11 SAMEDI 11H00
+                MERCREDI : 10H00-11H30
                 <br />
-                U12 SAMEDI 12H00
+                <i className="i-style">Stade du Panorama</i>
+                <br />
+                <br />
+                SAMEDI : 10H30-12H00
+                <br />
+                <i className="i-style">Gymnase du Parc</i>
               </b>
-              <br />
-              <br />
-              Séances Gardien : <i>(parc)</i>
-              <br />
-              <b>LUNDI 17H30 18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U13A (2011) MIXTE À 8</h4>
+            <h4>U9 (2016)</h4>
             <p>
-              <b>TERRAIN SYNTHÉTIQUE</b>
-              <br />
+              <b>TERRAIN SYNTHÉTIQUE </b>
               <br />
               Stade du Panorama 21 Bd du Moulin de la Tour, 92260
               Fontenay-aux-Roses
               <br />
               <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 17H30-19H00</b>
-              <i> (parc)</i>
-              <br />
-              <br />
-              Séances Gardien :<br />
-              <b>LUNDI 17H30-18H30</b>
-              <br />
-              <br />
-              <b>LUNDI 17H30 - 19H00</b>
-              <i> (panorama)</i>
-              <br />
-              <br />
-              Matchs à domicile :<br />
-              <b>SAMEDI 13H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>FÉMININE U13/U18 (2011-2006)</h4>
-            <p>
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
               Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 18H30-20H00</b>
-              <i> (parc)</i>
-              <br />
-              <b>VENDREDI 19H00-20H15</b>
-              <br />
-              <br />
-              Séances Gardien : <br />
-              <b>LUNDI 18H30-19H30</b>
-              <br />
-              <br />
-              Matchs à domicile : <i>(panorama)</i>
-              <br />
-              <b>SAMEDI 13H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>U14 (2010) MIXTE À 8</h4>
-            <p>
-              <b>TERRAIN SYNTHÉTIQUE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              Séances Gardien : <i>(parc)</i>
-              <br />
               <b>
-                LUNDI 18H30-19H30
+                LUNDI : 17H30-19H00
+                <br />
+                <i className="i-style">Panorama</i>
                 <br />
                 <br />
-                MARDI 18H30-20H00
-              </b>
-              <i> (panorama)</i>
-              <br />
-              <b>JEUDI 18H30 - 20H00</b>
-              <br />
-              <br />
-              Matchs à domicile :<br />
-              <b>SAMEDI 15H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>U16 (2009-2008) MASC. À 11</h4>
-            <p>
-              <b>TERRAIN SYNTHÉTIQUE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              Séances Gardien :<i>(parc)</i> <br />
-              <b>
-                LUNDI 18H30-19H30
+                MERCREDI : 11H45-13H15
+                <br />
+                <i className="i-style">Panorama</i>
                 <br />
                 <br />
-                MERCREDI 18H30-20H00{" "}
-              </b>
-              <i> (panorama)</i>
-              <br />
-              <b>VENDREDI 19H00 - 20H30</b>
-              <br />
-              <br />
-              Matchs à domicile :<br />
-              <b>DIMANCHE 13H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>SÉNIORS (2005-1987) MASC. À 11</h4>
-            <p>
-              <b>TERRAIN SYNTHÉTIQUE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              Séances Gardien : <i>(parc)</i>
-              <br />
-              <b>
-                LUNDI 18H30-19H30
+                SAMEDI : 10H30-12H00
                 <br />
+                <i className="i-style">Gymnase du Parc</i>
                 <br />
-                MARDI 20H00-22H00
-                <br />
-                JEUDI 20H00-22H00
                 <br />
               </b>
-              Matchs à domicile :<br />
-              Séniors 1 <b>LUNDI 17H30-18H30</b>
-              <br />
-              Séniors 1 <b>LUNDI 17H30-18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>FUTSAL LOISIRS ADULTES 18 ANS ET +</h4>
+            <h4>U10 (2015)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 17H30-19H00</b>
+              <br />
+              <i>Panorama</i>
+              <br />
+              <br />
+              <b>MERCREDI : 13H30-15H00</b>
+              <br />
+              <i> Panorama</i>
+              <br />
+              <br />
+              <b>JEUDI : 17H30-19H00</b>
+              <br />
+              <i>Gymnase du Parc</i>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>U11 (2014)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 19H00-20H30</b>
+              <br />
+              <br />
+              <b>MERCREDI : 15H15-16H45</b>
+              <br />
+              <br />
+              <b>JEUDI : 17H30 19H00</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>U12 (2013)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 19H00-20H30</b>
+              <br />
+              <i>Panorama</i>
+              <br />
+              <br />
+              <b>MARDI : 17H30 - 19H00</b>
+              <br />
+              <i>Panorama</i>
+              <br />
+              <br />
+              <b>VENDREDI : 17H30-19H00</b>
+              <br />
+              <i>Gymnase du Parc</i>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>U13 (2012)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>VENDREDI : 17H30-19H00</b>
+              <br />
+              <i>Panorama</i>
+              <br />
+              <br />
+              <b>MARDI : 17H30-18H30</b>
+              <br />
+              <i>Gymnase du Parc</i>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>U14 (2011)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MERCREDI : 18H30-19H30
+                <br />
+                <i className="i-style">Panorama</i>
+                <br />
+                <br />
+                MARDI : 17H30-18H30
+                <br />
+                <i className="i-style">Gymnase du Parc</i>
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>U16 (2010)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MERCREDI : 18H30-20H15
+                <br />
+                <br />
+                VENDREDI : 19H00-20H30
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>U18 (2009)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MARDI : 19H00-20H30
+                <br />
+                <br />
+                JEUDI : 19H00-20H30
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>FEMININES</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MARDI : 18H30-20H00
+                <br />
+                <br />
+                JEUDI : 18H30-20H15
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>SENIORS (2006 et -)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MARDI : 20H15-22H00
+                <br />
+                <br />
+                JEUDI : 20H15-22H00
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>VETERANS (35 ans et +)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 20H30-22H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>GARDIENS U9 à U13 (2016 à 2012)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 17H30-18H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>GARDIENS U14 à SENIORS (2011 et -)</h4>
+            <p>
+              <b>TERRAIN SYNTHÉTIQUE</b>
+              <br />
+              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 18H30-19H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>FUTSAL (2008 et -)</h4>
             <p>
               <b>TERRAIN SYNTÉETIQUE</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
               Fontenay-aux-Roses
             </p>
             <p>
-              <b>DIMANCHE 18H00-20H00</b>
+              <b>DIMANCHE : 17H30-18H30</b>
+              <br />
+              <br />
+              <b>DIMANCHE : 18H30-19H30</b>
             </p>
           </div>
         </div>
@@ -442,7 +540,7 @@ const Football = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>BABIES 3 À 5 ANS </b>
+                <b>BABY - FOOT</b>
               </p>
               <p className="prix-cotisation">
                 <b>150€</b>
@@ -450,18 +548,15 @@ const Football = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>U6 À U12</b>
+                <b>U6 À U7</b>
               </p>
               <p className="prix-cotisation">
-                <b>290€</b>
+                <b>275€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>U13 À U16</b>
-              </p>
-              <p>
-                <i>Ancien adhérent</i>
+                <b>U8 À SENIORS</b>
               </p>
               <p className="prix-cotisation">
                 <b>285€</b>
@@ -470,40 +565,27 @@ const Football = () => {
 
             <div className="case-cotisation">
               <p>
-                <b>SÉNIORS</b>
-              </p>
-              <p>
-                <i>Renouvellement 230€</i>
+                <b>FEMININES et VETERANS</b>
               </p>
               <p className="prix-cotisation">
-                <b>285€</b>
+                <b>230€</b>
               </p>
             </div>
+
             <div className="case-cotisation">
               <p>
-                <b>FÉMININES ET VÉTÉRANS</b>
+                <b>FUTSAL </b>
               </p>
               <p className="prix-cotisation">
-                <b>195€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>FUTSAL ADULTES </b>
-              </p>
-              <p className="prix-cotisation">
-                <b>200€</b>
+                <b>120€</b>
               </p>
             </div>
 
             <div>
               <h4>
-                ÉQUIPEMENT D'ENTRAÎNEMENT ET DE MATCH + LICENSE FFF COMPRIS
+                Remise de 10€ à partir du 2ème enfant avec le code MonClub :
+                FRATRIE10
               </h4>
-              <p>
-                Remise de 10€ à partir du 2ème enfant lors de l'inscription en
-                ligne sur MonClub avec le code de remise FOOT10
-              </p>
             </div>
           </div>
         </div>
@@ -572,6 +654,7 @@ const Football = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>ASF FOOTBALL :</h4>
+
           <div className="infos-contact">
             <span className="label">Mail : </span>
             <span className="email"> football@as-fontenay.fr</span>
@@ -581,6 +664,14 @@ const Football = () => {
             <span className="email"> www.asf-football.net</span>
             <span className="label"> Instagram : </span>
             <span className="email"> @asf_football92</span>
+          </div>
+          <div className="permanences">
+            <p>
+              Permanences Accueil Bureau de la section Football :
+              <br />
+              Mercredis : 03 Juillet + 21 août 2024 - Stade du Panorama de 16h30
+              à 19h.
+            </p>
           </div>
         </div>
       </div>

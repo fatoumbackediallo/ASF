@@ -70,10 +70,8 @@ const BasketBall = () => {
           <div className="entrainement-ligne">
             <h4>BABIES </h4>
             <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>HALLE Gymnase Jean Fournier</b>
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 09H00-10H15</b>
@@ -83,32 +81,30 @@ const BasketBall = () => {
           <div className="entrainement-ligne">
             <h4>U9</h4>
             <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>HALLE Gymnase Jean Fournier</b>
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
                 MERCREDI 13H-15H00
                 <br />
+                <br />
                 SAMEDI 10H15 - 11H30
               </b>
             </p>
           </div>
-          {/*<hr className='ligne'></hr>*/}
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>U11</h4>
             <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>HALLE Gymnase Jean Fournier</b>
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
                 MERCREDI 13H00-15H00
+                <br />
                 <br />
                 JEUDI 17H00-18H15
               </b>
@@ -206,12 +202,12 @@ const BasketBall = () => {
               <b>
                 MARDI 17H30-19H00
                 <br />
-                <i> (Jean Fournier)</i>
+                <i className="i-style"> (Jean Fournier)</i>
                 <br />
                 <br />
                 JEUDI 17H30-19H00
                 <br />
-                <i> (Collège Les Ormeaux)</i>
+                <i className="i-style"> (Collège Les Ormeaux)</i>
                 <br />
               </b>
             </p>
@@ -220,11 +216,10 @@ const BasketBall = () => {
           <div className="entrainement-ligne">
             <h4>U17 - ÉQUIPE 1 </h4>
             <p>
-              <b>HALLE</b>
+              <b>HALLE Stade du Panorama</b>
               <br />
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>VENDREDI 19H00-20H30</b>
@@ -266,10 +261,9 @@ const BasketBall = () => {
           <div className="entrainement-ligne">
             <h4>U20 - EQUIPE 1</h4>
             <p>
-              <b>HALLE</b>
+              <b>HALLE Gymnase Jean Fournier</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -329,13 +323,16 @@ const BasketBall = () => {
               <br />
               <i> (Gymnase du Parc)</i>
               <br />
+              <br />
               <b>MERCREDI 20H30-22h</b>
               <br />
               <i> (Gymnase du Parc)</i>
               <br />
+              <br />
               <b>JEUDI 20H30-22H30</b>
               <br />
               <i> (Jean Fournier)</i>
+              <br />
               <br />
               <b>MARDI 20H45-22H30</b>
               <br />
@@ -358,6 +355,7 @@ const BasketBall = () => {
             <p>
               <b>MERCREDI 21H00-22H30</b>
               <i> (Jean Fournier)</i>
+              <br />
               <br />
               <b>VENDREDI 20H30-22H30</b>
               <i> (Collège Les Ormeaux)</i>

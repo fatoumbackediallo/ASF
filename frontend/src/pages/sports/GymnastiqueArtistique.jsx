@@ -80,8 +80,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MARDI 17H00-19H00</b>
@@ -93,8 +93,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MARDI 19H00-20H30</b>
@@ -106,8 +106,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -123,8 +123,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MERCREDI 16H30-18H00</b>
@@ -136,8 +136,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MERCREDI 18H00-19H30</b>
@@ -149,8 +149,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>JEUDI 17H00-18H30</b>
@@ -162,13 +162,16 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 19H00-21H00 <br />
+                LUNDI 19H00-21H00
+                <br />
+                <br />
                 JEUDI 18H30 - 20H30
+                <br />
                 <br />
                 VENDREDI 19H00 - 21H00
               </b>
@@ -180,12 +183,14 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 17H00-19H00 <br />
+                LUNDI 17H00-19H00
+                <br />
+                <br />
                 VENDREDI 17H00 - 19H00
               </b>
             </p>
@@ -196,8 +201,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 09H45-10H15</b>
@@ -209,8 +214,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 10H15-11H00</b>
@@ -222,8 +227,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 11H00-11H45</b>
@@ -235,8 +240,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -252,8 +257,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYM/BIEN ÊTRE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>LUNDI 09H30-11H30</b>
@@ -265,8 +270,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYM/BIEN ÊTRE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>LUNDI 14H30-15H00</b>
@@ -278,8 +283,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYM/BIEN ÊTRE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>LUNDI 15H15-16H15</b>
@@ -291,8 +296,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>SALLE GYM/BIEN ÊTRE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>LUNDI 20H00-21H15</b>
@@ -304,8 +309,8 @@ const GymnastiqueArtistique = () => {
             <p>
               <b>DOJO 2</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MARDI 08H30-12H00</b>

@@ -60,35 +60,20 @@ const Capoeira = () => {
               Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 18H00-19H00</b>
+              <b>MERCREDI : 18H00-19H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>7 À 13 ANS</h4>
+            <h4>7 À 15 ANS</h4>
             <p>
-              <b>GYMNASE</b>
+              <b>Gymnase des pervenches</b>
               <br />
               <br />
-              Gymnase de pervenches 20B Rue Durand Bénech, 92260
-              Fontenay-aux-Roses
+              20B Rue Durand Bénech, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>VENDREDI 17H30-18H30</b>
-            </p>
-          </div>
-          {/*<hr className='ligne'></hr>*/}
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>14 ANS ET +</h4>
-            <p>
-              <b>SALLE POLYVALENTE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI 19H30-21H00</b>
             </p>
           </div>
         </div>
@@ -165,7 +150,7 @@ const Capoeira = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
@@ -185,7 +170,7 @@ const Capoeira = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>3 À 13 ANS</b>
+                <b>3 À 6 ANS</b>
               </p>
               <p className="prix-cotisation">
                 <b>195€</b>
@@ -193,10 +178,10 @@ const Capoeira = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>14 ANS ET +</b>
+                <b>7 à 15 ANS</b>
               </p>
               <p className="prix-cotisation">
-                <b>260€</b>
+                <b>200€</b>
               </p>
             </div>
           </div>

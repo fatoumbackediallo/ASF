@@ -73,7 +73,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -86,20 +85,18 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>LUNDI 18H30-19H30</b>
             </p>
           </div>
-          {/*<hr className='ligne'></hr>*/}
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>ZUMBA 18 ANS ET +</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -113,7 +110,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -125,7 +121,6 @@ const EcoleDeDanse = () => {
             <h4>COURS D'EXPRESSION CORPORELLE 5/6 ANS</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -139,7 +134,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -151,7 +145,6 @@ const EcoleDeDanse = () => {
             <h4>JAZZ ÉVEIL 4/5 ANS</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -165,7 +158,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -177,7 +169,6 @@ const EcoleDeDanse = () => {
             <h4>JAZZ 7/8 ANS</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -191,7 +182,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -203,7 +193,6 @@ const EcoleDeDanse = () => {
             <h4>JAZZ CONCOURS 8/9 ANS</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -217,7 +206,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -229,7 +217,6 @@ const EcoleDeDanse = () => {
             <h4>JAZZ CONCOURS 11/14 ANS</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -243,7 +230,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -255,7 +241,6 @@ const EcoleDeDanse = () => {
             <h4>JAZZ 10 ANS ET +</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -269,7 +254,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -281,7 +265,6 @@ const EcoleDeDanse = () => {
             <h4>HIP HOP 12/14 ANS</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -295,7 +278,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -308,7 +290,6 @@ const EcoleDeDanse = () => {
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -320,7 +301,6 @@ const EcoleDeDanse = () => {
             <h4>JAZZ 18 ANS ET +</h4>
             <p>
               <b>SALLE DE DANSE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -420,107 +400,198 @@ const EcoleDeDanse = () => {
         <div className="ligne-cotisations">
           <div className="case-cotisation">
             <p>
-              <b>DANSE CLASSIQUE:</b>
+              <b>-18 ans</b>
               <br />
-              <i>9 - 11 ans</i>
-              <br />
-              <br />
-              <b>HIP HOP:</b>
-              <br />
-              <i>6 - 16 ans</i>
-              <br />
-              <br />
-              <b>DANSE JAZZ:</b>
-              <br />
-              <i>3 - 16 ans</i>
-              <br />
-              <br />
-              <b>STREET JAZZ :</b>
-              <br />
-              <i>6 - 16 ans</i>
-              <br />
+              <i>Cours 1h</i>
             </p>
             <p className="prix-cotisation">
               <b>255€</b>
             </p>
-            <p>
-              <i>1 heure</i>
-            </p>
           </div>
+
           <div className="case-cotisation">
             <p>
-              <b>DANSE CONCOURS JAZZ :</b>
+              <b>-18 ans</b>
               <br />
-
-              <i>9 - 16 ans</i>
-              <br />
-              <br />
-              <b>DANSE JAZZ :</b>
-              <br />
-
-              <i>16 - 17 ans</i>
+              <i>Cours 1h30</i>
             </p>
             <p className="prix-cotisation">
               <b>350€</b>
             </p>
-            <p>
-              <i>1 heure 30</i>
-            </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>DANSE EXPRESSION CORPORELLE :</b>
+              <b>-18 ans</b>
               <br />
-              <br />
-              <i>3 - 6 ans</i>
-              <br />
-              <br />
-              <b>ZUMBA ADULTES</b>
+              <i>
+                Cours + Concours primaire,
+                <br />
+                2h
+              </i>
             </p>
             <p className="prix-cotisation">
-              <b>210€</b>
+              <b>443€</b>
             </p>
+            <br />
+            <i>Prix comprenant l'inscription à un seul concours</i>
+          </div>
+
+          <div className="case-cotisation">
             <p>
-              <i>1 heure</i>
+              <b>-18 ans</b>
+              <br />
+              <i>
+                Cours + Concours collège/lycée,
+                <br />
+                2h30
+              </i>
+            </p>
+            <p className="prix-cotisation">
+              <b>535€</b>
+            </p>
+            <br />
+            <i>Prix comprenant l'inscription à un seul concours</i>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>-18 ans</b>
+              <br />
+              <i>
+                A partir de la 2eme activité,
+                <br />
+                cours d'1h
+              </i>
+            </p>
+            <p className="prix-cotisation">
+              <b>185€</b>
+            </p>
+            <br />
+            <i>
+              La remise s'applique sur le cours le moins cher et à condition que
+              l'adhérent soit du même foyer fiscal
+            </i>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>-18 ans</b>
+              <br />
+              <i>
+                A partir de la 2eme activité,
+                <br />
+                cours d'1h30
+              </i>
+            </p>
+            <p className="prix-cotisation">
+              <b>247€</b>
+            </p>
+            <br />
+            <i>
+              La remise s'applique sur le cours le moins cher et à condition que
+              l'adhérent soit du même foyer fiscal
+            </i>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>+18 ans</b>
+              <br />
+              <i>Cours 1h30</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>380€</b>
             </p>
           </div>
 
           <div className="case-cotisation">
             <p>
-              <b>DANSE JAZZ ADULTES</b>
+              <b>+18 ans</b>
+              <br />
+              <i>
+                Cours + Concours collège/lycée,
+                <br /> 2h30
+              </i>
             </p>
             <p className="prix-cotisation">
-              <b>380€</b>
+              <b>592€</b>
             </p>
+            <br />
+            <i>Prix comprenant l'inscription à un seul concours</i>
+          </div>
+
+          <div className="case-cotisation">
             <p>
-              <i>1 heure 30</i>
+              <b>+18 ans</b>
+              <br />
+              <i>
+                Zumba 1h
+                <br />
+                (1 jour)
+              </i>
+            </p>
+            <p className="prix-cotisation">
+              <b>230€</b>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>+18 ans</b>
+              <br />
+              <i>
+                Zumba forfait 2h
+                <br /> (2 jours)
+              </i>
+            </p>
+            <p className="prix-cotisation">
+              <b>410€</b>
             </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>DANSE STREET JAZZ ADULTES </b>
+              <b>+18 ans</b>
+              <br />
+              <i>
+                A partir de la 2eme activité,
+                <br />
+                cours d'1h
+              </i>
             </p>
             <p className="prix-cotisation">
-              <b>295€</b>
+              <b>212€</b>
             </p>
-            <p>
-              <i>1 heure</i>
-            </p>
+            <br />
+            <i>
+              La remise s'applique sur le cours le moins cher et à condition que
+              l'adhérent soit du même foyer fiscal
+            </i>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>SPORT SANTÉ ADULTES</b>
+              <b>+18 ans</b>
+              <br />
+              <i>
+                A partir de la 2eme activité,
+                <br />
+                cours d'1h30
+              </i>
             </p>
             <p className="prix-cotisation">
-              <b>105€</b>
+              <b>267€</b>
             </p>
-            <p>
-              <i>1 heure - 10 séances</i>
-            </p>
-            <p>
-              <b>FORFAIT ANNUEL : 200€</b>
-            </p>
+            <br />
+            <i>
+              La remise s'applique sur le cours le moins cher et à condition que
+              l'adhérent soit du même foyer fiscal
+            </i>
           </div>
+        </div>
+        <div>
+          <h4 className="h4-inscription">
+            Ces tarifs comprennent l'adhésion à l'ASF pour un montant de 15€ par
+            personne, non remboursable.
+          </h4>
         </div>
 
         <h2>INSCRIPTIONS</h2>
@@ -581,6 +652,14 @@ const EcoleDeDanse = () => {
               </a>
             </span>
           </div>
+        </div>
+        <div>
+          <h4 className="permanences">
+            Tous nos cours : éveil à la danse, street-jazz, modern'jazz,
+            hip-hop, comtempory jazz et zumba sont accessibles aux débutants.
+            <br />
+            Le niveau des élèves est laissé à l'appréciation du professeur.
+          </h4>
         </div>
 
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

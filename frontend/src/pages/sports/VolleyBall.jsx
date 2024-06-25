@@ -63,7 +63,7 @@ const VolleyBall = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Lundi 02 Septembre 2024
                 </b>
               </p>
             </div>
@@ -71,141 +71,233 @@ const VolleyBall = () => {
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
             <h4>
-              ÉCOLE DE VOLLEY <br />À PARTIR DE 6 ANS (2013 ET +)
+              ÉCOLE DE VOLLEY <br />
+              M7 - M9 - M11
             </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
               Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 17H00-18H30</b>
+              <b>MERCREDI : 17H00-18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M13/M15 FILLES (2009 À 2012)</h4>
+            <h4>M13 FEMININE </h4>
             <p>
               <b>HALLE</b>
-              <br />
               <br />
               Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 17H00-18H30</b>
+              <b>LUNDI : 17H00-18H15</b>
+              <br />
+              <br />
+              <b>MERCREDI : 17H00-18H30</b>
             </p>
           </div>
-          {/*<hr className='ligne'></hr>*/}
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M13/M15 GARÇONS (2009 À 2012)</h4>
+            <h4>M13 MASCULIN</h4>
             <p>
               <b>HALLE</b>
-              <br />
               <br />
               Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 17H30-18H30
+                MERCREDI : 17H30-18H30
                 <br />
-                OU LUNDI 17H00-18H45
+                <br />
+                LUNDI : 17H00-18H15
+              </b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>M15 FEMININE</h4>
+            <p>
+              <b>HALLE</b>
+              <br />
+              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                LUNDI : 18H15-20H00
+                <br />
+                <br />
+                MERCREDI : 17H00-18H30
+              </b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>M15 MASCULIN</h4>
+            <p>
+              <b>HALLE</b>
+              <br />
+              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+            </p>
+            <p>
+              <b>
+                LUNDI : 17H15-18H15
+                <br />
+                <br />
+                MERCREDI : 17H00-18H30
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18 FILLES (1) (2006 À 2008)</h4>
+            <h4>M18 FEMININE</h4>
             <p>
               <b>HALLE</b>
-              <br />
               <br />
               Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
-              <br />
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 18H30-20H30
+                LUNDI : 18H15-20H00
                 <br />
-                VENDREDI 18H45-20H30
+                <i className="i-style">Gymnase du Parc</i>
+                <br />
+                <br />
+                MERCREDI : 18H30-20H30
+                <br />
+                <i className="i-style">Gymnase du Parc</i>
+                <br />
+                <br />
+                VENDREDI : 18H45-20H30
+                <br />
+                <i className="i-style">Gymnase Jean Fournier</i>
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18 FILLES (2) (2006 À 2008)</h4>
+            <h4>M18 MASCULIN</h4>
             <p>
               <b>HALLE</b>
-              <br />
               <br />
               Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 18H45-20H30
+                LUNDI : 18H15-20H00
                 <br />
-                MERCREDI 18H30-20H30
+                <br />
+                MERCREDI : 18H30-20H30
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M21 FILLES (2003 À 2005)</h4>
+            <h4>SENIORS MASCULINS REGIONAL</h4>
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
+              Fontenay-aux-Roses
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <b>HALLE</b>
+              <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 18H45-20H30
+                MARDI : 20H30-22H30
                 <br />
-                MERCREDI 18H30-20H30
+                <br />
+                JEUDI : 20H30-22H30
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18/M21 GARÇONS (2003 À 2008)</h4>
+            <h4>SENIORS MASCULINS DEPARTEMENTAL</h4>
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Jean Fournier, 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>VENDREDI : 18H45-20H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>SENIORS MASCULINS N3</h4>
+            <p>
+              <b>HALLE</b>
               <br />
               Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>HALLE</b>
+              <br />
+              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 18H45-20H30
+                MERCREDI : 20H30-22H30
                 <br />
-                MERCREDI 18H30-20H30
+                <br />
+                VENDREDI : 20H30-22H30
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>VOLLEY LOISIR</h4>
+            <h4>LOISIRS COMPETITIONS</h4>
             <p>
               <b>HALLE</b>
               <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <b>HALLE</b>
+              <br />
+              Gymnase Collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 20H30-22H30</b>
+              <b>
+                JEUDI : 20H30-22H30
+                <br />
+                <i className="i-style">Panorama</i>
+                <br />
+                <br />
+                VENDREDI : 20H30-23H00
+                <br />
+                <i className="i-style">Les Ormeaux</i>
+              </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>NATIONALE 3, RÉGIONAL LOISIRS COMPÉTITION</h4>
+            <h4>LOISIRS</h4>
             <p>
-              <b>CONTACTER LE 06 28 25 54 45</b>
+              <b>HALLE</b>
+              <br />
+              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 20H00-22H45</b>
             </p>
           </div>
         </div>
@@ -302,7 +394,7 @@ const VolleyBall = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>ÉCOLE DE VOLLEY (2013 ET +)</b>
+                <b>M7 - M9 - M11 (2014 ET +)</b>
               </p>
               <p className="prix-cotisation">
                 <b>200€</b>
@@ -310,7 +402,7 @@ const VolleyBall = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>M13/M15 (2009 À 2012)</b>
+                <b>M13/M15 (2010 À 2013)</b>
               </p>
               <p className="prix-cotisation">
                 <b>210€</b>
@@ -318,7 +410,7 @@ const VolleyBall = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>M18/M21 (2003 À 2008)</b>
+                <b>M18/M21 (2004 À 2009)</b>
               </p>
               <p className="prix-cotisation">
                 <b>220€</b>
@@ -327,7 +419,15 @@ const VolleyBall = () => {
 
             <div className="case-cotisation">
               <p>
-                <b>VOLLEY LOISIRS</b>
+                <b>LOISIRS</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>210€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>LOISIRS COMPÉTITION</b>
               </p>
               <p className="prix-cotisation">
                 <b>250€</b>
@@ -335,7 +435,7 @@ const VolleyBall = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>SÉNIORS COMPÉTITION (2002 et -)</b>
+                <b>ADULTES COMPÉTITION</b>
               </p>
               <p className="prix-cotisation">
                 <b>260€</b>
@@ -412,8 +512,6 @@ const VolleyBall = () => {
           <span className="email"> philoufox@gmail.com</span>
           <span className="label">Téléphone : </span>
           <span className="email"> 06 28 25 51 45</span>
-          <span className="label">Site Web : </span>
-          <span className="email"> www.asvolley.fr</span>
         </div>
       </div>
     </div>

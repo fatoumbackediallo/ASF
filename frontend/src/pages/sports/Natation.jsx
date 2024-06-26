@@ -80,9 +80,12 @@ const Natation = () => {
               <b>
                 SAMEDI : 09H00-09H30
                 <br />
+                <br />
                 SAMEDI : 9H30-10H00
                 <br />
+                <br />
                 SAMEDI : 10H00-10H30
+                <br />
                 <br />
                 SAMEDI : 10H30-11H00
               </b>
@@ -101,6 +104,7 @@ const Natation = () => {
               <b>
                 SAMEDI : 09H00-09H45
                 <br />
+                <br />
                 SAMEDI : 9H45-10H30
               </b>
             </p>
@@ -116,9 +120,10 @@ const Natation = () => {
             </p>
             <p>
               <b>
-                LUNDI 18H15-19H15
+                LUNDI : 18H15-19H15
                 <br />
-                MARDI 19H00-20H00
+                <br />
+                MARDI : 19H00-20H00
               </b>
             </p>
           </div>
@@ -135,7 +140,9 @@ const Natation = () => {
               <b>
                 JEUDI : 17H00-18H00
                 <br />
+                <br />
                 JEUDI : 18H00-19H00
+                <br />
                 <br />
                 VENDREDI : 17H00-18H00
               </b>
@@ -154,9 +161,12 @@ const Natation = () => {
               <b>
                 LUNDI : 19H15-20H15
                 <br />
+                <br />
                 MARDI : 20H00-21H00
                 <br />
+                <br />
                 JEUDI : 19H00-20H00
+                <br />
                 <br />
                 JEUDI : 20H00-21H00
               </b>
@@ -201,7 +211,9 @@ const Natation = () => {
               <b>
                 MERCREDI : 19H15-20H00
                 <br />
+                <br />
                 MERCREDI : 20H00-20H45
+                <br />
                 <br />
                 MERCREDI : 20H45-21H00
               </b>
@@ -220,6 +232,7 @@ const Natation = () => {
               <b>
                 MERCREDI : 09H00-09H30
                 <br />
+                <br />
                 MERCREDI : 09H30-10H00
               </b>
             </p>
@@ -237,7 +250,9 @@ const Natation = () => {
               <b>
                 LUNDI : 11H30-12H30
                 <br />
+                <br />
                 LUNDI : 12H30-13H30
+                <br />
                 <br />
                 LUNDI : 16H00-17H00
               </b>
@@ -465,7 +480,10 @@ const Natation = () => {
               <p className="prix-cotisation">
                 <b>420€</b>
                 <br />
+                <br />
                 <b>140€ </b>
+                <br />
+                <br />
                 <i>(Trimestre)</i>
               </p>
             </div>
@@ -479,6 +497,7 @@ const Natation = () => {
               </p>
               <p className="prix-cotisation">
                 <b>480€</b>
+                <br />
                 <br />
                 <b>160€</b>
               </p>
@@ -551,8 +570,8 @@ const Natation = () => {
             </p>
           </div>
         </div>
-        <div className="bloc">
-          <h4 className="h4">
+        {/* <div className="bloc"> */}
+        {/* <h4 className="h4">
             DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
           </h4>
           <div>
@@ -580,7 +599,7 @@ const Natation = () => {
               </a>
             </span>
           </div>
-        </div>
+        </div> */}
         <div className="bloc">
           <h4 className="h4">INSCRIPTION EN LIGNE :</h4>
           <div>

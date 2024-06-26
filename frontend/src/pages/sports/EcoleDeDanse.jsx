@@ -69,243 +69,325 @@ const EcoleDeDanse = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>STREET JAZZ 6/10 ANS</h4>
+            <h4>
+              STREET JAZZ
+              <br />
+              PRIMAIRE
+            </h4>
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 17H30-18H30</b>
+              <b>LUNDI : 17H30-18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>STREET JAZZ 11/15 ANS</h4>
+            <h4>
+              STREET JAZZ
+              <br />
+              COLLEGE/LYCEE
+            </h4>
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 18H30-19H30</b>
+              <b>LUNDI : 18H30-19H30</b>
             </p>
           </div>
 
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ZUMBA 18 ANS ET +</h4>
+            <h4>
+              MODERN JAZZ
+              <br />
+              CP
+            </h4>
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 19H45-20H45</b>
+              <b>MERCREDI : 11H30-12H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              MODERN JAZZ
+              <br />
+              CE1/CE2
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 13H30-14H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              MODERN JAZZ
+              <br />
+              CM1/CM2/6ème
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 14H30-16H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              MODERN JAZZ
+              <br />
+              CONCOURS PRIMAIRE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 16H00-16H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              MODERN JAZZ
+              <br />
+              CONCOURS COLLEGE/LYCEE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 17H30-18H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              MODERN JAZZ
+              <br /> COLLEGE /LYCEE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 18H30-20H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              MODERN JAZZ
+              <br /> ADULTES
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 20H00-21H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>COURS D'EXPRESSION CORPORELLE 3/4 ANS</h4>
+            <h4>
+              CONTEMPORARY JAZZ
+              <br /> CM2/COLLEGE
+            </h4>
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 17H00-18H00</b>
+              <b>MERCREDI : 18H30-19H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>COURS D'EXPRESSION CORPORELLE 5/6 ANS</h4>
+            <h4>
+              CONTEMPORARY JAZZ
+              <br />
+              PRIMAIRE
+            </h4>
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 18H00-19H00</b>
+              <b>SAMEDI : 10H30-11H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              CONTEMPORARY JAZZ
+              <br />
+              ADULTES
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                JEUDI : 19H30-21H00
+                <br />
+                <br />
+                SAMEDI : 11H30-13H00
+              </b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              CONTEMPORARY JAZZ
+              <br />
+              COLLEGE/LYCEE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>SAMEDI : 13H00-14H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              ÉVEIL DANSE
+              <br />
+              MATERNELLE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MERCREDI : 10H30-11H30
+                <br />
+                <br />
+                SAMEDI : 09H30-10H30
+              </b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              HIP HOP
+              <br /> PRIMAIRE CE1/CE2
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 17H30-18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>HANDI DANSE</h4>
+            <h4>
+              HIP HOP
+              <br /> CM1/CM2
+            </h4>
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 09H30-10H30</b>
+              <b>VENDREDI : 17H00-18H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              HIP HOP
+              <br /> COLLEGE/LYCEE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>VENDREDI : 18H00-19H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>JAZZ ÉVEIL 4/5 ANS</h4>
+            <h4>ZUMBA ADULTES</h4>
             <p>
               <b>SALLE DE DANSE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 10H30-11H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ ÉVEIL 6/7 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 11H30-12H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ 7/8 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 13H30-14H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ 8/9 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 15H30-16H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ CONCOURS 8/9 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 15H30-16H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ 10/14 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 16H30-17H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ CONCOURS 11/14 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 17H30-18H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ CONCOURS 11/13 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 18H30-20H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ 10 ANS ET +</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 20H00-21H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>HIP HOP 8/9 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>VENDREDI 17H00-18H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>HIP HOP 12/14 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>VENDREDI 18H00-19H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>SPORT SANTE</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>VENDREDI 14H00-16H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>CLASSIQUE 9/11 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 09H00-10H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JAZZ 18 ANS ET +</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 10H00-11H30</b>
+              <b>
+                LUNDI : 19H45-20H45
+                <br />
+                <br />
+                VENDREDI : 19H30-20H30
+              </b>
             </p>
           </div>
         </div>
@@ -376,7 +458,7 @@ const EcoleDeDanse = () => {
                     <p>(5 fois maximum - à l'ordre de l'ASF) </p>
 
                     <h4>Par espèces : </h4>
-                    <p>(en 1 seule fois)</p>
+                    <p>(en 4 fois maximum)</p>
                     <div className="remise">
                       <h4>La remise se fera : </h4>
                     </div>

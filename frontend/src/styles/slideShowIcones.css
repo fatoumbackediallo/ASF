@@ -13,7 +13,7 @@
   cursor: pointer;
   z-index: 2;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 70%;
   opacity: 0.8;
   transition: opacity 0.3s;
 }
@@ -26,12 +26,14 @@
   position: absolute;
   left: -30px;
   color: white;
+  border-radius: 75px;
 }
 
 .scroll-button.right {
   position: absolute;
   right: -30px;
   color: white;
+  border-radius: 75px;
 }
 
 .sports-icones-container::-webkit-scrollbar {

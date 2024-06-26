@@ -96,6 +96,7 @@
   background: none;
   border-radius: 8px;
   cursor: pointer;
+  margin-bottom: 65px;
 }
 
 .bouton-accueil:hover {
@@ -121,6 +122,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 65px;
 }
 
 .chiffre1 {
@@ -157,7 +159,7 @@
 }
 
 .photos-videos {
-  margin: 32px;
+  margin: 50px 32px 32px 32px;
 }
 
 .bouton-espace-bouton {

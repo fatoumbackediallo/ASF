@@ -331,14 +331,9 @@ const Natation = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
-                      <b className="gras"> 08 septembre</b> au Gymnase du Parc
-                      entre 10h00 et 18h00
-                    </p>
-                    <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      <b className="gras">
+                        Lors de la première séance d'entraînement !
+                      </b>
                     </p>
                   </div>
                 )}

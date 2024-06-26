@@ -43,7 +43,7 @@ const Accueil = () => {
 
       location: "Tennis municipaux",
       contact:
-        "Responsable administrative : contact@asftennis.com <br/> 06 89 86 78 11",
+        "Responsable administrative : contact@asftennis.com <br/> 01 46 60 86 21",
     },
 
     {

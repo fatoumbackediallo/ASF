@@ -68,28 +68,19 @@ const GymnastiqueArtistique = () => {
             <div>
               <p>
                 <b>
-                  Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Les premièrs cours se tiendront à partir du :
+                  <br />
+                  Lundi 02 Septembre 2024 pour le Yoga et Atelier motricité,
+                  <br />
+                  Lundi 09 Septembre 2024 pour les autres catégories.
                 </b>
               </p>
             </div>
           </div>
-          <hr className="ligne-titre"></hr>
-          <div className="entrainement-ligne">
-            <h4>POUSSINES BENJAMINES (AVANCÉ) 2013 - 2017</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI 17H00-19H00</b>
-            </p>
-          </div>
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>MINIMES 2011 - 2012</h4>
+            <h4>LOISIRS FILLES 2012- 2013</h4>
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
@@ -97,12 +88,12 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 19H00-20H30</b>
+              <b>MARDI : 19H00-20H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>POUSSINES BENJAMINES 2013 - 2017</h4>
+            <h4>LOISIRS FILLES 2014- 2018</h4>
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
@@ -110,16 +101,13 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>
-                MERCREDI 10H00-11H30
-                <br />
-                MERCREDI 11H30 - 13H00
-              </b>
+              <b>MERCREDI : 10H00-11H30</b>
             </p>
           </div>
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>POUSSINES 2016 - 2017</h4>
+            <h4>BABYGYM 2022</h4>
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
@@ -127,12 +115,12 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 16H30-18H00</b>
+              <b>SAMEDI : 09H45-10H15</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>POUSSINES 2015</h4>
+            <h4>ÉVEIL 1 2021</h4>
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
@@ -140,12 +128,12 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 18H00-19H30</b>
+              <b>SAMEDI : 10H15-11H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>BENJAMINES 2013 - 2014</h4>
+            <h4>ÉVEIL 2 2020</h4>
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
@@ -153,12 +141,12 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 17H00-18H30</b>
+              <b>SAMEDI : 11H45-12H45</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>MINIMES TOUTES CATÉGORIES (COMPÉTITION) AVANT 2012</h4>
+            <h4>MINI GYM 2019</h4>
             <p>
               <b>SALLE GYMNASTIQUE</b>
               <br />
@@ -166,94 +154,19 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>
-                LUNDI 19H00-21H00
-                <br />
-                <br />
-                JEUDI 18H30 - 20H30
-                <br />
-                <br />
-                VENDREDI 19H00 - 21H00
-              </b>
+              <b>SAMEDI : 11H45 - 12H45</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>POUSSINES BENJAMINES (COMPÉTITION) 2013 - 2017</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
+            <h4>
+              ATELIER À MOTRICITÉ
               <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                LUNDI 17H00-19H00
-                <br />
-                <br />
-                VENDREDI 17H00 - 19H00
-              </b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>BABYGYM 2021</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
+              PARENT-BÉBÉ 3 À 18 MOIS
               <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 09H45-10H15</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ÉVEIL 1 2020</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 10H15-11H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ÉVEIL 2 2019</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 11H00-11H45</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>MINI GYM 2018</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                MERCREDI 16H30-18H00
-                <br />
-                SAMEDI 11H45 - 12H45
-              </b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ATELIER À MOTRICITÉ PARENT-BÉBÉ 3 À 18 MOIS</h4>
+              <i>(Avec un parent)</i>
+            </h4>
+
             <p>
               <b>SALLE GYM/BIEN ÊTRE</b>
               <br />
@@ -261,7 +174,10 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 09H30-11H30</b>
+              <b>LUNDI : 09H30-10H30</b>
+              <br />
+              <br />
+              <b>LUNDI : 10H30-11H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -274,7 +190,7 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 14H30-15H00</b>
+              <b>LUNDI : 14H00-15H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -287,12 +203,12 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 15H15-16H15</b>
+              <b>LUNDI : 15H15-16H15</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>FITNESS</h4>
+            <h4>FITNESS ADULTES</h4>
             <p>
               <b>SALLE GYM/BIEN ÊTRE</b>
               <br />
@@ -300,20 +216,7 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 20H00-21H15</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>HANDI'GYM 6-16 ANS</h4>
-            <p>
-              <b>DOJO 2</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI 08H30-12H00</b>
+              <b>LUNDI : 20H00-21H15</b>
             </p>
           </div>
         </div>
@@ -411,35 +314,39 @@ const GymnastiqueArtistique = () => {
             <div className="case-cotisation">
               <p>
                 <b>BABY GYM</b>
+                <br />
+                <i>(Né en 2022)</i>
               </p>
               <p className="prix-cotisation">
-                <b>240€</b>
+                <b>250€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>ÉVEIL GYMNIQUE</b>
+                <b>ÉVEIL 1 et 2</b>
+                <br />
+                <i>(Né en 2022)</i>
               </p>
               <p className="prix-cotisation">
-                <b>245€</b>
+                <b>255€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
                 <b>MINI GYM</b>
+                <br />
+                <i>(Né en 2019)</i>
               </p>
               <p className="prix-cotisation-gym">
-                <b>
-                  1H00 - 255€
-                  <br />
-                  1H30 - 265€
-                </b>
+                <b>1H00 - 265€</b>
               </p>
             </div>
 
             <div className="case-cotisation">
               <p>
-                <b>FITNESS 1H30</b>
+                <b>FITNESS ADULTES</b>
+                <br />
+                <i>1H15</i>
               </p>
               <p className="prix-cotisation">
                 <b>210€</b>
@@ -447,32 +354,33 @@ const GymnastiqueArtistique = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>GYM AUX AGRÉES</b>
+                <b>LOISIRS</b>
+                <br />
+                <i>(Nées entre 2012 & 2018)</i>
               </p>
               <p className="prix-cotisation-gym">
-                <b>
-                  1H30 - 265€
-                  <br />
-                  2H00 - 320€
-                  <br />
-                  4H00 - 420€
-                  <br />
-                  6H00 - 485€
-                </b>
+                <b>275€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
                 <b>ATELIER MOTRICITÉ</b>
+                <br />
+                <i>(3 - 18 mois)</i>
               </p>
               <p>
-                <i>60€ les 5 séances (possibilité 1 séance à l'essai)</i>
+                <i> (possibilité 1 séance à l'essai)</i>
               </p>
               <p className="prix-cotisation-gym">
                 <b>15€</b>
+                <br />
+                <i className="i-style-cotisations">La séance</i>
               </p>
               <p>
-                <i>La séance</i>
+                <i>60€ les 5 séances</i>
+              </p>
+              <p>
+                <i>110€ les 10 séances</i>
               </p>
             </div>
 
@@ -481,13 +389,18 @@ const GymnastiqueArtistique = () => {
                 <b>YOGA PRÉ ET POST NATAL</b>
               </p>
               <p>
-                <i>50€ les 5 séances (possibilité 1 séance à l'essai)</i>
+                <i>(possibilité 1 séance à l'essai)</i>
               </p>
               <p className="prix-cotisation">
                 <b>12€</b>
+                <br />
+                <i className="i-style-cotisations">La séance</i>
               </p>
               <p>
-                <i>La séance</i>
+                <i>55€ les 5 séances</i>
+              </p>
+              <p>
+                <i>100€ les 10 séances</i>
               </p>
             </div>
           </div>

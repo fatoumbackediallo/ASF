@@ -3,7 +3,7 @@ import Aikido from "./pages/sports/Aikido.jsx";
 import BasketBall from "./pages/sports/Basketball.jsx";
 import BoxeThailandaise from "./pages/sports/BoxeThailandaise.jsx";
 import EcoleDeDanse from "./pages/sports/EcoleDeDanse.jsx";
-// import GymnastiqueArtistique from "./pages/sports/GymnastiqueArtistique.jsx";
+import GymnastiqueArtistique from "./pages/sports/GymnastiqueArtistique.jsx";
 import Handball from "./pages/sports/Handball.jsx";
 import Natation from "./pages/sports/Natation.jsx";
 import TaeKwonDo from "./pages/sports/TaeKwonDo.jsx";
@@ -21,7 +21,6 @@ const disabledPages = [
   "ecoledessports",
   "escrime",
   "fitness",
-  "gymnastiqueartistique",
   "gymnastiquerythmique",
   "judojujitsu",
   "karate",
@@ -38,6 +37,7 @@ const routes = [
   { path: "/boxethailandaise", element: <BoxeThailandaise /> },
   { path: "/capoeira", element: <Capoeira /> },
   { path: "/ecolededanse", element: <EcoleDeDanse /> },
+  { path: "/gymnastiqueartistique", element: <GymnastiqueArtistique /> },
   { path: "/handball", element: <Handball /> },
   { path: "/football", element: <Football /> },
   { path: "/natation", element: <Natation /> },

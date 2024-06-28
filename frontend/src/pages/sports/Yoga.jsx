@@ -69,10 +69,15 @@ const Yoga = () => {
             <p>
               <b>
                 MARDI 18H30-19H45 <br />
+                <br />
                 MARDI 20H30-21H15 <br />
+                <br />
                 MERCREDI 12H15-13H30 <br />
+                <br />
                 JEUDI 10H30-11H45 <br />
+                <br />
                 VENDREDI 17H30-18H45 <br />
+                <br />
                 VENDREDI 19H00-20H15 <br />
               </b>
             </p>

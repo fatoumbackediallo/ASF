@@ -63,68 +63,18 @@ const Rugby = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Samedi 07 Septembre 2024
                 </b>
               </p>
             </div>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ECOLDE DE RUGBY</h4>
-            <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
-            </p>
-            <p>
-              <b>MERCREDI 13H-17H</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ECOLE DE RUGBY</h4>
-            <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
-            </p>
-            <p>
-              <b>SAMEDI 10H00-13H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>RUGBY À 5 </h4>
-            <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
-            </p>
-            <p>
-              <b>MARDI 20H00-22H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>Seniors</h4>
-            <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
-            </p>
-            <p>
-              <b>MARDI 20H00-22H00</b>
+            <h4>
+              BABY RUGBY
               <br />
-              jeudi 20H00 - 22H
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>FOLKLOS (+ 35 ANS)</h4>
+              <i>(A partir de 3 ans)</i>
+            </h4>
             <p>
               <b>
                 TERRAIN EN HERBE <br />
@@ -132,7 +82,147 @@ const Rugby = () => {
               </b>
             </p>
             <p>
-              <b>VENDREDI 20H00-22H00</b>
+              <b>MERCREDI : 14H-15H</b>
+              <br />
+              <br />
+              <b>MERCREDI : 15H-16H</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              U6 <i className="i-style">(2019)</i>
+              <br />
+              U8 <i className="i-style">(2017-2018)</i>
+              <br />
+              U10 <i className="i-style">(2015-2016)</i>
+              <br />
+              U12 <i className="i-style">(2013-2014)</i>
+            </h4>
+            <p>
+              <b>
+                TERRAIN EN HERBE <br />
+                COULÉE VERTE
+              </b>
+            </p>
+            <p>
+              <b>MERCREDI : 14H00-16H00</b>
+              <br />
+              <br />
+              <b>SAMEDI : 10H00-11H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              U14
+              <br />
+              <i className="i-style">(2011-2012)</i>
+              <br />
+              <i className="i-style">Entente avec Clamart</i>
+            </h4>
+            <p>
+              <b>
+                STADE DE LA PLAINE <br />
+                131 Chemin du Parc, 92140 Clamart
+              </b>
+            </p>
+            <p>
+              <b>LUNDI : 18H30-19H30</b>
+              <br />
+              <br />
+              <b>MERCREDI : 18H00-20H00</b>
+              <br />
+              <br />
+              <b>Matchs certains samedis après-midi</b>
+              <br />
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>RUGBY ADAPTE</h4>
+            <p>
+              <b>
+                TERRAIN EN HERBE <br />
+                COULÉE VERTE
+              </b>
+            </p>
+            <p>
+              <b>MERCREDI : 09H30-11H00</b>
+              <br />
+              <br />
+              <b>VENDREDI : 14H-16H</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>RUGBY SANTE</h4>
+            <p>
+              <b>
+                TERRAIN EN HERBE <br />
+                COULÉE VERTE
+              </b>
+            </p>
+            <p>
+              <b>LUNDI : 20H00-22H00</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              SENIORS <br />
+              <i>(18 à 35 ans)</i>
+            </h4>
+            <p>
+              <b>
+                TERRAIN EN HERBE <br />
+                COULÉE VERTE
+              </b>
+            </p>
+            <p>
+              <b>MARDI : 20H00-22H00</b>
+              <br />
+              JEUDI : 20H00 - 22H00
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              RUGBY à 5 MIXTE <br />
+              <i>(16 ans et +)</i>
+            </h4>
+            <p>
+              <b>
+                TERRAIN EN HERBE <br />
+                COULÉE VERTE
+              </b>
+            </p>
+            <p>
+              <b>MARDI : 20H00-22H00</b>
+              <br />
+              SAMEDI : 10H00 - 12H00
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              FOLKLOS <br />
+              (+ 35 ANS)
+            </h4>
+            <p>
+              <b>
+                TERRAIN EN HERBE <br />
+                COULÉE VERTE
+              </b>
+            </p>
+            <p>
+              <b>MERCREDI : 20H00-22H00</b>
+              <br />
+              <br />
+              <b>DIMANCHE : 10H00-12H00</b>
             </p>
           </div>
         </div>
@@ -228,18 +318,44 @@ const Rugby = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>BABY / U6</b>
+                <b>BABY</b>
+                <br />
+                <i>(A partir de 3 ans)</i>
               </p>
               <p className="prix-cotisation">
-                <b>100€</b>
+                <b>130€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>U8 / U10 / U12 / U14</b>
+                <b>U6</b>
+                <br />
+                <i>(2019)</i>
               </p>
               <p className="prix-cotisation">
-                <b>210€</b>
+                <b>160€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>U8</b>
+                <br />
+                <i>(2017-2018)</i>
+                <br />
+                <b>U10</b>
+                <br />
+                <i>(2015-2016)</i>
+                <br />
+                <b>U12</b>
+                <br />
+                <i>(2013-2014)</i>
+                <br />
+                <b>U14</b>
+                <br />
+                <i>(2011-2012)</i>
+              </p>
+              <p className="prix-cotisation">
+                <b>250€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -247,33 +363,42 @@ const Rugby = () => {
                 <b>SÉNIORS</b>
               </p>
               <p className="prix-cotisation">
-                <b>250€</b>
+                <b>260€</b>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>FOLKLOS</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>220€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>RUGBY À 5 MIXTE</b>
+                <br />
+                <i>(16 ans et +)</i>
+              </p>
+              <p className="prix-cotisation">
+                <b>140€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>RUGBY SANTE</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>200€</b>
               </p>
             </div>
           </div>
-
-          <div className="case-cotisation">
-            <p>
-              <b>FOLKLOS</b>
-            </p>
-            <p className="prix-cotisation">
-              <b>220€</b>
-            </p>
-          </div>
-          <div className="case-cotisation">
-            <p>
-              <b>RUGBY À 5 MIXTE</b>
-            </p>
-            <p className="prix-cotisation">
-              <b>130€</b>
-            </p>
-          </div>
-
           <h4>
-            Remise lors de l'inscription en ligne sur MonClub avec les codes
+            Remises lors de l'inscription en ligne sur MonClub avec les codes
             suivants : <br />
-            FRATERIE10 -10% à partir du 2ème enfant <br />
-            FRATERIE20 -20% à partir du 3ème enfant
+            FRATRIE10 -10% à partir du 2ème enfant <br />
+            FRATRIE20 -20% à partir du 3ème enfant
           </h4>
         </div>
 
@@ -354,6 +479,18 @@ const Rugby = () => {
           <span className="email">06 99 51 15 32</span>
         </div>
         <div className="contacts">
+          <h4>RUGBY SANTE : JEROME CLECH</h4>
+          <span className="label">Mail : </span>
+          <span className="email"> jerome.clech1@gmail.com</span>
+          <span className="label">Téléphone : </span>
+          <span className="email">06 18 34 81 55</span>
+        </div>
+        <div className="contacts">
+          <h4>FOLKLOS : OLIVIER CANDAU</h4>
+          <span className="label">Téléphone : </span>
+          <span className="email">06 33 34 81 55</span>
+        </div>
+        <div className="contacts">
           <h4>RUGBY À 5 MIXTE : PIERRE CHOUTEAU</h4>
           <span className="label">Téléphone : </span>
           <span className="email">06 84 96 96 62</span>
@@ -362,8 +499,13 @@ const Rugby = () => {
           <h4>RUGBY SÉNIORS : STÉPAHNIE LECUYER</h4>
           <span className="label">Téléphone : </span>
           <span className="email">06 84 10 44 49</span>
-          <span className="label">Réseaux sociaux : </span>
-          <span className="email">www.facebook.com/rygbyasf/</span>
+        </div>
+        <div className="contacts">
+          <h4>RESEAUX SOCIAUX</h4>
+          <span className="label">Facebook : </span>
+          <span className="email">www.facebook.com/rugbyasf/</span>
+          <span className="label">Instagram : </span>
+          <span className="email">www.instagram.com/asfrugby/</span>
         </div>
       </div>
     </div>

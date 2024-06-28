@@ -13,6 +13,7 @@ import VolleyBall from "./pages/sports/VolleyBall.jsx";
 import PageDesactivee from "./components/PageDesactivee.jsx";
 import Capoeira from "./pages/sports/Capoeira.jsx";
 import Football from "./pages/sports/Football.jsx";
+import Rugby from "./pages/sports/Rugby.jsx";
 
 // Liste des pages désactivées
 const disabledPages = [
@@ -26,7 +27,6 @@ const disabledPages = [
   "karate",
   "kungfu",
   "parkour",
-  "rugby",
   "yoga",
 ];
 
@@ -41,6 +41,7 @@ const routes = [
   { path: "/handball", element: <Handball /> },
   { path: "/football", element: <Football /> },
   { path: "/natation", element: <Natation /> },
+  { path: "/rugby", element: <Rugby /> },
   { path: "/taekwondo", element: <TaeKwonDo /> },
   { path: "/tennis", element: <Tennis /> },
   { path: "/tennisdetable", element: <TennisDeTable /> },

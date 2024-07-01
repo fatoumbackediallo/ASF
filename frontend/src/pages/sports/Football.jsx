@@ -245,16 +245,18 @@ const Football = () => {
             <p>
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama,
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br />7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI : 19H00-20H30</b>
+              <b>LUNDI : 19H00-20H30</b>
               <br />
               <i>Panorama</i>
               <br />
@@ -275,13 +277,15 @@ const Football = () => {
             <p>
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama,
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br />7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>VENDREDI : 17H30-19H00</b>
@@ -300,22 +304,24 @@ const Football = () => {
             <p>
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              Stade du Panorama, 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama,
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>TERRAIN SYNTHÉTIQUE</b>
               <br />
-              Gymnase du Parc, 7 avenue du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br />7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI : 18H30-19H30
+                MERCREDI : 17H00-18H15
                 <br />
                 <i className="i-style">Panorama</i>
                 <br />
                 <br />
-                MARDI : 17H30-18H30
+                VENDREDI : 19H00-20H30
                 <br />
                 <i className="i-style">Gymnase du Parc</i>
               </b>
@@ -528,8 +534,8 @@ const Football = () => {
                     </p>
                     <p>OU</p>
                     <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      Auprès de la section lors de la première séance
+                      d'entraînement.
                     </p>
                   </div>
                 )}
@@ -583,7 +589,7 @@ const Football = () => {
 
             <div>
               <h4>
-                Remise de 10€ à partir du 2ème enfant avec le code MonClub :
+                Remise de 10% à partir du 2ème enfant avec le code MonClub :
                 FRATRIE10
               </h4>
             </div>

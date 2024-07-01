@@ -67,7 +67,30 @@ const EcoleDeDanse = () => {
               </p>
             </div>
           </div>
+
           <hr className="ligne-titre"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              ÉVEIL DANSE
+              <br />
+              MATERNELLE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MERCREDI : 10H30-11H30
+                <br />
+                <br />
+                SAMEDI : 09H30-10H30
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>
               STREET JAZZ
@@ -225,22 +248,7 @@ const EcoleDeDanse = () => {
               <b>MERCREDI : 20H00-21H30</b>
             </p>
           </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>
-              CONTEMPORARY JAZZ
-              <br /> CM2/COLLEGE
-            </h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI : 18H30-19H30</b>
-            </p>
-          </div>
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>
@@ -256,6 +264,22 @@ const EcoleDeDanse = () => {
             </p>
             <p>
               <b>SAMEDI : 10H30-11H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              CONTEMPORARY JAZZ
+              <br /> CM2/COLLEGE
+            </h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 18H30-19H30</b>
             </p>
           </div>
 
@@ -297,29 +321,6 @@ const EcoleDeDanse = () => {
             </p>
             <p>
               <b>SAMEDI : 13H00-14H00</b>
-            </p>
-          </div>
-
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>
-              ÉVEIL DANSE
-              <br />
-              MATERNELLE
-            </h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                MERCREDI : 10H30-11H30
-                <br />
-                <br />
-                SAMEDI : 09H30-10H30
-              </b>
             </p>
           </div>
 
@@ -468,10 +469,7 @@ const EcoleDeDanse = () => {
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Auprès de la section lors de la première séance.</p>
                   </div>
                 )}
               </li>
@@ -615,6 +613,8 @@ const EcoleDeDanse = () => {
             <p className="prix-cotisation">
               <b>230€</b>
             </p>
+            <br />
+            <i>Certificat médical obligatoire</i>
           </div>
 
           <div className="case-cotisation">
@@ -629,6 +629,8 @@ const EcoleDeDanse = () => {
             <p className="prix-cotisation">
               <b>410€</b>
             </p>
+            <br />
+            <i>Certificat médical obligatoire</i>
           </div>
           <div className="case-cotisation">
             <p>
@@ -700,10 +702,11 @@ const EcoleDeDanse = () => {
             DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
           </h4>
           <div>
+            <p className="p-inscription">Certificat médical obligatoire</p>
             <h5 className="h5-bloc">Mineur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.
             </p>
 
             <span className="lien-span-h5">

@@ -93,8 +93,12 @@ const Aikido = () => {
           <div className="entrainement-ligne">
             <h4>ADULTES</h4>
             <p>
-              <b>DOJO 1 ET DOJO 2</b>
+              <b>DOJO 1 </b>
               <br />
+              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>DOJO 2</b>
               <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
@@ -102,9 +106,17 @@ const Aikido = () => {
               <b>
                 LUNDI : 20H30-22H30
                 <br />
+                <i className="i-style">(Dojo 1)</i>
+                <br />
+                <br />
                 MERCREDI : 19H00-21H00
                 <br />
+                <i className="i-style">(Dojo 1)</i>
+                <br />
+                <br />
                 VENDREDI : 20H00-21H00
+                <br />
+                <i className="i-style">(Dojo 2)</i>
               </b>
             </p>
           </div>
@@ -318,7 +330,7 @@ const Aikido = () => {
             </span>
             <p className="p-inscription">
               Remise de 10% à partir du 2e enfant avec le code Mon Club
-              FRATERIE10{" "}
+              FRATERIE10
             </p>
           </div>
         </div>

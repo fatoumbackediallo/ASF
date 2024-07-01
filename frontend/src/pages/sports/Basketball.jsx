@@ -86,10 +86,10 @@ const BasketBall = () => {
             </p>
             <p>
               <b>
-                MERCREDI 13H-15H00
+                MERCREDI : 13H-15H00
                 <br />
                 <br />
-                SAMEDI 10H15 - 11H30
+                SAMEDI : 10H15 - 11H30
               </b>
             </p>
           </div>
@@ -103,10 +103,10 @@ const BasketBall = () => {
             </p>
             <p>
               <b>
-                MERCREDI 13H00-15H00
+                MERCREDI : 13H00-15H00
                 <br />
                 <br />
-                JEUDI 17H00-18H15
+                JEUDI : 17H00-18H15
               </b>
             </p>
           </div>
@@ -116,19 +116,23 @@ const BasketBall = () => {
             <p>
               <b>HALLE</b>
               <br />
+              Stade du Panorama
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />
+              <b>HALLE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 17H30-19H15</b>
+              <b>MARDI : 17H30-19H15</b>
               <br />
               <i> (Panorama)</i>
               <br />
               <br />
-              <b>MERCREDI 15H00-16H30</b>
+              <b>MERCREDI : 15H00-16H30</b>
               <br />
               <i> (Jean Fournier)</i>
             </p>
@@ -139,25 +143,22 @@ const BasketBall = () => {
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
+              <b>HALLE</b>
               <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux,
+              <br /> 15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 17H30 - 19H00</b>
+              <b>JEUDI : 18H15-19H30</b>
               <br />
               <i> (Jean Fournier)</i>
               <br />
               <br />
-              <b>JEUDI 18H15 - 19H30</b>
-              <br />
-              <i> (Jean Fournier)</i>
-              <br />
-              <br />
-              <b>MARDI 17H30-19H00</b>
+              <b>MARDI : 17H30-19H00</b>
               <br />
               <i> (Collège Les Ormeaux)</i>
             </p>
@@ -168,19 +169,22 @@ const BasketBall = () => {
             <p>
               <b>HALLE</b>
               <br />
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses <br />
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <b>HALLE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 16H30-18H00</b>
+              <b>MERCREDI : 16H30-18H00</b>
               <br />
               <i> (Jean Fournier)</i>
               <br />
               <br />
-              <b>VENDREDI 17H30-19H00</b>
+              <b>VENDREDI : 17H30-19H00</b>
               <br />
               <i> (Panorama)</i>
             </p>
@@ -191,12 +195,14 @@ const BasketBall = () => {
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
+              <b>HALLE</b>
               <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux,
+              <br /> 15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -205,7 +211,7 @@ const BasketBall = () => {
                 <i className="i-style"> (Jean Fournier)</i>
                 <br />
                 <br />
-                JEUDI 17H30-19H00
+                JEUDI : 17H30-19H00
                 <br />
                 <i className="i-style"> (Collège Les Ormeaux)</i>
                 <br />
@@ -218,11 +224,15 @@ const BasketBall = () => {
             <p>
               <b>HALLE Stade du Panorama</b>
               <br />
-              <br />
               21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>VENDREDI 19H00-20H30</b>
+              <b>
+                VENDREDI : 19H00-20H15
+                <br />
+                <br />
+                MARDI : 19H00-20H15
+              </b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -231,28 +241,22 @@ const BasketBall = () => {
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
               <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              <b>HALLE</b>
+              <br />
+              Gymnase collège les Ormeaux,
+              <br /> 15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 19H15-20H15</b>
-              <br />
-              <i> (Panorama)</i>
-              <br />
-              <br />
-              <b>MERCREDI 18H00-19H30</b>
+              <b>MERCREDI : 18H00-19H30</b>
               <br />
               <i> (Jean Fournier)</i>
               <br />
               <br />
-              <b>JEUDI 19H00-20H30</b>
+              <b>JEUDI : 19H00-20H15</b>
               <br />
               <i> (Collège Les Ormeaux)</i>
             </p>
@@ -262,15 +266,14 @@ const BasketBall = () => {
             <h4>U20 - EQUIPE 1</h4>
             <p>
               <b>HALLE Gymnase Jean Fournier</b>
-              <br />
               <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MARDI 19H00-20H30
+                MARDI : 19H00-20H30
                 <br />
                 <br />
-                JEUDI 19H30-20H45
+                JEUDI : 19H15-20H45
               </b>
             </p>
           </div>
@@ -280,26 +283,23 @@ const BasketBall = () => {
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
+              <b>HALLE</b>
               <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux,
+              <br /> 15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MARDI 19H00-20H30
+                MERCREDI : 19H30-21H00
                 <br />
                 <i className="i-style"> (Jean Fournier)</i>
                 <br />
                 <br />
-                MERCREDI 19H30-21H00
-                <br />
-                <i className="i-style"> (Jean Fournier)</i>
-                <br />
-                <br />
-                MARDI 19H-20H30
+                MARDI : 19H-20H30
                 <br />
                 <i className="i-style"> (Collège Les Ormeaux)</i>
               </b>
@@ -307,34 +307,20 @@ const BasketBall = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>SÉNIORS - ÉQUIPE 1</h4>
+            <h4>SÉNIORS - REGION</h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc, 8 Rue des Hautes Sorrières, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 20H30-22h</b>
-              <br />
-              <i> (Gymnase du Parc)</i>
-              <br />
-              <br />
-              <b>MERCREDI 20H30-22h</b>
-              <br />
-              <i> (Gymnase du Parc)</i>
-              <br />
-              <br />
-              <b>JEUDI 20H30-22H30</b>
+              <b>MARDI : 20H45-22H30</b>
               <br />
               <i> (Jean Fournier)</i>
               <br />
               <br />
-              <b>MARDI 20H45-22H30</b>
+              <b>JEUDI : 20H30-22H30</b>
               <br />
               <i> (Jean Fournier)</i>
             </p>
@@ -441,8 +427,8 @@ const BasketBall = () => {
                     </p>
                     <p>OU</p>
                     <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      Auprès de la section lors de la première séance
+                      d'entraînement.
                     </p>
                   </div>
                 )}
@@ -535,6 +521,10 @@ const BasketBall = () => {
                 LIEN D'INSCRIPTION
               </a>
             </span>
+            <p className="p-inscription">
+              Remise de 10% à partir du 2e enfant avec le code Mon Club
+              FRATERIE10
+            </p>
           </div>
         </div>
 

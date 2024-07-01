@@ -60,6 +60,15 @@ const GymnastiqueArtistique = () => {
             à 6 semaines après l’accouchement, les nouveau-nés seront les
             bienvenus pendant les ateliers. Nous mettrons à disposition des
             tapis et des matelas de change.
+            <br />
+            <br />
+            Handi’gym : Partenariats avec des structures d'accueil pour les
+            enfants et adolescents en situation de handicap afin de proposer un
+            groupe de gymnastique adapté. Ce groupe a lieu le mardi matin et
+            permet d'accueillir 3 groupes Handi’gym. Les enfants et adolescents
+            sont accompagnés par les professionnels de santé de la structure
+            afin que nous puissions répondre aux mieux à leurs besoins
+            psychomoteurs.
           </p>
         </div>
         <div className="entrainements">
@@ -292,15 +301,15 @@ const GymnastiqueArtistique = () => {
                     <div className="remise">
                       <h4>La remise se fera : </h4>
                     </div>
-                    <p>
+                    {/* <p>
                       Au Forum des Associations le{" "}
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
-                    <p>OU</p>
+                    <p>OU</p> */}
                     <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      Auprès de la section, lors de la première séance
+                      d'entraînement.
                     </p>
                   </div>
                 )}
@@ -325,7 +334,7 @@ const GymnastiqueArtistique = () => {
               <p>
                 <b>ÉVEIL 1 et 2</b>
                 <br />
-                <i>(Né en 2022)</i>
+                <i>(Né en 2021)</i>
               </p>
               <p className="prix-cotisation">
                 <b>255€</b>
@@ -433,7 +442,7 @@ const GymnastiqueArtistique = () => {
             <h5 className="h5-bloc">Mineur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau et compétitions.
             </p>
 
             <span className="lien-span-h5">
@@ -445,7 +454,7 @@ const GymnastiqueArtistique = () => {
             <h5 className="h5-bloc">Majeur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau, compétions et Fitness Adultes.
             </p>
 
             <span className="lien-span-h5">
@@ -463,13 +472,24 @@ const GymnastiqueArtistique = () => {
                 LIEN D'INSCRIPTION
               </a>
             </span>
+            <p className="p-h5-bloc">
+              Possibilité de s'inscrire également :
+              <br />
+              le 03/07 de 16h30 à 19h30,
+              <br />
+              le 06/07 de 10h à 12h au Gymnase Jean Fournier.
+              <br />
+              (Voir Actualité en page d'accueil!)
+            </p>
           </div>
         </div>
 
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>GYM ARTISTIQUE ANNE-SOPHIE BAULON - PRÉSIDENTE : </h4>
+          <h4>
+            GYM ARTISTIQUE <br /> ANNE-SOPHIE BAULON - PRÉSIDENTE :{" "}
+          </h4>
           <span className="label">Mail : </span>
           <span className="email"> asfgym92@gmail.com</span>
           <span className="label">Téléphone : </span>
@@ -477,15 +497,13 @@ const GymnastiqueArtistique = () => {
         </div>
         <div className="contacts">
           <h4>
-            ATELIER MOTRICITÉ / YOGA PRÉ ET POSTNATAL NATACHA ROUAIX -
-            PROFESSEUR :{" "}
+            ATELIER MOTRICITÉ / YOGA PRÉ ET POSTNATAL/ HANDI'GYM <br /> NATACHA
+            ROUAIX - PROFESSEUR :
           </h4>
           <span className="label">Mail : </span>
           <span className="email"> natacha.rouaix@hotmail.fr</span>
           <span className="label">Téléphone : </span>
           <span className="email">07 87 87 33 57</span>
-          <span className="label">Site Web : </span>
-          <span className="email">www.asfgym92.fr</span>
         </div>
       </div>
     </div>

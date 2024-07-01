@@ -72,7 +72,7 @@ const Football = () => {
                 <br />
                 <i>du Lundi 02 Septembre 2024 pour les U10 / U11 / U12 / U13</i>
                 <br />
-                <i>du Lundi 11 Septembre 2024 pour les U8 / U9</i>
+                <i>du Mercredi 11 Septembre 2024 pour les U8 / U9</i>
                 <br />
                 <i>du Mercredi 11 Septembre pour les BABY-FOOT / U6 / U7</i>
               </p>

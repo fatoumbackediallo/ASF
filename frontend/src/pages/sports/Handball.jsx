@@ -71,12 +71,15 @@ const Handball = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>PREMIERS PAS</h4>
+            <h4>
+              PREMIERS PAS <br />
+              (2020-2021)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 09H00-10H00</b>
@@ -84,12 +87,15 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M7</h4>
+            <h4>
+              M7
+              <br /> (2015-2017)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 13H00-14H30</b>
@@ -97,12 +103,16 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M9</h4>
+            <h4>
+              M9
+              <br />
+              (2016-2017)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 14H30-16H00</b>
@@ -110,19 +120,23 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M11 </h4>
+            <h4>
+              M11
+              <br />
+              (2014-2015)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
+              Stade du Panorama
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               Équipe 1 : <i>(parc)</i>
@@ -146,19 +160,23 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M13 </h4>
+            <h4>
+              M13
+              <br />
+              (2012-2013)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
+              Stade du Panorama
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               Equipe 1 :<br />
@@ -185,26 +203,28 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M15 </h4>
+            <h4>
+              M15
+              <br />
+              (2010-2011)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase René Rousseau (Malakoff) 10bis Av. Augustin Dumont, 92260
-              Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase René Rousseau (Malakoff)
+              <br /> 10bis Av. Augustin Dumont, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              <br />
+              <b>HALLE</b>
+              <br />
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               Équipe 1 - Entente : <br />
@@ -247,16 +267,19 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>P16</h4>
+            <h4>
+              P16
+              <br />
+              (2007 et +)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
-              <br />
               <br />
               Stade du Panorama 21 Bd du Moulin de la Tour, 92260
               Fontenay-aux-Roses
@@ -292,23 +315,26 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18 </h4>
+            <h4>
+              M18
+              <br />
+              (2007-2009)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
               <br />
-              <br />
-              Gymnase René Rousseau (Malakoff) 10bis Av. Augustin Dumont, 92260
-              Fontenay-aux-Roses
+              Gymnase René Rousseau (Malakoff)
+              <br /> 10bis Av. Augustin Dumont, 92260 Fontenay-aux-Roses
             </p>
             <p>
               Équipe 1 - Entente :<br />
@@ -341,15 +367,22 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>SENIORS</h4>
+            <h4>
+              SENIORS
+              <br />
+              (2007 et +)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
+              <b>Salle musculation</b>
               <br />
-              Salle musculation, 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br />7 Avenue du Parc,92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -366,12 +399,16 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>LOISIRS </h4>
+            <h4>
+              LOISIRS
+              <br />
+              (2008 et +)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>SAMEDI 10H00-12H00</b>
@@ -379,18 +416,22 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>HANDFIT</h4>
+            <h4>
+              HANDFIT
+              <br />
+              (2008 et +)
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>Salle polyvalente</b>
               <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -480,12 +521,12 @@ const Handball = () => {
                     <p>
                       Au Forum des Associations le{" "}
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
-                      entre 10h00 et 18h00
+                      entre 10h00 et 18h00,
                     </p>
                     <p>OU</p>
                     <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      Auprès de la section, lors de la première séance
+                      d'entraînement.
                     </p>
                   </div>
                 )}
@@ -499,6 +540,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>PREMIERS PAS</b>
+                <br />
+                <i>(2020-2021)</i>
               </p>
               <p className="prix-cotisation">
                 <b>160€</b>
@@ -507,6 +550,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>M7</b>
+                <br />
+                <i>(2018-2019)</i>
               </p>
               <p className="prix-cotisation">
                 <b>200€</b>
@@ -515,6 +560,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>M9</b>
+                <br />
+                <i>(2016-2017)</i>
               </p>
               <p className="prix-cotisation">
                 <b>200€</b>
@@ -524,6 +571,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>M11</b>
+                <br />
+                <i>(2014-2015)</i>
               </p>
               <p className="prix-cotisation">
                 <b>210€</b>
@@ -532,6 +581,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>M13</b>
+                <br />
+                <i>(2012-2013)</i>
               </p>
               <p className="prix-cotisation">
                 <b>225€</b>
@@ -540,6 +591,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>M15</b>
+                <br />
+                <i>(2010-2011)</i>
               </p>
               <p className="prix-cotisation">
                 <b>235€</b>
@@ -549,6 +602,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>M18</b>
+                <br />
+                <i>(2007-2009)</i>
               </p>
               <p className="prix-cotisation">
                 <b>250€</b>
@@ -557,6 +612,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>P16</b>
+                <br />
+                <i>(2007 et +)</i>
               </p>
               <p className="prix-cotisation">
                 <b>270€</b>
@@ -565,6 +622,8 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>LOISIRS</b>
+                <br />
+                <i>(2007 et +)</i>
               </p>
               <p className="prix-cotisation">
                 <b>180€</b>
@@ -574,23 +633,18 @@ const Handball = () => {
             <div className="case-cotisation">
               <p>
                 <b>HANDFIT</b>
+                <br />
+                <i>(2008 et +)</i>
               </p>
               <p className="prix-cotisation">
                 <b>190€</b>
-              </p>
-              <p>
-                <i>La séance</i>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>HANDFIT</b>
+                <br />
+                <i className="i-style-cotisations">La séance</i>
               </p>
               <p className="prix-cotisation">
                 <b>220€</b>
-              </p>
-              <p>
-                <i>2 séances</i>
+                <br />
+                <i className="i-style-cotisations">2 séances</i>
               </p>
             </div>
           </div>

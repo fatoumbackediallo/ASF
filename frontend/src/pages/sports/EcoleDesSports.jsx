@@ -50,7 +50,7 @@ const EcoleDesSports = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Mardi 11 Septembre 2024
                 </b>
               </p>
             </div>
@@ -61,27 +61,15 @@ const EcoleDesSports = () => {
             <p>
               <b>HALLE</b>
               <br />
-              <br />
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses{" "}
               <br />
+              <br />
+              <b>HALLE</b>
               <br />
               Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses{" "}
             </p>
             <p>
-              <b>MERCREDI 08H30-16H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ADULTES</h4>
-            <p>
-              <b>GYMNASE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>DIMANCHE 17H45-19H45</b>
+              <b>MERCREDI 08H30-12H00</b>
             </p>
           </div>
         </div>
@@ -164,8 +152,8 @@ const EcoleDesSports = () => {
                     </p>
                     <p>OU</p>
                     <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      Auprès de Julie au début ou à la fin de la séance au
+                      gymnase du Parc
                     </p>
                   </div>
                 )}
@@ -182,14 +170,6 @@ const EcoleDesSports = () => {
               </p>
               <p className="prix-cotisation">
                 <b>300€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>175€</b>
               </p>
             </div>
           </div>
@@ -231,17 +211,6 @@ const EcoleDesSports = () => {
               </a>
             </span>
             <br />
-            <h5 className="h5-bloc">Majeur : </h5>
-            <p className="p-h5-bloc">
-              Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
-            </p>
-
-            <span className="lien-span-h5">
-              <a href="https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Majeur%20-%20Questionnaire%20de%20Sant%C3%A9%202021-2022.pdf">
-                CLIQUEZ ICI
-              </a>
-            </span>
           </div>
         </div>
         <div className="bloc">

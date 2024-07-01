@@ -14,12 +14,12 @@ import PageDesactivee from "./components/PageDesactivee.jsx";
 import Capoeira from "./pages/sports/Capoeira.jsx";
 import Football from "./pages/sports/Football.jsx";
 import Rugby from "./pages/sports/Rugby.jsx";
+import Athletisme from "./pages/sports/Athletisme.jsx";
+import EcoleDesSports from "./pages/sports/EcoleDesSports.jsx";
 
 // Liste des pages désactivées
 const disabledPages = [
-  "athletisme",
   "badminton",
-  "ecoledessports",
   "escrime",
   "fitness",
   "gymnastiquerythmique",
@@ -33,10 +33,12 @@ const disabledPages = [
 // Configuration des routes
 const routes = [
   { path: "/aikido", element: <Aikido /> },
+  { path: "/athletisme", element: <Athletisme /> },
   { path: "/basketball", element: <BasketBall /> },
   { path: "/boxethailandaise", element: <BoxeThailandaise /> },
   { path: "/capoeira", element: <Capoeira /> },
   { path: "/ecolededanse", element: <EcoleDeDanse /> },
+  { path: "/ecoledessports", element: <EcoleDesSports /> },
   { path: "/gymnastiqueartistique", element: <GymnastiqueArtistique /> },
   { path: "/handball", element: <Handball /> },
   { path: "/football", element: <Football /> },

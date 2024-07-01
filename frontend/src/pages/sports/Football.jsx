@@ -658,26 +658,37 @@ const Football = () => {
 
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
+        <div className="permanences">
+          <p>
+            Permanences Accueil Bureau de la section Football :
+            <br />
+            Mercredis : 03 Juillet + 21 août 2024 - Stade du Panorama de 16h30 à
+            19h.
+          </p>
+        </div>
         <div className="contacts">
           <h4>ASF FOOTBALL :</h4>
 
           <div className="infos-contact">
-            <span className="label">Mail : </span>
-            <span className="email"> football@as-fontenay.fr</span>
-            <span className="label">Téléphone : </span>
-            <span className="email"> 06 68 75 53 41</span>
-            <span className="label">Site Web : </span>
-            <span className="email"> www.asf-football.net</span>
-            <span className="label"> Instagram : </span>
-            <span className="email"> @asf_football92</span>
-          </div>
-          <div className="permanences">
-            <p>
-              Permanences Accueil Bureau de la section Football :
-              <br />
-              Mercredis : 03 Juillet + 21 août 2024 - Stade du Panorama de 16h30
-              à 19h.
-            </p>
+            <div>
+              <span className="label">Mail : </span>
+              <span className="email"> football@as-fontenay.fr</span>
+            </div>
+            <br />
+            <div>
+              <span className="label">Téléphone : </span>
+              <span className="email"> 06 68 75 53 41</span>
+            </div>
+            <br />
+            <div>
+              <span className="label">Site Web : </span>
+              <span className="email"> www.asf-football.net</span>
+            </div>
+            <br />
+            <div>
+              <span className="label"> Instagram : </span>
+              <span className="email"> @asf_football92</span>
+            </div>
           </div>
         </div>
       </div>

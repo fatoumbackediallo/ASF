@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const BoxeThailandaise = () => {
@@ -49,7 +50,10 @@ const BoxeThailandaise = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>ADOS/ADULTES 12 ANS ET +</h4>
+            <h4>
+              ADOS/ADULTES
+              <br /> 12 ANS et +
+            </h4>
             <p>
               <b>Gymnase Jean Fournier</b>
               <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
@@ -59,7 +63,7 @@ const BoxeThailandaise = () => {
                 MARDI : 20H00-21H30
                 <br />
                 <br />
-                SAMEDI 16H00 - 17H30
+                SAMEDI : 16H00 - 17H30
               </b>
             </p>
           </div>
@@ -142,10 +146,7 @@ const BoxeThailandaise = () => {
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Lors de la première séance d'entraînement.</p>
                   </div>
                 )}
               </li>
@@ -180,7 +181,7 @@ const BoxeThailandaise = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -237,24 +238,51 @@ const BoxeThailandaise = () => {
         <div className="contacts">
           <h4>ASF ATHLÉTISME</h4>
           <div className="infos-contact">
-            <span className="label">Mail : </span>
-            <span className="email">
-              {" "}
-              asftkd@gmail.com <br />
-            </span>
-            <span className="label">Téléphone : </span>
-            <span className="email">
-              07 60 62 91 21
-              <br />
-            </span>
-            <span className="label">Site Web : </span>
-            <span className="email">
-              www.sptrainingfontenayauxroses.com
-              <br />
-            </span>
-            <span className="label">Instagram : </span>
-            <span className="email"> asftaekwondo</span>
+            <div>
+              <span className="label">Mail : </span>
+              <span className="email">
+                {" "}
+                asftkd@gmail.com <br />
+                <br />
+              </span>
+            </div>
+            <div>
+              <span className="label">Téléphone : </span>
+              <span className="email">
+                07 60 62 91 21
+                <br />
+                <br />
+              </span>
+            </div>
+            <div>
+              <span className="label">Site Web : </span>
+              <span className="email">
+                www.sptrainingfontenayauxroses.com
+                <br />
+                <br />
+              </span>
+            </div>
+            <div>
+              <span className="label">Instagram : </span>
+              <span className="email"> asftaekwondo</span>
+            </div>
           </div>
+        </div>
+      </div>
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/capoeira" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Fitness = () => {
@@ -71,7 +72,12 @@ const Fitness = () => {
             mais sans combat direct.
             <br />
             <br />
-            <b>Gym Sénior : </b> Sollicite les muscles et les articulations.
+            <b>Cardio danse : </b>
+            cours d’activation cardiovasculaire chorégraphié utilisant l’espace
+            de la salle.
+            <br />
+            <br />
+            <b>Gym Séniors : </b> Sollicite les muscles et les articulations.
             Elle regroupe divers exercices qui permettent de travailler la
             motricité, l’équilibre et la coordination des mouvements
             parfaitement adapté aux capacités physiques des personnes de plus de
@@ -101,7 +107,7 @@ const Fitness = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Lundi 16 Septembre 2024
                 </b>
               </p>
             </div>
@@ -112,186 +118,207 @@ const Fitness = () => {
             <p>
               <b>SALLE BIEN-ÊTRE</b>
               <br />
+              Gymnase du Parc
+              <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses <br />
+              <br />
               <br />
               <b>SALLE POLYVALENTE</b>
               <br />
+              Gymnase du Parc
+              <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses <br />
               <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses <br />
               <br />
               <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+              <br />
               <br />
               <br />
               <b>SALLE DE GYM</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>LUNDI 12H30-13H30</b> <i> (Natasha)</i>
-              <br />
-              <br />
-              <b>LUNDI 19H00 - 20H00</b> <i> (Will)</i>
-              <br />
-              <b>JEUDI 12H30 - 13H30</b>
-              <i> (Natasha)</i>
-              <br />
-              <b>19H30 - 20H30</b>
-              <i> (Stéphanie)</i>
-              <br />
-              <br />
-              <b>MARDI 20H00 - 21H00</b>
-              <br />
-              <b>JEUDI 09H00 - 10H00</b>
-              <br />
-              <b>VENDREDI 09H15 - 10H15</b>
-              <i> (Isabelle)</i>
-              <br />
-              <br />
-              <b>MARDI 12H30 - 13H30</b>
-              <i> (Natasha)</i>
-              <br />
-              <b>VENDREDI 12H30 - 13H30</b>
-              <i> (Natasha)</i>
-              <br />
-              <b>MERCREDI 20H00 - 21H00</b>
-              <i> (Claudia)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>STEP / FITNESS + 18 ANS</h4>
-            <p>
-              <b>SALLE POLYVALENTE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Ros
-            </p>
-            <p>
-              <b>LUNDI 18H00 - 19H00</b>
-            </p>
-          </div>
-          {/*<hr className='ligne'></hr>*/}
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>PILATES + 18 ANS</h4>
-            <p>
-              <b>
-                SALLE DE DANSE <br />
-                <br />
-                DOJO 1
-              </b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>SALLE POLYVALENTE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                MARDI 08H00-10H00
-                <br />
-                MARDI 20H00-22H00{" "}
-              </b>
-              <i> (Sophie)</i>
-              <br />
-              <br />
-              <b>JEUDI 20H30 - 21H30</b>
-              <i> (Stéphanie)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>GYM SÉNIORS 60 ANS ET +</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI 10H00-12H00</b>
-              <i> (Isabelle)</i>
-              <br />
-              <b>VENDREDI 18H30-20H00</b>
-              <i> (Isabelle)</i>
-              <br />
-              <b>VENDREDI 11H15 - 12H15</b>
-              <i>(Stéphanie)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>FIT' BALLET + 18 ANS</h4>
-            <p>
-              <b>SALLE DE DANSE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI 19H00-20H00</b>
-              <i> (Isabelle)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>STRETCHING + 18 ANS</h4>
-            <p>
-              <b>SALLE DE GYM</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 21H00-22H00</b>
-              <i> (Claudia)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>CARDIOBOXING + 18 ANS</h4>
-            <p>
-              <b>SALLE DE REUNION</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>JEUDI 19H30-20H30</b>
-              <i> (Marie)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>YOGA VINYASA + 18 ANS</h4>
-            <p>
-              <b>SALLE DE REUNION</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>JEUDI 20H30-21H30</b>
-              <i> (Marie)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>GYM FITNESS + 18 ANS</h4>
-            <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase de la Roue 10 Rue des Hautes Sorrières, 92260
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
               Fontenay-aux-Roses
             </p>
             <p>
-              <b>VENDREDI 19H15-20H15</b>
-              <i> (Nathalie)</i>
+              <br />
+              <b>LUNDI : 12H30-13H30</b> <br />
+              <br />
+              <br /> <br />
+              <br />
+              <b>LUNDI : 19H00-20H00</b>
+              <br />
+              <b>JEUDI : 12H30-13H30</b>
+              <br />
+              <b>
+                VENDREDI : 09H15-10H15 <br />
+                VENDREDI : 19H15-20H15
+              </b>
+              <br />
+              <br />
+              <br />
+              <b>MARDI : 20H00-21H00</b>
+              <br />
+              <b>MERCREDI : 09H30-10H30</b>
+              <br />
+              <b>JEUDI : 09H00-10H00</b>
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>MARDI : 12H30-13H30</b>
+              <br />
+              <b>VENDREDI : 12H30-13H30</b>
+              <br />
+              <b>MERCREDI : 19H45-20H45</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>CARDIO DANSES</h4>
+            <p>
+              <b>SALLE POLYVALENTE</b>
+              <br />
+              Gymnase du Parc
+              <br /> 7 avenue du Parc 92260 Fontenay-aux-Ros
+            </p>
+            <p>
+              <b>LUNDI : 18H00-19H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>PILATES</h4>
+            <p>
+              <b>SALLE P. BONNARD</b> <br />
+              5 Rue de l'Avenir, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>SALLE DE GYM</b> <br />
+              Gymnase du Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>SALLE POLYVALENTE</b>
+              <br />
+              Gymnase du Parc <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MARDI : 19H45-20H45
+                <br />
+                MARDI : 20H45-21H45
+              </b>
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>
+                MARDI : 08H00-09H00
+                <br />
+                MARDI : 09H00-10H00
+              </b>
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>JEUDI : 20H30-21H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>STEP</h4>
+            <p>
+              <b>SALLE POLYVALENTE</b>
+              <br />
+              Gymnase du Parc <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 19H30-20H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>CARDIO BOXING </h4>
+            <p>
+              <b>SALLE DE REUNION</b>
+              <br />
+              Gymnase du Parc <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 19H30-20H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>YOGA VINYASA </h4>
+            <p>
+              <b>SALLE DE REUNION</b>
+              <br />
+              Gymnase du Parc <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 20H30-21H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>GYMNASTIQUE SÉNIORS</h4>
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MARDI : 10H00-11H00</b>
+              <br />
+              <b>MARDI : 11H00-12H00</b>
+              <br /> <br />
+              <b>VENDREDI : 10H15-11H15</b>
+              <br />
+              <b>VENDREDI : 11H15 - 12H15</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>FITNESS BALLET</h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MARDI : 19H00-20H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>SPORTS SANTE</h4>
+            <p>
+              <b>SALLE DE DANSE</b>
+              <br />
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>VENDREDI : 14H00-16H00</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>STRETCHING</h4>
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 20H45-21H45</b>
             </p>
           </div>
         </div>
@@ -347,17 +374,18 @@ const Fitness = () => {
                   <div className="autres-moyens">
                     <h4>Si Bénéficiaire d'Aides :</h4>
                     <p>
-                      ANVC (coupons sport, chèque-vacances), Coup de pouce
+                      ANVC (coupons sport, chèque-vacances)
+                      {/* , Coup de pouce
                       loisirs (CAF), Pass+, Pass'sport, Chèque sport, Labaz,
-                      Coupon Sceaux
+                      Coupon Sceaux */}
                     </p>
-                    <p>
+                    {/* <p>
                       <i>
                         (Uniquement : Athlétisme, Badminton (en compétition),
                         Gymnastique Rythmique, Gymnastique Artistique, Handball,
                         Rugby, Squash, VolleyBall)
                       </i>
-                    </p>
+                    </p> */}
 
                     <h4>Par chèque(s) :</h4>
                     <p>(5 fois maximum - à l'ordre de l'ASF) </p>
@@ -368,15 +396,12 @@ const Fitness = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>En début de séance</p>
                   </div>
                 )}
               </li>
@@ -391,10 +416,10 @@ const Fitness = () => {
                 <b>TOUS LES COURS</b>
               </p>
               <p>
-                <i>(y compris 1 séance Gym sénior et Fit'ballet)</i>
+                <i>(y compris 1 séance Gym séniors et Fit'ballet)</i>
               </p>
               <p className="prix-cotisation">
-                <b>210€</b>
+                <b>220€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -402,7 +427,7 @@ const Fitness = () => {
                 <b>1 SÉANCE SÉNIORS / SEMAINE</b>
               </p>
               <p className="prix-cotisation">
-                <b>100€</b>
+                <b>105€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -410,7 +435,27 @@ const Fitness = () => {
                 <b>2 SÉANCES SÉNIORS / SEMAINE</b>
               </p>
               <p className="prix-cotisation">
+                <b>165€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>SPORT SANTE</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>84€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  1h
+                  <br />
+                  (10 séances)
+                </i>
+                <br />
+
+                <br />
                 <b>157€</b>
+                <br />
+                <i className="i-style-cotisations">Annuel</i>
               </p>
             </div>
           </div>
@@ -424,7 +469,7 @@ const Fitness = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -465,6 +510,13 @@ const Fitness = () => {
             </span>
           </div>
         </div>
+        <div>
+          <h4 className="h4-message">
+            Certificat d'aptitude à la pratique du sport obligatoire!
+            <br />A remettre sur place en début de séance ou à télécharger lors
+            de l'inscription en ligne.
+          </h4>
+        </div>
         <div className="bloc">
           <h4 className="h4">INSCRIPTION EN LIGNE :</h4>
           <div>
@@ -480,8 +532,27 @@ const Fitness = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENTE HÉLÈNE CHATEL : </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> asfculturephysique@gmail.com</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> asfculturephysique@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/football" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

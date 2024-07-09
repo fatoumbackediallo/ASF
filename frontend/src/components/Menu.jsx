@@ -56,7 +56,9 @@ const Menu = () => {
           </NavLink>
         </li>
         <button className="bouton-devenir-benevole">
-          <NavLink to="/benevole">Devenir Bénévole</NavLink>
+          <NavLink to="/benevole" className="a-button-benevole">
+            <p className="p-button-benevole">Devenir Bénévole</p>
+          </NavLink>
         </button>
       </ul>
       <div className="burger" onClick={handleBurgerClick}>

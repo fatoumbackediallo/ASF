@@ -9,7 +9,7 @@
 }
 
 .logo img {
-  height: 40px;
+  height: 60px;
 }
 
 .nav-links {
@@ -27,7 +27,7 @@
 .nav-links .btn {
   color: #0913b1;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 
 .nav-links.open {
@@ -49,13 +49,30 @@
 }
 
 .bouton-devenir-benevole {
-  color: white;
   background-color: #ff6d6f;
-  padding: 0.2rem 0.5rem;
+  /* padding: 0.2rem 0.2rem; */
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
+  box-shadow: #0913b1 5px 5px 5px 0;
+  height: 40px;
+  padding-inline: 6px;
+  padding: 0;
+}
+
+.a-button-benevole {
+  display: flex;
+  padding-top: 0px;
+  height: 25px;
+  align-items: center;
+}
+
+.p-button-benevole {
+  color: #fff;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .burger {

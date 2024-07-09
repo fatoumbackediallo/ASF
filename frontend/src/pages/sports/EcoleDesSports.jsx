@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const EcoleDesSports = () => {
@@ -24,7 +25,7 @@ const EcoleDesSports = () => {
         <div className="methodes">
           <h4>COURS ENSEIGNÉS</h4>
           <p>
-            Sports collectifs / Sports d'oppositions / Sports de raquettes{" "}
+            Sports collectifs / Sports d'oppositions / Sports de raquettes
             <br />
             Les enfants sont répartis par groupe (max 15) et par âge. La
             répartition sera faite par les encadrants. Les enfants tourneront
@@ -37,7 +38,7 @@ const EcoleDesSports = () => {
             <br />
             Un accompagnement des enfants de classes élémentaires est prévu afin
             de les amener sur les lieux de leurs centres de loisirs (Ecole du
-            parc - La Fontaine).
+            parc - Pierre Bonnard).
             <br />
             Les enfants de la maternelle (grande section) restent à la charge de
             leurs parents à la fin de l’activité.
@@ -50,7 +51,7 @@ const EcoleDesSports = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Mardi 11 Septembre 2024
+                  Mercredi 11 Septembre 2024
                 </b>
               </p>
             </div>
@@ -61,14 +62,21 @@ const EcoleDesSports = () => {
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses{" "}
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses{" "}
+              Gymnase du Parc
+              <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
+              <br />
+              <br />
+              <br />
+              <br />
+
               <b>MERCREDI 08H30-12H00</b>
             </p>
           </div>
@@ -153,7 +161,7 @@ const EcoleDesSports = () => {
                     <p>OU</p>
                     <p>
                       Auprès de Julie au début ou à la fin de la séance au
-                      gymnase du Parc
+                      gymnase du Parc.
                     </p>
                   </div>
                 )}
@@ -167,6 +175,8 @@ const EcoleDesSports = () => {
             <div className="case-cotisation">
               <p>
                 <b>ENFANTS</b>
+                <br />
+                <i>(5 à 12 ans)</i>
               </p>
               <p className="prix-cotisation">
                 <b>300€</b>
@@ -183,7 +193,7 @@ const EcoleDesSports = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -221,6 +231,14 @@ const EcoleDesSports = () => {
                 LIEN D'INSCRIPTION
               </a>
             </span>
+            <p className="p-inscription">
+              Remise de 10% à partir du 2e enfant avec le code Mon Club
+              FRATERIE10
+            </p>
+            <p className="p-inscription">
+              Remise de 20% à partir du 3e enfant avec le code Mon Club
+              FRATERIE10
+            </p>
           </div>
         </div>
 
@@ -228,13 +246,34 @@ const EcoleDesSports = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>INTERVENANTE JULIE PALENZUELA :</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> j.palenzuela95@hotmail.fr</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> j.palenzuela95@hotmail.fr</span>
+          </div>
         </div>
         <div className="contacts">
           <h4>PRÉSIDENT CHRISTOPHE MEYNIAL</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> c.meynial@as-fontenay.fr</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> c.meynial@as-fontenay.fr</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/escrime" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

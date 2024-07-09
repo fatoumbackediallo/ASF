@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const BasketBall = () => {
@@ -472,7 +473,7 @@ const BasketBall = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -534,6 +535,23 @@ const BasketBall = () => {
           <h4>PRÉSIDENT CHRISTOPHE HIRSTEL :</h4>
           <span className="label">Mail : </span>
           <span className="email"> contact.asfbasket@gmail.com</span>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/boxethailandaise" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

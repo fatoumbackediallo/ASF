@@ -428,7 +428,9 @@ h4 {
 .contacts {
   display: flex;
   align-items: center;
+  margin-top: 30px;
   margin-left: 5px;
+  justify-content: space-evenly;
 }
 
 .infos-contact {
@@ -477,13 +479,45 @@ h4 {
   text-align: center;
   margin-left: 100px;
 }
+.h4-message {
+  display: flex;
+  color: red;
+  text-align: start;
+  font-size: 18px;
+}
+
 .permanences {
   display: flex;
   margin-top: 40px;
   color: #0913b1;
-  text-align: center;
+  text-align: start;
   margin-left: 100px;
   font-weight: bold;
+  font-size: 18px;
+}
+
+.box-button-sportPages {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 70px;
+}
+
+.button-sportPages {
+  display: flex;
+  background-color: #474966;
+  border-radius: 15px;
+  align-items: center;
+  border-color: #fff;
+  box-shadow: #474966 5px 5px 5px 0;
+}
+
+.link-button-sportPages {
+  text-decoration: none;
+  text-align: center;
+}
+
+.h4-button-sportPages {
+  color: #fff;
 }
 
 /**********************

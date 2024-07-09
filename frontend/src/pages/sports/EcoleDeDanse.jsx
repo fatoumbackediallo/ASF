@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const EcoleDeDanse = () => {
@@ -74,6 +75,8 @@ const EcoleDeDanse = () => {
               ÉVEIL DANSE
               <br />
               MATERNELLE
+              <br />
+              (3-5 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -96,6 +99,7 @@ const EcoleDeDanse = () => {
               STREET JAZZ
               <br />
               PRIMAIRE
+              <br /> (6-10 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -112,7 +116,8 @@ const EcoleDeDanse = () => {
             <h4>
               STREET JAZZ
               <br />
-              COLLEGE/LYCEE
+              COLLEGE/LYCEE <br />
+              (11-17 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -130,7 +135,7 @@ const EcoleDeDanse = () => {
             <h4>
               MODERN JAZZ
               <br />
-              CP
+              CP (6 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -148,7 +153,7 @@ const EcoleDeDanse = () => {
             <h4>
               MODERN JAZZ
               <br />
-              CE1/CE2
+              CE1/CE2 <br /> (7-8 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -166,7 +171,7 @@ const EcoleDeDanse = () => {
             <h4>
               MODERN JAZZ
               <br />
-              CM1/CM2/6ème
+              CM1/CM2/6ème <br /> (9-11 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -184,7 +189,8 @@ const EcoleDeDanse = () => {
             <h4>
               MODERN JAZZ
               <br />
-              CONCOURS PRIMAIRE
+              CONCOURS PRIMAIRE <br />
+              (6-10 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -202,7 +208,7 @@ const EcoleDeDanse = () => {
             <h4>
               MODERN JAZZ
               <br />
-              CONCOURS COLLEGE/LYCEE
+              CONCOURS COLLEGE/LYCEE <br /> (11-17 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -219,7 +225,7 @@ const EcoleDeDanse = () => {
           <div className="entrainement-ligne">
             <h4>
               MODERN JAZZ
-              <br /> COLLEGE /LYCEE
+              <br /> COLLEGE /LYCEE <br /> (11-17 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -254,7 +260,7 @@ const EcoleDeDanse = () => {
             <h4>
               CONTEMPORARY JAZZ
               <br />
-              PRIMAIRE
+              PRIMAIRE <br /> (6-10 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -270,7 +276,7 @@ const EcoleDeDanse = () => {
           <div className="entrainement-ligne">
             <h4>
               CONTEMPORARY JAZZ
-              <br /> CM2/COLLEGE
+              <br /> CM2/COLLEGE <br /> (11-14 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -311,7 +317,7 @@ const EcoleDeDanse = () => {
             <h4>
               CONTEMPORARY JAZZ
               <br />
-              COLLEGE/LYCEE
+              COLLEGE/LYCEE <br /> (11-17 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -328,7 +334,7 @@ const EcoleDeDanse = () => {
           <div className="entrainement-ligne">
             <h4>
               HIP HOP
-              <br /> PRIMAIRE CE1/CE2
+              <br /> PRIMAIRE CE1/CE2 <br /> (7-8 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -344,7 +350,7 @@ const EcoleDeDanse = () => {
           <div className="entrainement-ligne">
             <h4>
               HIP HOP
-              <br /> CM1/CM2
+              <br /> CM1/CM2 <br /> (9-10 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -361,7 +367,7 @@ const EcoleDeDanse = () => {
           <div className="entrainement-ligne">
             <h4>
               HIP HOP
-              <br /> COLLEGE/LYCEE
+              <br /> COLLEGE/LYCEE <br /> (11-17 ans)
             </h4>
             <p>
               <b>SALLE DE DANSE</b>
@@ -456,10 +462,10 @@ const EcoleDeDanse = () => {
                     </p>
 
                     <h4>Par chèque(s) :</h4>
-                    <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+                    <p>(4 fois maximum - à l'ordre de l'ASF) </p>
 
                     <h4>Par espèces : </h4>
-                    <p>(en 4 fois maximum)</p>
+                    <p>(en 1 seule fois)</p>
                     <div className="remise">
                       <h4>La remise se fera : </h4>
                     </div>
@@ -686,7 +692,7 @@ const EcoleDeDanse = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -702,7 +708,9 @@ const EcoleDeDanse = () => {
             DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
           </h4>
           <div>
-            <p className="p-inscription">Certificat médical obligatoire</p>
+            <p className="p-inscription">
+              Certificat médical obligatoire pour la ZUMBA
+            </p>
             <h5 className="h5-bloc">Mineur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
@@ -751,8 +759,27 @@ const EcoleDeDanse = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENTE</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> asf.danse.far@gmail.com</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> asf.danse.far@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/ecoledessports" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

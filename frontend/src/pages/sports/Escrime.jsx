@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Escrime = () => {
@@ -24,19 +25,33 @@ const Escrime = () => {
         <div className="methodes">
           <h4>COURS ENSEIGNÉS</h4>
           <p>
-            L’escrime est un sport pour tous. Avec son équipement identique pour
-            tout le monde (un masque, une veste et une arme) il n’exclut pas,
-            permet la mixité et l’égalité des chances.
+            L’Escrime est un sport de combat, Le but du jeu est de toucher avec
+            une arme son adversaire sans être touché. L’escrime est un sport
+            pour tous avec son équipement identique pour tout le monde <br />
+            (Un masque, une veste et une arme) il n’exclut pas, permet la mixité
+            et l’égalité des chances.
             <br />
             <br />
-            L’escrime est un sport de combat. Il s’agit de l’art de toucher un
-            adversaire avec la pointe ou le tranchant (estoc et taille) d’une
-            arme blanche sur les parties valables sans être touché.
+            Notre approche pédagogique est basée dans un premier temps sur des
+            mises en situation d’entraide ou d’oppositions ludiques, puis dans
+            un second temps sur des situations plus sportives et plus
+            individuelles. <br />
+            Cette approche permet autant aux enfants de développer leur schéma
+            corporel que d’acquérir des valeurs civiques fortes : respect de
+            l’autre, de son environnement, <br />
+            Être responsable, faire ensemble …
             <br />
             <br />
-            On utilise trois types d’armes : l’épée, le sabre et le fleuret. Ces
-            trois armes sont mixtes. Les épreuves sont individuelles ou par
-            équipes.
+            Sabre laser : le duel de sabre laser est un sport de combat reconnu
+            par la Fédération française d’escrime (FFE). Tout duel répond à des
+            règles, le sabre laser ne fait pas exception, la FFE a repris une
+            partie des normes des autres disciplines de l’escrime, avec des
+            assauts en 15 points et trois minutes, par exemple. Une originalité,
+            cependant : “Les points dépendent de la surface touchée.” Un, trois
+            ou cinq points sont comptabilisés pour respectivement la main, un
+            membre ou la tête et le reste du corps. Des protections, notamment
+            un masque, permettent de pratiquer en toute sécurité ce qu’Obi-Wan
+            Kenobi qualifie de “l’arme noble d’une époque civilisée”.
           </p>
         </div>
         <div className="entrainements">
@@ -53,44 +68,41 @@ const Escrime = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>Fleuret Jaune (1 an et + d'escrime)</h4>
+            <h4>DEBUTANTS (5 - 8 ans)</h4>
             <p>
               <b>Gymnase de la roue</b>
-              <br />
               <br />
               10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 17h15-18h30</b>
+              <b>JEUDI : 17h15-18h15</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>Débutants 7 - 8 ans</h4>
+            <h4>DEBUTANTS (7 - 8 ans)</h4>
             <p>
               <b>Gymnase de la roue</b>
-              <br />
               <br />
               10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 17h15-18h30</b>
+              <b>MARDI : 17h15-18h30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>Débutants 9 - 13 ans</h4>
+            <h4>DEBUTANTS (9 - 13 ans) </h4>
             <p>
               <b>Gymnase de la roue</b>
-              <br />
               <br />
               10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 18h30-19h30</b>
+              <b>MARDI : 18h30-19h30</b>
             </p>
           </div>
-          <hr className="ligne"></hr>
+          {/* {/* <hr className="ligne"></hr> */}
           <div className="entrainement-ligne">
             <h4>Débutants 5 - 8 ans</h4>
             <p>
@@ -103,30 +115,17 @@ const Escrime = () => {
               <b>MARDI 17h15-18h15</b>
             </p>
           </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>Fleuret rouge confirmés (1 an et + d'escrime)</h4>
-            <p>
-              <b>Gymnase de la roue</b>
-              <br />
-              <br />
-              10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>JEUDI 18h15-19h30</b>
-            </p>
-          </div>
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>14 ans et + Fleuret</h4>
             <p>
               <b>Gymnase de la roue</b>
               <br />
-              <br />
               10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 19h30-20h45</b>
+              <b>JEUDI : 19h30-20h45</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -135,11 +134,53 @@ const Escrime = () => {
             <p>
               <b>Gymnase de la roue</b>
               <br />
+              10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 20h45-22h</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              Fleuret Jaune <br />
+              (1 an et + d'escrime)
+            </h4>
+            <p>
+              <b>Gymnase de la roue</b>
               <br />
               10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 20h45-22h</b>
+              <b>MARDI : 17h15-18h30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              Fleuret rouge confirmés
+              <br /> (1 an et + d'escrime)
+            </h4>
+            <p>
+              <b>Gymnase de la roue</b>
+              <br />
+              10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 18h15-19h30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>SABRE LASER</h4>
+            <p>
+              <b>Salle Arts Martiaux</b>
+              <br />
+              Collège Les Ormeaux <br />
+              15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 19h30-21h00</b>
             </p>
           </div>
 
@@ -235,18 +276,49 @@ const Escrime = () => {
             <div className="ligne-cotisations">
               <div className="case-cotisation">
                 <p>
-                  <b>5 à 13 ans</b>
+                  <b>ESCRIME</b>
                 </p>
                 <p className="prix-cotisation">
                   <b>260€</b>
+                  <br />
+                  <i className="i-style-cotisations">(5 à 13 ans)</i>
                 </p>
               </div>
               <div className="case-cotisation">
                 <p>
-                  <b>ADOS - ADULTES</b>
+                  <b>ESCRIME</b>
                 </p>
                 <p className="prix-cotisation">
                   <b>299€</b>
+                  <br />
+                  <i className="i-style-cotisations">(ADOS - ADULTES)</i>
+                </p>
+              </div>
+              <div className="case-cotisation">
+                <p>
+                  <b>SABRE LASER</b>
+                </p>
+                <p className="prix-cotisation">
+                  <b>230€</b> <br />
+                  <i className="i-style-cotisations">(6 - 12 ans)</i>
+                </p>
+              </div>
+              <div className="case-cotisation">
+                <p>
+                  <b>SABRE LASER</b>
+                </p>
+                <p className="prix-cotisation">
+                  <b>260€</b> <br />
+                  <i className="i-style-cotisations">(13 - 17 ans)</i>
+                </p>
+              </div>
+              <div className="case-cotisation">
+                <p>
+                  <b>SABRE LASER</b>
+                </p>
+                <p className="prix-cotisation">
+                  <b>300€</b> <br />
+                  <i className="i-style-cotisations">(18 ans et +)</i>
                 </p>
               </div>
             </div>
@@ -260,7 +332,7 @@ const Escrime = () => {
             </h4>
             <div>
               <span className="lien">
-                <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+                <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                   PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
                 </a>
               </span>
@@ -319,14 +391,39 @@ const Escrime = () => {
           <div className="contacts">
             <h4>PRÉSIDENTE MARIE NAPOLITANO :</h4>
             <div className="infos-contact">
-              <span className="label">Mail : </span>
-              <span className="email"> escrimepourtous@gmail.com</span>
-              <span className="label">Téléphone : </span>
-              <span className="email"> 06 15 70 80 26</span>
-              <span className="label">Site Web : </span>
-              <span className="email"> www.escrime-pour-tous.com</span>
+              <div>
+                <span className="label">Mail : </span>
+                <span className="email"> escrimepourtous@gmail.com</span>
+              </div>
+              <br />
+              <div>
+                <span className="label">Téléphone : </span>
+                <span className="email"> 06 15 70 80 26</span>
+              </div>
+              <br />
+              <div>
+                <span className="label">Site Web : </span>
+                <span className="email"> www.escrime-pour-tous.com</span>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/fitness" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Athletisme = () => {
@@ -63,67 +64,169 @@ const Athletisme = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>2018 À 2019</h4>
+            <h4>
+              BABY ATHLE <br />
+              2019 à 2020 (4 - 6 ans)
+            </h4>
             <p>
               <b>SALLE TENNIS DE TABLE</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 09H00-09H45</b>
+              <b>SAMEDI : 09H00-09H45</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>2013 À 2017</h4>
+            <h4>
+              ENFANTS <br />
+              2014 à 2018 (6 -10 ans)
+            </h4>
             <p>
               <b>PISTE ET TERRAIN D'HONNEUR</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 16H30-18H00
+                MERCREDI : 16H30-18H00
                 <br />
-                <i className="i-style">OU</i>
+                <i className="i-style">ou</i>
                 <br />
-                SAMEDI 10H15 - 12H00
+                SAMEDI : 10H15 - 11H45
               </b>
             </p>
           </div>
           {/*<hr className='ligne'></hr>*/}
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>2008 ET AVANT</h4>
+            <h4>
+              SPRINT ADULTES
+              <br />
+              2005 ET AVANT
+            </h4>
             <p>
               <b>PISTE</b>
               <br />
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              <br />
+              <b>Forêt de Clamart</b>
             </p>
             <p>
-              <b>LUNDI 18H30-20H00</b>
+              <b>
+                LUNDI - VENDREDI : 18H30-20H00
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                SAMEDI : 10H30-12H30
+              </b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              DEMI-FOND / FOND
+              <br />
+              RUNNING
+              <br />
+              MARCHE ATHLETIQUE
+              <br />
+              LOISIRS
+              <br />
+              2005 ET AVANT
+            </h4>
+            <p>
+              <b>PISTE ET TERRAIN D'HONNEUR</b>
+              <br />
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>Forêt de Clamart</b>
+            </p>
+            <p>
+              <b>
+                LUNDI - VENDREDI : 18H30-20H00
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                DIMANCHE : 11H00-12H30
+              </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>2009 À 2012</h4>
+            <h4>
+              JEUNES
+              <br />
+              2012 à 2013
+              <br />
+              (11 - 12 ans)
+            </h4>
             <p>
               <b>PISTE ET TERRAIN D'HONNEUR</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI - VENDREDI </b>
+              <b>
+                MERCREDI - VENDREDI :
+                <br /> 18H30-20H00
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              JEUNES
               <br />
-              <b>18H30-20H</b>
+              2010 à 2011
+              <br />
+              (13 - 14 ans)
+            </h4>
+            <p>
+              <b>PISTE ET TERRAIN D'HONNEUR</b>
+              <br />
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MERCREDI - VENDREDI :
+                <br /> 18H30-20H00
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              CADETS - JUNIORS (Loisirs)
+              <br />
+              2006 à 2009
+              <br /> (15 - 18 ans)
+            </h4>
+            <p>
+              <b>PISTE ET TERRAIN D'HONNEUR</b>
+              <br />
+              Stade du Panorama
+              <br /> 21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                MERCREDI - VENDREDI :
+                <br /> 18H30-20H00
+              </b>
             </p>
           </div>
         </div>
@@ -205,10 +308,7 @@ const Athletisme = () => {
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Lors de la première séance d'entrainement.</p>
                   </div>
                 )}
               </li>
@@ -219,55 +319,88 @@ const Athletisme = () => {
         <div className="cotisations">
           <div className="case-cotisation">
             <p>
-              <b>2018 ET 2019</b>
+              <b>
+                ADULTES LOISIRS
+                <br />
+                (2005 et Avant)
+              </b>
             </p>
             <p className="prix-cotisation">
-              <b>190€</b>
+              <b>240€</b>
+              <br />
+              <i className="i-style-cotisations">Nouveau</i>
+            </p>
+
+            <p className="prix-cotisation">
+              <b>205€</b>
+              <br />
+              <i className="i-style-cotisations">Ancien</i>
             </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>2013 ET 2017</b>
-            </p>
-            <p>
-              <i>Nouvelle adhésion (prix du maillot compris)</i>
+              <b>
+                JEUNES <br />
+                (2010-2013)
+              </b>
             </p>
             <p className="prix-cotisation">
-              <b>225€</b>
+              <b>240€</b>
+              <br />
+              <i className="i-style-cotisations">Nouveau</i>
+            </p>
+
+            <p className="prix-cotisation">
+              <b>205€</b>
+              <br />
+              <i className="i-style-cotisations">Ancien</i>
             </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>2013 ET 2017</b>
-            </p>
-            <p>
-              <i>Ancien adhérent</i>
+              <b>CADETS - JUNIORS (2006-2009)</b>
             </p>
             <p className="prix-cotisation">
-              <b>190€</b>
+              <b>240€</b>
+              <br />
+              <i className="i-style-cotisations">Nouveau</i>
+            </p>
+
+            <p className="prix-cotisation">
+              <b>205€</b>
+              <br />
+              <i className="i-style-cotisations">Ancien</i>
             </p>
           </div>
 
           <div className="case-cotisation">
             <p>
-              <b>2012 ET AVANT</b>
-            </p>
-            <p>
-              <i>Nouvelle adhésion (prix du maillot compris)</i>
+              <b>
+                ENFANTS <br />
+                (2014-2018)
+              </b>
             </p>
             <p className="prix-cotisation">
-              <b>240€</b>
+              <b>225€</b>
+              <br />
+              <i className="i-style-cotisations">Nouveau</i>
+            </p>
+
+            <p className="prix-cotisation">
+              <b>200€</b>
+              <br />
+              <i className="i-style-cotisations">Ancien</i>
             </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>2012 ET AVANT</b>
-            </p>
-            <p>
-              <i>Ancien adhérent</i>
+              <b>
+                BABY ATHLE <br />
+                (2019 - 2020)
+              </b>
             </p>
             <p className="prix-cotisation">
-              <b>205€</b>
+              <b>200€</b>
             </p>
           </div>
         </div>
@@ -280,7 +413,7 @@ const Athletisme = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -336,10 +469,31 @@ const Athletisme = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>ASF ATHLÉTISME</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> asfathletisme2@gmail.com</span>
-          <span className="label">Site Web : </span>
-          <span className="email"> www.asfathletisme.free.fr</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> asfathletisme2@gmail.com</span>
+          </div>
+          <div>
+            <span className="label">Site Web : </span>
+            <span className="email"> www.asfathletisme.free.fr</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/badminton" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

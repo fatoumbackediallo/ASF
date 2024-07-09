@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Badminton = () => {
@@ -24,13 +25,30 @@ const Badminton = () => {
         <div className="methodes">
           <h4>AVANT L'INSCRIPTION</h4>
           <p>
-            Jusqu’à 3 séances à l’essai possible pour découvrir la section, ses
-            structures et ses valeurs (sans obligation d’inscription et en étant
-            assuré par l’assurance fédérale) : Vous devrez flasher le QR Code en
-            entrant dans le gymnase ou vous rapprocher d’un membre du bureau.{" "}
+            Le badminton est un sport rapide et dynamique qui allie agilité,
+            précision et stratégie. Joué à l'intérieur ou à l'extérieur, ce
+            sport de raquette se pratique en simple ou en double, et consiste à
+            frapper un volant léger au-dessus d'un filet, avec l'objectif de le
+            faire tomber dans le terrain adverse.
             <br />
-            Volants plumes fournis pour tous les adhérents et pour toutes les
-            séances proposées
+            Notre section badminton au sein de l'association sportive propose un
+            cadre convivial et motivant pour les joueurs de tous niveaux. Nos
+            entraîneurs expé-rimentés sont dédiés à développer tant les
+            compétences techniques que tac-tiques, tout en encourageant le
+            plaisir de jouer et l'esprit sportif.
+            <br />
+            Nous organisons également des tournois internes et participons à des
+            compé-titions départementales, offrant ainsi à nos membres la
+            possibilité de se me-surer à d'autres joueurs et de progresser.
+            <br />
+            Que vous soyez novice souhaitant découvrir les bases du badminton ou
+            joueur confirmé cherchant à affiner votre technique et votre jeu
+            stratégique, la section badminton vous accueille avec le plus grand
+            plaisir.
+            <br />
+            <br />
+            Rejoignez-nous pour partager la passion du badminton et vivre des
+            moments sportifs inoubliables !
           </p>
         </div>
         <div className="entrainements">
@@ -40,97 +58,170 @@ const Badminton = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  :
+                  <br />
+                  * Jeunes(8 - 18 ans) : Lundi 02 Septembre 2024
+                  <br />* Adultes : Lundi 19 Août 2024
                 </b>
               </p>
             </div>
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>8-12 ANS</h4>
+            <h4>
+              JEUNES
+              <br />
+              8-12 ANS
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />
+              <b>HALLE</b>
+              <br />
+              Gymnase du Panorama
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 17H00-18H00</b>
+              <b>
+                LUNDI : 17H00-18H30
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                VENDREDI : 17H00-18H30
+              </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>12-18 ANS</h4>
+            <h4>
+              JEUNES
+              <br />
+              12 - 18 ANS
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />
+              <b>HALLE</b>
+              <br />
+              Gymnase du Panorama
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 18H30-20H00</b>
+              <b>
+                LUNDI : 18H30-20H00
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                VENDREDI : 17H00-18H30
+              </b>
             </p>
           </div>
           {/*<hr className='ligne'></hr>*/}
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>JEUNES</h4>
+            <h4>
+              JEU LIBRE
+              <br />
+              ADULTES
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>VENDREDI 17H00-18H45</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ADULTES JEU LIBRE</h4>
-            <p>
+              <br />
               <b>HALLE</b>
               <br />
+              Gymnase du Panorama
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>HALLE</b>
+              <br />
+              Gymnase Collège Les Ormeaux
+              <br />
+              15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 20H00-22H45
+                LUNDI : 20H00-22H30
                 <br />
-                SAMEDI 13H30-15H30
+                SAMEDI : 11H30-13H00
+                <br />
+                DIMANCHE : 10H00-12H00
+                <br />
+                <br /> <br />
+                <br />
+                MARDI : 20H15-22H30
+                <br />
+                VENDREDI : 20H30-22H30
+                <br />
+                <br /> <br />
+                <br />
+                JEUDI : 20H30-22H30
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ADULTES JEU LIBRE</h4>
+            <h4>ADULTES CONFIRMES</h4>
             <p>
               <b>HALLE</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Gymnase du Panorama <br /> 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Rosess
             </p>
             <p>
-              <b>
-                MARDI 20H15-22H45
-                <br />
-                VENDREDI 20H30-22H30
-              </b>
+              <br />
+              <b>LUNDI : 20H15-22H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ADULTES COMPÉTITIONS</h4>
+            <h4>ADULTES COMPETITION</h4>
             <p>
               <b>HALLE</b>
               <br />
+              Gymnase Collège Les Ormeaux
               <br />
-              Gymnase Les Ormeaux 1 Rue André Neyts, 92260 Fontenay-aux-Roses
+              15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 20H00-22H30</b>
+              <br />
+
+              <b>MERCREDI : 20H00-22H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>LOISIRS</h4>
+            <p>
+              <b>HALLE</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <br />
+              <b>VENDREDI : 20H30-22H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -139,29 +230,15 @@ const Badminton = () => {
             <p>
               <b>SALLE MUSCULATION</b>
               <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                JEUDI 18H30-20H00
                 <br />
-                SAMEDI 11H30-13H30
+                JEUDI : 18H30-21H30
+                <br />
+                VENDREDI : 18H30-20H00
               </b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>LOISIRS DÉBUTANT</h4>
-            <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>DIMANCHE 10H00-12H00</b>
             </p>
           </div>
         </div>
@@ -243,10 +320,7 @@ const Badminton = () => {
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Lors de la première séance d'entraînement.</p>
                   </div>
                 )}
               </li>
@@ -257,29 +331,36 @@ const Badminton = () => {
         <div className="cotisations">
           <div className="case-cotisation">
             <p>
-              <b>MOINS DE 9 ANS</b>
+              <b>
+                JEUNES <br />
+                MOINS DE 9 ANS
+              </b>
             </p>
             <p className="prix-cotisation">
-              <b>150€</b>
+              <b>155€</b>
             </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>9 À 18 ANS ET ÉTUDIANTS</b>
+              <b>
+                JEUNES <br /> 9 À 18 ANS
+              </b>
             </p>
             <p>
-              <i>1 séance/semaine</i>
+              <i>1 séance</i>
             </p>
             <p className="prix-cotisation">
-              <b>170€</b>
+              <b>175€</b>
             </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>9 À 18 ANS</b>
+              <b>
+                JEUNES <br />9 À 18 ANS
+              </b>
             </p>
             <p>
-              <i>1 séance/semaine</i>
+              <i>2 séances</i>
             </p>
             <p className="prix-cotisation">
               <b>220€</b>
@@ -288,18 +369,43 @@ const Badminton = () => {
 
           <div className="case-cotisation">
             <p>
-              <b>ADULTES</b>
+              <b>
+                ADULTES
+                <br /> (uniquement jeu libre)
+              </b>
             </p>
             <p className="prix-cotisation">
-              <b>195€</b>
+              <b>200€</b>
             </p>
           </div>
+
           <div className="case-cotisation">
             <p>
-              <b>ADULTES</b>
+              <b>
+                ADULTES <br /> (dont 1 entraînement)
+              </b>
             </p>
+            <p className="prix-cotisation">
+              <b>230€</b>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
             <p>
-              <i>avec Entraînement Compétition</i>
+              <b>
+                ADULTES <br /> COMPETITION
+              </b>
+            </p>
+            <p className="prix-cotisation">
+              <b>250€</b>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>
+                ETUDIANT <br /> (réduction de 25€ )
+              </b>
             </p>
             <p className="prix-cotisation">
               <b>230€</b>
@@ -315,7 +421,7 @@ const Badminton = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -370,13 +476,34 @@ const Badminton = () => {
         <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PRÉSIDENT GOEFFREY GUYOT :</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> bureau@asf.fr</span>
-          <span className="label">Téléphone : </span>
-          <span className="email"> 06 38 43 52 68</span>
-          <span className="label">Site Web : </span>
-          <span className="email"> www.asfb.fr</span>
+          {/* <h4>PRÉSIDENT GOEFFREY GUYOT :</h4> */}
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> bureau@asf.fr</span>
+          </div>
+          {/* <span className="label">Téléphone : </span>
+          <span className="email"> 06 38 43 52 68</span> */}
+          <div>
+            <span className="label">Site Web : </span>
+            <span className="email"> www.asfb.fr</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/basketball" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Capoeira = () => {
@@ -56,8 +57,7 @@ const Capoeira = () => {
             <p>
               <b>SALLE POLYVALENTE</b>
               <br />
-              <br />
-              Gymnase du Parc 7 avenue du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc <br />7 avenue du Parc 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MERCREDI : 18H00-19H00</b>
@@ -68,7 +68,6 @@ const Capoeira = () => {
             <h4>7 À 15 ANS</h4>
             <p>
               <b>Gymnase des pervenches</b>
-              <br />
               <br />
               20B Rue Durand Bénech, 92260 Fontenay-aux-Roses
             </p>
@@ -195,7 +194,7 @@ const Capoeira = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -251,10 +250,31 @@ const Capoeira = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PROFESSEUR THOMAS MASSIMI :</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> mass.tho@hotmail.fr</span>
-          <span className="label">Téléphone : </span>
-          <span className="email"> 06 18 50 00 90</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> mass.tho@hotmail.fr</span>
+          </div>
+          <div>
+            <span className="label">Téléphone : </span>
+            <span className="email"> 06 18 50 00 90</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/ecolededanse" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Aikido = () => {
@@ -67,8 +68,8 @@ const Aikido = () => {
               <b>DOJO </b>
               <br />
               <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, <br />
+              15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MERCREDI : 16H00-17H00</b>
@@ -81,8 +82,8 @@ const Aikido = () => {
               <b>DOJO </b>
               <br />
               <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, <br /> 15 Rue D'Estienne d'Orves,
+              92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MERCREDI : 17H00-18H00</b>
@@ -95,12 +96,14 @@ const Aikido = () => {
             <p>
               <b>DOJO 1 </b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
               <br />
               <br />
               <b>DOJO 2</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -127,7 +130,8 @@ const Aikido = () => {
               <b>DOJO 1</b>
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>MERCREDI : 21H00-22H00</b>
@@ -140,7 +144,8 @@ const Aikido = () => {
               <b>DOJO 2</b>
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>VENDREDI : 21H00-22H00</b>
@@ -279,7 +284,7 @@ const Aikido = () => {
           </h4>
           <div>
             <span className="lien">
-              <a href=" https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Dispositif%20Certificat%20m%C3%A9dical%20pour%20le%20sport%20(1)%20-%20Informations%20adh%C3%A9rent(1).pdf">
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
                 PARCOURS D'INSCRIPTION SUR LE WEB (NOTION.SITE)
               </a>
             </span>
@@ -339,8 +344,27 @@ const Aikido = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PROFESSEUR BENOIT CROZIER</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> admin.asf.aikido@sfr.fr</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> admin.asf.aikido@sfr.fr</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/athletisme" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

@@ -84,42 +84,35 @@ const GymnastiqueRythmique = () => {
               (8 ans et +)
             </h4>
             <p>
-              <b>Gymnase Collège Les Ormeaux</b>
-              <br />
-              15 Rue d'Estienne d'Orves, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>LUNDI : 17H45-18H45</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>
-              LOISIRS +
-              <br />
-              (8 ans et +)
-            </h4>
-            <p>
-              <b>Gymnase du Panorama</b>
-              <br />
-              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
-              <br />
-              <br />
               <b>Gymnase Jean Fournier</b>
               <br /> 7 Rue des Portiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI : 09H00-10H30</b>
-              <br />
-              <br />
-              <br />
-              <br />
               <b>MERCREDI : 13H00-14H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>COMPETITION 7 ans et +</h4>
+            <h4>
+              LOISIRS
+              <br />
+              (Tous âges)
+            </h4>
+            <p>
+              <b>Gymnase Collège Les Ormeaux</b>
+              <br />
+              15 Rue d'Estienne d'Orves, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <br />
+              <b>MERCREDI : 17H45-18H45</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              COMPETITION <br />7 ans et +
+            </h4>
             <p>
               <b>Gymnase Collège Les Ormeaux</b>
               <br />
@@ -132,19 +125,23 @@ const GymnastiqueRythmique = () => {
             </p>
             <p>
               <b>
-                LUNDI : 09H00-11H00
-                <br />
+                LUNDI : 18H30-20H30
+                <br /> <i>(Les Ormeaux)</i> <br />
                 MERCREDI : 18H30-20H30
-                <br />
+                <br /> <i>(Les Ormeaux)</i> <br />
                 VENDREDI : 18H30-20H30
+                <br />
+                <i>(Les Ormeaux)</i>
               </b>
               <br />
               <br />
 
               <b>
                 SAMEDI : 11H00-13H00
-                <br />
+                <br /> <i>(Panorama)</i> <br />
                 SAMEDI : 13H00-15H00
+                <br />
+                <i>(Panorama)</i>
               </b>
               <br />
               <br />
@@ -197,11 +194,11 @@ const GymnastiqueRythmique = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -255,7 +252,9 @@ const GymnastiqueRythmique = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>LOISIRS</b>
+                <b>
+                  LOISIRS (1h) <br /> Licence UFOLEP incluse
+                </b>
                 <br />
                 <i>(4 à 8 ans et +)</i>
               </p>
@@ -266,19 +265,19 @@ const GymnastiqueRythmique = () => {
                   (1 Cours) <br /> Fontenaisien
                 </i>
                 <br /> <br />
-                <b>370€</b>
+                <b>350€</b>
                 <br />
                 <i className="i-style-cotisations">
                   (2 Cours) <br /> Fontenaisien
                 </i>
                 <br /> <br />
-                <b>291€</b>
+                <b>290€</b>
                 <br />
                 <i className="i-style-cotisations">
                   (1 Cours) <br /> Non Fontenaisien
                 </i>
                 <br /> <br />
-                <b>402€</b>
+                <b>370€</b>
                 <br />
                 <i className="i-style-cotisations">
                   (2 Cours) <br /> Non Fontenaisien
@@ -287,100 +286,102 @@ const GymnastiqueRythmique = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>LOISIRS +</b>
+                <b>
+                  LOISIRS +
+                  <br /> (1h30) Licene UFOLEP incluse
+                </b>
                 <br />
-                <i>
-                  (8 ans et +) <br /> 1 cours
-                </i>
+                <i>(8 ans et +)</i>
               </p>
               <p className="prix-cotisation">
-                <b>291€</b>
+                <b>290€</b>
                 <br />
-                <i className="i-style-cotisations">(Fontenaisien)</i>
+                <i className="i-style-cotisations">
+                  (1 Cours) <br /> Fontenaisien
+                </i>
                 <br /> <br />
-                <b>312€</b>
+                <b>310€</b>
                 <br />
-                <i className="i-style-cotisations">(Non Fontenaisien)</i>
+                <i className="i-style-cotisations">
+                  (2 Cours) <br /> Fontenaisien
+                </i>
+                <br /> <br />
+                <b>370€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (1 Cours) <br /> Non Fontenaisien
+                </i>
+                <br /> <br />
+                <b>390€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (2 Cours) <br /> Non Fontenaisien
+                </i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>PRE-COMPETITION</b>
+                <b>
+                  PRE-COMPETITION (2h)
+                  <br /> Licence FFG incluse
+                </b>
                 <br />
                 <i>
-                  (7 ans et +) <br /> 1 cours
+                  (7 ans et +) <br />
                 </i>
               </p>
               <p className="prix-cotisation">
-                <b>348€</b>
+                <b>350€</b>
                 <br />
-                <i className="i-style-cotisations">
-                  (Fontenaisien <br />+ Licence à 60,20€)
-                </i>
+                <i className="i-style-cotisations">(Fontenaisien )</i>
                 <br /> <br />
-                <b>378€</b>
+                <b>370€</b>
                 <br />
-                <i className="i-style-cotisations">
-                  (Non Fontenaisien <br />+ Licence à 60,20€)
-                </i>
+                <i className="i-style-cotisations">(Non Fontenaisien )</i>
               </p>
             </div>
 
             <div className="case-cotisation">
               <p>
                 <b>
-                  LOISIRS + <br />
-                  PRE-COMPETITIONS
+                  LOISIRS + (1 cours - 1h) <br />
+                  PRE-COMPETITIONS (1 cours- 2h)
+                  <br />
+                  Licence FFG incluse
                   <br />
                 </b>
-                <i> (2 cours)</i>
+                <i> 7 ans et +</i>
               </p>
               <p className="prix-cotisation">
-                <b>414€</b>
+                <b>380€</b>
                 <br />
-                <i className="i-style-cotisations">
-                  (Fontenaisien <br /> + Licence à 60,20€)
-                </i>
+                <i className="i-style-cotisations">(Fontenaisien)</i>
                 <br /> <br />
-                <b>444€</b>
+                <b>400€</b>
                 <br />
-                <i className="i-style-cotisations">
-                  (Non Fontenaisien <br /> + Licence à 60,20€)
-                </i>
+                <i className="i-style-cotisations">(Non Fontenaisien)</i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>COMPETITION</b>
+                <b>
+                  COMPETITION (2 cours - 4h) <br /> Licence FFG incluse
+                </b>
                 <br />
                 <i>(7 ans et +)</i>
               </p>
               <p className="prix-cotisation">
-                <b>441€</b>
+                <b>400€</b>
                 <br />
                 <i className="i-style-cotisations">
                   (2 Cours) <br /> Fontenaisien
                 </i>
                 <br />
                 <br />
-                <b>471€</b>
+                <b>420€</b>
                 <br />
                 <i className="i-style-cotisations">
                   (2 Cours) <br /> Non Fontenaisien
-                </i>
-                <br />
-                <br />
-                <b>543€</b>
-                <br />
-                <i className="i-style-cotisations">
-                  (3 Cours) <br /> Fontenaisien
-                </i>
-                <br />
-                <br />
-                <b>510€</b>
-                <br />
-                <i className="i-style-cotisations">
-                  (3 Cours) <br /> Non Fontenaisien
                 </i>
               </p>
             </div>

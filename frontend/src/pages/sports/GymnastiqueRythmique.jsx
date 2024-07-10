@@ -126,22 +126,22 @@ const GymnastiqueRythmique = () => {
             <p>
               <b>
                 LUNDI : 18H30-20H30
-                <br /> <i>(Les Ormeaux)</i> <br />
+                <br /> <i className="i-style">(Les Ormeaux)</i> <br />
                 MERCREDI : 18H30-20H30
-                <br /> <i>(Les Ormeaux)</i> <br />
+                <br /> <i className="i-style">(Les Ormeaux)</i> <br />
                 VENDREDI : 18H30-20H30
                 <br />
-                <i>(Les Ormeaux)</i>
+                <i className="i-style">(Les Ormeaux)</i>
               </b>
               <br />
               <br />
 
               <b>
                 SAMEDI : 11H00-13H00
-                <br /> <i>(Panorama)</i> <br />
+                <br /> <i className="i-style">(Panorama)</i> <br />
                 SAMEDI : 13H00-15H00
                 <br />
-                <i>(Panorama)</i>
+                <i className="i-style">(Panorama)</i>
               </b>
               <br />
               <br />
@@ -287,8 +287,8 @@ const GymnastiqueRythmique = () => {
             <div className="case-cotisation">
               <p>
                 <b>
-                  LOISIRS +
-                  <br /> (1h30) Licene UFOLEP incluse
+                  LOISIRS + (1h30)
+                  <br /> Licene UFOLEP incluse
                 </b>
                 <br />
                 <i>(8 ans et +)</i>
@@ -345,7 +345,8 @@ const GymnastiqueRythmique = () => {
               <p>
                 <b>
                   LOISIRS + (1 cours - 1h) <br />
-                  PRE-COMPETITIONS (1 cours- 2h)
+                  PRE-COMPETITIONS <br />
+                  (1 cours- 2h)
                   <br />
                   Licence FFG incluse
                   <br />
@@ -365,7 +366,8 @@ const GymnastiqueRythmique = () => {
             <div className="case-cotisation">
               <p>
                 <b>
-                  COMPETITION (2 cours - 4h) <br /> Licence FFG incluse
+                  COMPETITION <br />
+                  (2 cours - 4h) <br /> Licence FFG incluse
                 </b>
                 <br />
                 <i>(7 ans et +)</i>

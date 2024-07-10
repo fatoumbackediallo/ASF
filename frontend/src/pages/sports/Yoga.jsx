@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Yoga = () => {
@@ -52,7 +53,7 @@ const Yoga = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Vendredi 13 Septembre 2024
                 </b>
               </p>
             </div>
@@ -63,22 +64,21 @@ const Yoga = () => {
             <p>
               <b>SALLE BIEN ÊTRE</b>
               <br />
-              <br />
-              Gymnase du Parc 92260 Fontenay-aux-Roses
+              Gymnase du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MARDI 18H30-19H45 <br />
+                MARDI : 18H30-19H45 <br />
                 <br />
-                MARDI 20H30-21H15 <br />
+                MARDI : 20H00-21H45 <br />
                 <br />
-                MERCREDI 12H15-13H30 <br />
+                MERCREDI : 12H15-13H30 <br />
                 <br />
-                JEUDI 10H30-11H45 <br />
+                JEUDI : 10H30-11H45 <br />
                 <br />
-                VENDREDI 17H30-18H45 <br />
+                VENDREDI : 17H30-18H45 <br />
                 <br />
-                VENDREDI 19H00-20H15 <br />
+                VENDREDI : 19H00-20H15 <br />
               </b>
             </p>
           </div>
@@ -115,11 +115,11 @@ const Yoga = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -156,15 +156,12 @@ const Yoga = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Lors de la première séance d'entraînement.</p>
                   </div>
                 )}
               </li>
@@ -176,18 +173,52 @@ const Yoga = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>18 À 25 ANS</b>
+                <b> + 25 ans</b>
+                <br />
+                <i>Yoga simple (1h/semaine)</i>
               </p>
               <p className="prix-cotisation">
-                <b>235€</b>
+                <b>290€</b>
+                <br />
+                <i className="i-style-cotisations">Fontenaisien</i>
+                <br />
+                <br />
+                <b>310€</b>
+                <br />
+                <i className="i-style-cotisations"> Non Fontenaisien</i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>ADULTES</b>
+                <b> + 25 ans</b>
+                <br />
+                <i>
+                  Yoga simple (1h/semaine) <br />+ cours avancés (1/mois)
+                </i>
               </p>
               <p className="prix-cotisation">
-                <b>290€</b>
+                <b>350€</b>
+                <br />
+                <i className="i-style-cotisations">Fontenaisien</i>
+                <br />
+                <br />
+                <b>370€</b>
+                <br />
+                <i className="i-style-cotisations"> Non Fontenaisien</i>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>- 25 ans</b>
+                <br />
+                <i>
+                  Yoga simple (1h/semaine)
+                  <br /> + cours avancés (1/mois)
+                </i>
+              </p>
+              <p className="prix-cotisation">
+                <b>300€</b>
               </p>
             </div>
           </div>
@@ -256,12 +287,12 @@ const Yoga = () => {
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PRÉSIDENT JEAN FRANCOIS BRESSE</h4>
+          <h4>PRÉSIDENT : JEAN-FRANCOIS BRESSE</h4>
           <span className="label">Mail : </span>
           <span className="email"> jeff.bresse@orange.fr</span>
         </div>
         <div className="contacts">
-          <h4>PROFESSEUR (DIPLÔMÉE FNEY) MME VERNARDET : </h4>
+          <h4>PROFESSEUR (DIPLÔMÉE FNEY) : MME VERNARDET </h4>
           <span className="label">Mail : </span>
           <span className="email"> av_vernardet@sfr.fr</span>
         </div>
@@ -272,6 +303,23 @@ const Yoga = () => {
           </h4>
           <span className="label">Mail : </span>
           <span className="email"> fontyoga@gmail.com</span>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/aikido" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

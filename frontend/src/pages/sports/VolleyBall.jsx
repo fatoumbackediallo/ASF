@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const VolleyBall = () => {
@@ -43,9 +44,9 @@ const VolleyBall = () => {
             Les séances d'entraînement sont structurées pour améliorer la
             précision des passes, la puissance des frappes et la coordination
             des mouvements. Nous organisons régulièrement des matchs amicaux,
-            des tournois internes et participons à des compétitions locales et
-            régionales, offrant à nos membres la possibilité de se mesurer à
-            d'autres équipes et de progresser.
+            des tournois internes et participons à des compétitions locales,
+            régionales et nationales, offrant à nos membres la possibilité de se
+            mesurer à d'autres équipes et de progresser.
             <br />
             <br />
             Que vous soyez débutant souhaitant découvrir les bases du
@@ -73,11 +74,13 @@ const VolleyBall = () => {
             <h4>
               ÉCOLE DE VOLLEY <br />
               M7 - M9 - M11
+              <br />
+              <i>2014 et +</i>
             </h4>
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc, <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>MERCREDI : 17H00-18H30</b>
@@ -85,11 +88,16 @@ const VolleyBall = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M13 FEMININE </h4>
+            <h4>
+              M13 FEMININE
+              <br />
+              <i>2010 - 2013</i>{" "}
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>LUNDI : 17H00-18H15</b>
@@ -101,29 +109,38 @@ const VolleyBall = () => {
 
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M13 MASCULIN</h4>
+            <h4>
+              M13 MASCULIN
+              <br />
+              <i>2010 - 2015</i>
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc, <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI : 17H30-18H30
-                <br />
-                <br />
                 LUNDI : 17H00-18H15
+                <br />
+                <br />
+                MERCREDI : 17H30-18H30
               </b>
             </p>
           </div>
 
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M15 FEMININE</h4>
+            <h4>
+              M15 FEMININE
+              <br />
+              <i>2010 - 2013</i>
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc,
+              <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -137,17 +154,21 @@ const VolleyBall = () => {
 
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M15 MASCULIN</h4>
+            <h4>
+              M15 MASCULIN
+              <br />
+              <i>2010 - 2013</i>
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc, <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
             </p>
             <p>
               <b>
-                LUNDI : 17H15-18H15
+                LUNDI : 17H00-18H15
                 <br />
                 <br />
                 MERCREDI : 17H00-18H30
@@ -156,42 +177,55 @@ const VolleyBall = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18 FEMININE</h4>
+            <h4>
+              M18 FEMININE
+              <br />
+              M21
+              <br />
+              <i>2004 - 2009</i>
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc, <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>
                 LUNDI : 18H15-20H00
                 <br />
-                <i className="i-style">Gymnase du Parc</i>
+                <i className="i-style">(Parc)</i>
                 <br />
                 <br />
                 MERCREDI : 18H30-20H30
                 <br />
-                <i className="i-style">Gymnase du Parc</i>
+                <i className="i-style">(Parc)</i>
                 <br />
                 <br />
                 VENDREDI : 18H45-20H30
                 <br />
-                <i className="i-style">Gymnase Jean Fournier</i>
+                <i className="i-style">(Jean Fournier)</i>
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18 MASCULIN</h4>
+            <h4>
+              M18 MASCULIN
+              <br />
+              M21
+              <br />
+              <i>2004 - 2009</i>
+            </h4>
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc, <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -208,21 +242,25 @@ const VolleyBall = () => {
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, <br />
+              15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
                 MARDI : 20H30-22H30
                 <br />
+                <i className="i-style">(Les Ormeaux)</i>
+                <br />
                 <br />
                 JEUDI : 20H30-22H30
+                <br />
+                <i className="i-style">(Panorama)</i>
               </b>
             </p>
           </div>
@@ -232,7 +270,8 @@ const VolleyBall = () => {
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase Jean Fournier, 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier, <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>VENDREDI : 18H45-20H30</b>
@@ -244,19 +283,24 @@ const VolleyBall = () => {
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc, <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>
                 MERCREDI : 20H30-22H30
                 <br />
+                <i className="i-style">(Parc)</i>
+                <br />
                 <br />
                 VENDREDI : 20H30-22H30
+                <br />
+                <i className="i-style">(Jean Fournier)</i>
               </b>
             </p>
           </div>
@@ -266,14 +310,14 @@ const VolleyBall = () => {
             <p>
               <b>HALLE</b>
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
               <br />
               <b>HALLE</b>
               <br />
-              Gymnase Collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase Collège les Ormeaux, <br />
+              15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
@@ -294,7 +338,7 @@ const VolleyBall = () => {
             <p>
               <b>HALLE</b>
               <br />
-              Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              Gymnase du Parc, <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>LUNDI : 20H00-22H45</b>
@@ -333,11 +377,11 @@ const VolleyBall = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -374,15 +418,12 @@ const VolleyBall = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
-                    <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>ou</p>
+                    <p>Lors de la première séance d'entraînement.</p>
                   </div>
                 )}
               </li>
@@ -394,7 +435,9 @@ const VolleyBall = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>M7 - M9 - M11 (2014 ET +)</b>
+                <b>
+                  M7 - M9 - M11 <br /> (2014 ET +)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>200€</b>
@@ -402,7 +445,9 @@ const VolleyBall = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>M13/M15 (2010 À 2013)</b>
+                <b>
+                  M13/M15 <br /> (2010 À 2013)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>210€</b>
@@ -410,7 +455,9 @@ const VolleyBall = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>M18/M21 (2004 À 2009)</b>
+                <b>
+                  M18/M21 <br /> (2004 À 2009)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>220€</b>
@@ -436,6 +483,11 @@ const VolleyBall = () => {
             <div className="case-cotisation">
               <p>
                 <b>ADULTES COMPÉTITION</b>
+                <br />
+                <i>
+                  Seniors Masculins Régional
+                  <br /> Départemental /N3
+                </i>
               </p>
               <p className="prix-cotisation">
                 <b>260€</b>
@@ -503,15 +555,47 @@ const VolleyBall = () => {
             </span>
           </div>
         </div>
-
+        <div>
+          <p className="h4-message">
+            Equipes Seniors Regional/Départemental et N3 : <br />
+            Se renseigner auprès du président de la section (06 28 25 51 45),
+            <br />
+            <br />
+            Remise de 10% à partir du 2eme enfant avec le code Mon Club
+            FRATERIE10
+            <br /> Remise de 20% à partir du 3eme enfant avec le code Mon Club
+            FRATERIE10
+          </p>
+        </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PRÉSIDENT PHILIPPE SCHAUB : </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> philoufox@gmail.com</span>
-          <span className="label">Téléphone : </span>
-          <span className="email"> 06 28 25 51 45</span>
+          <h4>PRÉSIDENT : PHILIPPE SCHAUB </h4>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> philoufox@gmail.com</span>
+          </div>
+          <div>
+            <span className="label">Téléphone : </span>
+            <span className="email"> 06 28 25 51 45</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/yoga" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

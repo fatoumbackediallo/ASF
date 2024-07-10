@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Karate = () => {
@@ -53,54 +54,44 @@ const Karate = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>9 - 14 ANS</h4>
+            <h4>
+              ENFANTS <br />
+              <i>(6 - 14 ans)</i>
+            </h4>
             <p>
               <b>DOJO 1 </b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>SALLE ARTS MARTIAUX</b>
-              <br />
-              <br />
-              Collège les Ormeaux 15 Rue d'Estienne d'ORves, 92260
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
               Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 18H00-19H00 <br />
+                LUNDI : 18H00-19H00 <br />
                 <br />
-                <br />
-                <br />
-                JEUDI 18H00 - 19H00
+                JEUDI : 18H00 - 19H00
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>15 ANS ET + ADULTES</h4>
+            <h4>
+              ADOS / ADULTES
+              <br />
+              <i>15 ans et +</i>
+            </h4>
             <p>
               <b>DOJO 1</b>
               <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses{" "}
-              <br />
-              <br />
-              <b>SALLE ARTS MARTIAUX</b>
-              <br />
-              <br />
-              Collège les Ormeaux 15 Rue d'Estienne d'ORves, 92260
-              Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 19H00-20H30
+                LUNDI : 19H00-20H30
                 <br />
                 <br />
-                <br />
-                <br />
-                JEUDI 19H00 - 20H30
+                JEUDI : 19H00 - 20H30
               </b>
             </p>
           </div>
@@ -169,7 +160,7 @@ const Karate = () => {
                     </p>
 
                     <h4>Par chèque(s) :</h4>
-                    <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+                    <p>(3 fois maximum - à l'ordre de l'ASF) </p>
 
                     <h4>Par espèces : </h4>
                     <p>(en 1 seule fois)</p>
@@ -182,10 +173,7 @@ const Karate = () => {
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>En début ou fin de séance d'entraînement.</p>
                   </div>
                 )}
               </li>
@@ -196,23 +184,31 @@ const Karate = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>6 - 14 ANS</b>
+                <b>
+                  ENFANTS
+                  <br />
+                  <i>(6 - 14 ans)</i>
+                </b>
               </p>
               <p className="prix-cotisation">
-                <b>230€</b>
+                <b>240€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>15 ET + ADULTES</b>
+                <b>
+                  Ados / Adultes
+                  <br />
+                  <i>(15 ans et +)</i>
+                </b>
               </p>
               <p className="prix-cotisation">
-                <b>250€</b>
+                <b>260€</b>
               </p>
             </div>
           </div>
           <h4>
-            <b>LICENSE COMPRISE: + 37€</b>
+            <b>LICENSE COMPRISE: + 40€</b>
           </h4>
         </div>
 
@@ -273,17 +269,54 @@ const Karate = () => {
                 LIEN D'INSCRIPTION
               </a>
             </span>
+            <p className="p-inscription">
+              Remise de 10% à partir du 2e enfant avec le code Mon Club
+              FRATERIE10
+            </p>
           </div>
         </div>
 
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PROFESSEUR IDIR GUEDJALI :</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> guedjaliidir@yahoo.fr</span>
-          <span className="label">Téléphone : </span>
-          <span className="email">07 62 18 25 04</span>
+          <h4>PROFESSEUR : IDIR GUEDJALI </h4>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> guedjaliidir@yahoo.fr</span>
+          </div>
+          <br />
+          <div>
+            <span className="label">Téléphone : </span>
+            <span className="email">07 62 18 25 04</span>
+          </div>
+        </div>
+        <div className="contacts">
+          <h4>PRESIDENT : PIERRE-MATHIEU BESSI </h4>
+          {/* <div>
+            <span className="label">Mail : </span>
+            <span className="email"> guedjaliidir@yahoo.fr</span>
+          </div> */}
+          <div>
+            <span className="label">Téléphone : </span>
+            <span className="email">06 12 04 30 36</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/kungfu" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

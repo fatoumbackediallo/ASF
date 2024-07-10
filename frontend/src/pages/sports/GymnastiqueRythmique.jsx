@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const GymnastiqueRythmique = () => {
@@ -25,7 +26,7 @@ const GymnastiqueRythmique = () => {
           <h4>COURS ENSEIGNÉS</h4>
           <p>
             La Gymnastique Rythmique, discipline esthétique et chorégraphique,
-            développe le rythme, l’habilité, la souplesse et la coordination.{" "}
+            développe le rythme, l’habilité, la souplesse et la coordination.
             <br />
             Ballons, Cordes, Cerceaux, Rubans et Massues :<br />
             <br />
@@ -47,111 +48,121 @@ const GymnastiqueRythmique = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>4 - 5 ANS LOISIR</h4>
+            <h4>
+              LOISIRS
+              <br />
+              (4 - 6 ans)
+            </h4>
             <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              <br /> 7 Rue des Portiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 15H30-16H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>6 - 8 ANS LOISIR</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI 14H30-15H30</b>
+              <b>MERCREDI : 15H30-16H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>8 - 10 ANS LOISIR</h4>
+            <h4>
+              LOISIRS
+              <br />
+              (6 - 8 ans)
+            </h4>
             <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Portiers, 92260 Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              <br /> 7 Rue des Portiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 13H00-14H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>7 - 11 ANS LOISIR</h4>
-            <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 14H30-16H00</b>
+              <b>MERCREDI : 14H30-15H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>- DE 10 ANS COMPÉTITION</h4>
+            <h4>
+              LOISIRS
+              <br />
+              (8 ans et +)
+            </h4>
             <p>
-              <b>HALLE</b>
+              <b>Gymnase Collège Les Ormeaux</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              15 Rue d'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 09H00-11H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>10 - 14 ANS COMPÉTITION</h4>
-            <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 11H00-13H00</b>
+              <b>LUNDI : 17H45-18H45</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>GR ADULTES LOISIR</h4>
+            <h4>
+              LOISIRS +
+              <br />
+              (8 ans et +)
+            </h4>
             <p>
-              <b>HALLE</b>
+              <b>Gymnase du Panorama</b>
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              <b>Gymnase Jean Fournier</b>
+              <br /> 7 Rue des Portiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 13H00-14H30</b>
+              <b>SAMEDI : 09H00-10H30</b>
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>MERCREDI : 13H00-14H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>COMPÉTIITON</h4>
+            <h4>COMPETITION 7 ans et +</h4>
             <p>
-              <b>HALLE</b>
+              <b>Gymnase Collège Les Ormeaux</b>
+              <br />
+              15 Rue d'Estienne d'Orves, 92260 Fontenay-aux-Roses
               <br />
               <br />
-              Gymnase collège Les Ormeaux 15 Rue d'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              <b>Gymnase du Panorama</b>
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI 18H00-20H00</b>
+              <b>
+                LUNDI : 09H00-11H00
+                <br />
+                MERCREDI : 18H30-20H30
+                <br />
+                VENDREDI : 18H30-20H30
+              </b>
+              <br />
+              <br />
+
+              <b>
+                SAMEDI : 11H00-13H00
+                <br />
+                SAMEDI : 13H00-15H00
+              </b>
+              <br />
+              <br />
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              PRE-COMPÉTITION
+              <br />7 ans et +
+            </h4>
+            <p>
+              <b>Gymnase du Panorama</b>
+              <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>SAMEDI : 09H00-11H00</b>
             </p>
           </div>
         </div>
@@ -227,15 +238,12 @@ const GymnastiqueRythmique = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Lors de la première séance d'entraînement.</p>
                   </div>
                 )}
               </li>
@@ -247,57 +255,140 @@ const GymnastiqueRythmique = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>1 HEURE</b>
+                <b>LOISIRS</b>
+                <br />
+                <i>(4 à 8 ans et +)</i>
               </p>
               <p className="prix-cotisation">
                 <b>270€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (1 Cours) <br /> Fontenaisien
+                </i>
+                <br /> <br />
+                <b>370€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (2 Cours) <br /> Fontenaisien
+                </i>
+                <br /> <br />
+                <b>291€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (1 Cours) <br /> Non Fontenaisien
+                </i>
+                <br /> <br />
+                <b>402€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (2 Cours) <br /> Non Fontenaisien
+                </i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>1 HEURE ET DEMI</b>
+                <b>LOISIRS +</b>
+                <br />
+                <i>
+                  (8 ans et +) <br /> 1 cours
+                </i>
               </p>
               <p className="prix-cotisation">
-                <b>396€</b>
+                <b>291€</b>
+                <br />
+                <i className="i-style-cotisations">(Fontenaisien)</i>
+                <br /> <br />
+                <b>312€</b>
+                <br />
+                <i className="i-style-cotisations">(Non Fontenaisien)</i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>2 HEURES</b>
+                <b>PRE-COMPETITION</b>
+                <br />
+                <i>
+                  (7 ans et +) <br /> 1 cours
+                </i>
               </p>
               <p className="prix-cotisation">
-                <b>420€</b>
+                <b>348€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (Fontenaisien <br />+ Licence à 60,20€)
+                </i>
+                <br /> <br />
+                <b>378€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (Non Fontenaisien <br />+ Licence à 60,20€)
+                </i>
               </p>
             </div>
 
             <div className="case-cotisation">
               <p>
-                <b>3 HEURES</b>
+                <b>
+                  LOISIRS + <br />
+                  PRE-COMPETITIONS
+                  <br />
+                </b>
+                <i> (2 cours)</i>
               </p>
               <p className="prix-cotisation">
-                <b>532€</b>
+                <b>414€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (Fontenaisien <br /> + Licence à 60,20€)
+                </i>
+                <br /> <br />
+                <b>444€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (Non Fontenaisien <br /> + Licence à 60,20€)
+                </i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>4 HEURES</b>
+                <b>COMPETITION</b>
+                <br />
+                <i>(7 ans et +)</i>
               </p>
               <p className="prix-cotisation">
-                <b>624€</b>
+                <b>441€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (2 Cours) <br /> Fontenaisien
+                </i>
+                <br />
+                <br />
+                <b>471€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (2 Cours) <br /> Non Fontenaisien
+                </i>
+                <br />
+                <br />
+                <b>543€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (3 Cours) <br /> Fontenaisien
+                </i>
+                <br />
+                <br />
+                <b>510€</b>
+                <br />
+                <i className="i-style-cotisations">
+                  (3 Cours) <br /> Non Fontenaisien
+                </i>
               </p>
             </div>
-            <div className="case-cotisation">
-              <p>
-                <b>GR ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>210€</b>
-              </p>
-            </div>
-            <h4>
+
+            {/* <h4>
               Remise de 10% à partir du 2ème enfant lors de l'inscription en
               ligne sur MonClub avec le code de remise FRATERIE10.
-            </h4>
+            </h4> */}
           </div>
         </div>
 
@@ -364,9 +455,28 @@ const GymnastiqueRythmique = () => {
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PRÉSIDENTE MYRIAM MONTLOUIS : </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> asf92.gym.rythmique@gmail.com</span>
+          <h4>PRÉSIDENTE : MYRIAM MONTLOUIS </h4>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> asf92.gym.rythmique@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/handball" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

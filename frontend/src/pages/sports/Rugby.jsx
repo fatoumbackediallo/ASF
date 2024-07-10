@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Rugby = () => {
@@ -76,10 +77,9 @@ const Rugby = () => {
               <i>(A partir de 3 ans)</i>
             </h4>
             <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
+              <b>TERRAIN EN HERBE</b>
+              <br />
+              <i>COULÉE VERTE</i>
             </p>
             <p>
               <b>MERCREDI : 14H-15H</b>
@@ -100,10 +100,9 @@ const Rugby = () => {
               U12 <i className="i-style">(2013-2014)</i>
             </h4>
             <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
+              <b>TERRAIN EN HERBE</b>
+              <br />
+              <i>COULÉE VERTE</i>
             </p>
             <p>
               <b>MERCREDI : 14H00-16H00</b>
@@ -122,10 +121,9 @@ const Rugby = () => {
               <i className="i-style">Entente avec Clamart</i>
             </h4>
             <p>
-              <b>
-                STADE DE LA PLAINE <br />
-                131 Chemin du Parc, 92140 Clamart
-              </b>
+              <b>STADE DE LA PLAINE</b>
+              <br />
+              131 Chemin du Parc, 92140 Clamart
             </p>
             <p>
               <b>LUNDI : 18H30-19H30</b>
@@ -143,10 +141,9 @@ const Rugby = () => {
           <div className="entrainement-ligne">
             <h4>RUGBY ADAPTE</h4>
             <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
+              <b>TERRAIN EN HERBE</b>
+              <br />
+              <i>COULÉE VERTE</i>
             </p>
             <p>
               <b>MERCREDI : 09H30-11H00</b>
@@ -160,10 +157,9 @@ const Rugby = () => {
           <div className="entrainement-ligne">
             <h4>RUGBY SANTE</h4>
             <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
+              <b>TERRAIN EN HERBE</b>
+              <br />
+              <i>COULÉE VERTE</i>
             </p>
             <p>
               <b>LUNDI : 20H00-22H00</b>
@@ -176,15 +172,14 @@ const Rugby = () => {
               <i>(18 à 35 ans)</i>
             </h4>
             <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
+              <b>TERRAIN EN HERBE</b>
+              <br />
+              <i>COULÉE VERTE</i>
             </p>
             <p>
               <b>MARDI : 20H00-22H00</b>
               <br />
-              JEUDI : 20H00 - 22H00
+              <b>JEUDI : 20H00-22H00</b>
             </p>
           </div>
 
@@ -195,15 +190,14 @@ const Rugby = () => {
               <i>(16 ans et +)</i>
             </h4>
             <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
+              <b>TERRAIN EN HERBE</b>
+              <br />
+              <i>COULÉE VERTE</i>
             </p>
             <p>
               <b>MARDI : 20H00-22H00</b>
               <br />
-              SAMEDI : 10H00 - 12H00
+              <b> SAMEDI : 10H00-12H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -213,10 +207,8 @@ const Rugby = () => {
               (+ 35 ANS)
             </h4>
             <p>
-              <b>
-                TERRAIN EN HERBE <br />
-                COULÉE VERTE
-              </b>
+              <b>TERRAIN EN HERBE</b> <br />
+              <i>COULÉE VERTE</i>
             </p>
             <p>
               <b>MERCREDI : 20H00-22H00</b>
@@ -257,11 +249,11 @@ const Rugby = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -298,15 +290,12 @@ const Rugby = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Auprès de la section lors de la première séance.</p>
                   </div>
                 )}
               </li>
@@ -361,6 +350,8 @@ const Rugby = () => {
             <div className="case-cotisation">
               <p>
                 <b>SÉNIORS</b>
+                <br />
+                <i>(18 à 35 ans)</i>
               </p>
               <p className="prix-cotisation">
                 <b>260€</b>
@@ -370,6 +361,8 @@ const Rugby = () => {
             <div className="case-cotisation">
               <p>
                 <b>FOLKLOS</b>
+                <br />
+                <i>(+ 35 ans)</i>
               </p>
               <p className="prix-cotisation">
                 <b>220€</b>
@@ -394,7 +387,7 @@ const Rugby = () => {
               </p>
             </div>
           </div>
-          <h4>
+          <h4 className="p-inscription">
             Remises lors de l'inscription en ligne sur MonClub avec les codes
             suivants : <br />
             FRATRIE10 -10% à partir du 2ème enfant <br />
@@ -429,7 +422,7 @@ const Rugby = () => {
             <h5 className="h5-bloc">Mineur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.
             </p>
 
             <span className="lien-span-h5">
@@ -441,7 +434,7 @@ const Rugby = () => {
             <h5 className="h5-bloc">Majeur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.
             </p>
 
             <span className="lien-span-h5">
@@ -469,7 +462,7 @@ const Rugby = () => {
           <span className="label">Mail : </span>
           <span className="email"> edr.fontenay@gmail.com</span>
           <span className="label">Téléphone : </span>
-          <span className="email">06 54 95 79 89</span>
+          <span className="email">06 52 95 79 89</span>
         </div>
         <div className="contacts">
           <h4>RUGBY ADAPTE : KARINE GRENIER</h4>
@@ -496,7 +489,7 @@ const Rugby = () => {
           <span className="email">06 84 96 96 62</span>
         </div>
         <div className="contacts">
-          <h4>RUGBY SÉNIORS : STÉPAHNIE LECUYER</h4>
+          <h4>RUGBY SÉNIORS : STÉPHANE LECUYER</h4>
           <span className="label">Téléphone : </span>
           <span className="email">06 84 10 44 49</span>
         </div>
@@ -506,6 +499,23 @@ const Rugby = () => {
           <span className="email">www.facebook.com/rugbyasf/</span>
           <span className="label">Instagram : </span>
           <span className="email">www.instagram.com/asfrugby/</span>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/squash" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

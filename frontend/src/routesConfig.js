@@ -7,11 +7,15 @@ import EcoleDeDanse from "./pages/sports/EcoleDeDanse.jsx";
 import Escrime from "./pages/sports/Escrime.jsx";
 import Fitness from "./pages/sports/FitnessGymBienetre.jsx";
 import GymnastiqueArtistique from "./pages/sports/GymnastiqueArtistique.jsx";
+import GymnastiqueRythmique from "./pages/sports/GymnastiqueRythmique.jsx";
 import Handball from "./pages/sports/Handball.jsx";
+import Karate from "./pages/sports/Karate.jsx";
+import KungFu from "./pages/sports/KungFu.jsx";
 import Natation from "./pages/sports/Natation.jsx";
+import Parkour from "./pages/sports/Parkour.jsx";
 import TaeKwonDo from "./pages/sports/TaeKwonDo.jsx";
 import Tennis from "./pages/sports/Tennis.jsx";
-// import TennisDeTable from "./pages/sports/TennisDeTable.jsx";
+import TennisDeTable from "./pages/sports/TennisDeTable.jsx";
 import VolleyBall from "./pages/sports/VolleyBall.jsx";
 import PageDesactivee from "./components/PageDesactivee.jsx";
 import Capoeira from "./pages/sports/Capoeira.jsx";
@@ -19,17 +23,12 @@ import Football from "./pages/sports/Football.jsx";
 import Rugby from "./pages/sports/Rugby.jsx";
 import Athletisme from "./pages/sports/Athletisme.jsx";
 import EcoleDesSports from "./pages/sports/EcoleDesSports.jsx";
+import Squash from "./pages/sports/Squash.jsx";
+import Yoga from "./pages/sports/Yoga.jsx";
+// import JudoJuJitsu from "./pages/sports/JudoJuJitsu.jsx";
 
 // Liste des pages désactivées
-const disabledPages = [
-  "gymnastiquerythmique",
-  "judojujitsu",
-  "karate",
-  "kungfu",
-  "parkour",
-  "tennisdetable",
-  "yoga",
-];
+const disabledPages = ["judojujitsu"];
 
 // Configuration des routes
 const routes = [
@@ -43,15 +42,22 @@ const routes = [
   { path: "/ecoledessports", element: <EcoleDesSports /> },
   { path: "/escrime", element: <Escrime /> },
   { path: "/fitness", element: <Fitness /> },
-  { path: "/gymnastiqueartistique", element: <GymnastiqueArtistique /> },
-  { path: "/handball", element: <Handball /> },
   { path: "/football", element: <Football /> },
+  { path: "/gymnastiqueartistique", element: <GymnastiqueArtistique /> },
+  { path: "/gymnastiquerythmique", element: <GymnastiqueRythmique /> },
+  { path: "/handball", element: <Handball /> },
+  // { path: "/judojujitsu", element: <JudoJuJitsu /> },
+  { path: "/karate", element: <Karate /> },
+  { path: "/kungfu", element: <KungFu /> },
   { path: "/natation", element: <Natation /> },
+  { path: "/parkour", element: <Parkour /> },
   { path: "/rugby", element: <Rugby /> },
+  { path: "/squash", element: <Squash /> },
   { path: "/taekwondo", element: <TaeKwonDo /> },
   { path: "/tennis", element: <Tennis /> },
-  // { path: "/tennisdetable", element: <TennisDeTable /> },
+  { path: "/tennisdetable", element: <TennisDeTable /> },
   { path: "/volleyball", element: <VolleyBall /> },
+  { path: "/yoga", element: <Yoga /> },
   ...disabledPages.map((page) => ({
     path: `/${page}`,
     element: <PageDesactivee />,

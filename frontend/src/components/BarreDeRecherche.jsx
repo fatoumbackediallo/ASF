@@ -25,6 +25,7 @@ const sports = [
   "parkour",
   "petanque",
   "rugby",
+  "squash",
   "tae kwon do",
   "tennis",
   "tennis de table",

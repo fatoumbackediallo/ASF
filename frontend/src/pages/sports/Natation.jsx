@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Natation = () => {
@@ -47,12 +48,10 @@ const Natation = () => {
             à d'autres nageurs et de progresser.
             <br />
             <br />
-            Que vous soyez novice souhaitant apprendre les bases de la natation
-            ou nageur expérimenté cherchant à perfectionner votre technique et
-            votre vitesse, notre section de natation vous propose des programmes
-            adaptés à vos besoins et objectifs. Rejoignez-nous pour partager la
-            passion de la natation et vivre des moments inoubliables dans l’eau
-            !
+            Sachant déjà nager, notre section de natation vous propose des
+            programmes adaptés à vos besoins et objectifs. Rejoignez-nous pour
+            partager la passion de la natation et vivre des moments inoubliables
+            dans l’eau !
           </p>
         </div>
         <div className="entrainements">
@@ -69,10 +68,12 @@ const Natation = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>BÉBÉS NAGEURS - 6 MOIS À 3 ANS</h4>
+            <h4>
+              BÉBÉS NAGEURS <br />
+              <i>(6 mois à 3 ans)</i>
+            </h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
-              <br />
               <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
@@ -93,10 +94,12 @@ const Natation = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>PETITS BAIGNEURS - 4 À 5 ANS</h4>
+            <h4>
+              PETITS BAIGNEURS
+              <br /> <i>(4 à 5 ans)</i>
+            </h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
-              <br />
               <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
@@ -109,27 +112,14 @@ const Natation = () => {
               </b>
             </p>
           </div>
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>JEUNES - 9 À 18 ANS</h4>
-            <p>
-              <b>PISCINE MUNICIPALE DE FONTENAY</b>
+            <h4>
+              JEUNES
               <br />
-              <br />
-              22 rue jean jaurès, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                LUNDI : 18H15-19H15
-                <br />
-                <br />
-                MARDI : 19H00-20H00
-              </b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JEUNES - 6 À 9 ANS</h4>
+              <i>(6 à 9 ans)</i>{" "}
+            </h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
@@ -150,10 +140,34 @@ const Natation = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ADULTES - 18 ANS ET PLUS</h4>
+            <h4>
+              JEUNES <br />
+              <i>(9 à 18 ans)</i>
+            </h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
+              22 rue jean jaurès, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                LUNDI : 18H15-19H15
+                <br />
+                <br />
+                MARDI : 19H00-20H00
+              </b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              ADULTES
+              <br />
+              <i>(18 ans et +)</i>{" "}
+            </h4>
+            <p>
+              <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
@@ -178,7 +192,6 @@ const Natation = () => {
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
-              <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -191,7 +204,6 @@ const Natation = () => {
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
               <br />
-              <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
             <p>
@@ -203,7 +215,6 @@ const Natation = () => {
             <h4>AQUAGYM</h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
-              <br />
               <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
@@ -221,10 +232,9 @@ const Natation = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>AQUA BIKE</h4>
+            <h4>AQUABIKE</h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
-              <br />
               <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
@@ -242,7 +252,6 @@ const Natation = () => {
             <h4>LES AÎNÉS</h4>
             <p>
               <b>PISCINE MUNICIPALE DE FONTENAY</b>
-              <br />
               <br />
               22 rue jean jaurès, 92260 Fontenay-aux-Roses
             </p>
@@ -290,11 +299,11 @@ const Natation = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
-                      inscription d'un mineur ou de l'adulte inscrit{" "}
+                      Section concernée + Nom et Prénom de l'enfant si
+                      inscription d'un mineur ou de l'adulte inscrit
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -323,7 +332,7 @@ const Natation = () => {
                     </p>
 
                     <h4>Par chèque(s) :</h4>
-                    <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+                    <p>(2 fois maximum - à l'ordre de l'ASF) </p>
 
                     <h4>Par espèces : </h4>
                     <p>(en 1 seule fois)</p>
@@ -332,7 +341,7 @@ const Natation = () => {
                     </div>
                     <p>
                       <b className="gras">
-                        Lors de la première séance d'entraînement !
+                        sur place auprès des bénévoles de la section !
                       </b>
                     </p>
                   </div>
@@ -346,7 +355,12 @@ const Natation = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>BÉBÉS NAGEURS FONTENAISIENS</b>
+                <b>
+                  BÉBÉS NAGEURS <br />
+                  <i>FONTENAISIENS</i>
+                </b>
+                <br />
+                <i>(6 mois à 3 ans)</i>
               </p>
               <p className="prix-cotisation">
                 <b>265€</b>
@@ -354,7 +368,13 @@ const Natation = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>BÉBÉS NAGEURS HORS COMMUNE</b>
+                <b>
+                  BÉBÉS NAGEURS
+                  <br />
+                  <i>HORS COMMUNE</i>{" "}
+                </b>
+                <br />
+                <i>(6 mois à 3 ans)</i>
               </p>
               <p className="prix-cotisation">
                 <b>285€</b>
@@ -362,7 +382,13 @@ const Natation = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>PETITS BAIGNEURS FONTENAISIENS</b>
+                <b>
+                  PETITS BAIGNEURS
+                  <br />
+                  <i>FONTENAISIENS</i>
+                </b>
+                <br />
+                <i>(4 à 5 ans)</i>
               </p>
               <p className="prix-cotisation">
                 <b>155€</b>
@@ -373,8 +399,10 @@ const Natation = () => {
               <p>
                 <b>
                   PETITS BAIGNEURS <br />
-                  HORS COMMUNE
+                  <i>HORS COMMUNES</i>
                 </b>
+                <br />
+                <i>(4 à 5 ans)</i>
               </p>
               <p className="prix-cotisation">
                 <b>175€</b>
@@ -382,24 +410,30 @@ const Natation = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>JEUNES 6 À 18 ANS FONTENAISIENS</b>
+                <b>
+                  JEUNES 6 à 18 ans
+                  <br />
+                  <i>FONTENAISIENS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>155€</b>
+                <br />
+                <i className="i-style-cotisations">(1h/semaine)</i>
               </p>
-              <p>(1H PAR SEMAINE)</p>
             </div>
             <div className="case-cotisation">
               <p>
                 <b>
-                  JEUNES 6 À 18 ANS <br />
-                  HORS COMMUNE
+                  JEUNES 6 à 18 ans <br />
+                  <i>HORS COMMUNE</i>
                 </b>
               </p>
               <p className="prix-cotisation">
                 <b>165€</b>
+                <br />
+                <i className="i-style-cotisations">(1h/semaine)</i>
               </p>
-              <p>(1H PAR SEMAINE)</p>
             </div>
 
             <div className="case-cotisation">
@@ -420,37 +454,50 @@ const Natation = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>ADULTES FONTENAISIENS </b>
+                <b>
+                  ADULTES <br />
+                  <i>FONTENAISIENS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>175€</b>
+                <br />
+                <i className="i-style-cotisations">(1h/semaine)</i>
               </p>
-              <p>(1H PAR SEMAINE)</p>
+
               <p className="prix-cotisation">
                 <b>245€</b>
+                <br />
+                <i className="i-style-cotisations">(2h/semaine)</i>
               </p>
-              <p>(2H PAR SEMAINE)</p>
             </div>
 
             <div className="case-cotisation">
               <p>
                 <b>
                   ADULTES <br />
-                  HORS COMMUNEE
+                  <i>HORS COMMUNE</i>
                 </b>
               </p>
               <p className="prix-cotisation">
                 <b>210€</b>
+                <br />
+                <i className="i-style-cotisations">(1h/semaine)</i>
               </p>
-              <p>(1H PAR SEMAINE)</p>
+
               <p className="prix-cotisation">
                 <b>275€</b>
+                <br />
+                <i className="i-style-cotisations">(2h/semaine)</i>
               </p>
-              <p>(2H PAR SEMAINE)</p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>AQUAGYM FONTENAISIENS</b>
+                <b>
+                  AQUAGYM
+                  <br />
+                  <i>FONTENAISIENS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>195€</b>
@@ -460,7 +507,7 @@ const Natation = () => {
               <p>
                 <b>
                   AQUAGYM <br />
-                  HORS COMMUNE
+                  <i>HORS COMMUNE</i>
                 </b>
               </p>
               <p className="prix-cotisation">
@@ -470,7 +517,11 @@ const Natation = () => {
 
             <div className="case-cotisation">
               <p>
-                <b>AQUA BIKE FONTENAISIENS</b>
+                <b>
+                  AQUABIKE
+                  <br />
+                  <i>FONTENAISIENS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>420€</b>
@@ -478,16 +529,15 @@ const Natation = () => {
                 <br />
                 <b>140€ </b>
                 <br />
-                <br />
-                <i>(Trimestre)</i>
+                <i className="i-style-cotisations">(Trimestre)</i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
                 <b>
-                  AQUA BIKE
+                  AQUABIKE
                   <br />
-                  HORS COMMUNE
+                  <i>HORS COMMUNE</i>
                 </b>
               </p>
               <p className="prix-cotisation">
@@ -495,11 +545,16 @@ const Natation = () => {
                 <br />
                 <br />
                 <b>160€</b>
+                <br />
+                <i className="i-style-cotisations">(Trimestre)</i>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>LES AÎNÉS FONTENAISIENS</b>
+                <b>
+                  LES AÎNÉS <br />
+                  <i>FONTENAISIENS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>165€</b>
@@ -510,7 +565,7 @@ const Natation = () => {
                 <b>
                   LES AÎNÉS
                   <br />
-                  HORS COMMUNE
+                  <i>HORS COMMUNE</i>
                 </b>
               </p>
               <p className="prix-cotisation">
@@ -545,6 +600,9 @@ const Natation = () => {
               <i>
                 Feuille d'inscription à disposition à l'accueil de la piscine.
               </i>
+            </div>
+            <div>
+              <b>Autres catégories : en ligne</b>
             </div>
           </div>
         </div>
@@ -609,9 +667,26 @@ const Natation = () => {
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PRÉSIDENT BRUNO GUIDAL : </h4>
+          <h4>PRÉSIDENT : BRUNO GUIDAL </h4>
           <span className="label">Mail : </span>
           <span className="email"> asf-natation@hotmail.fr</span>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/parkour" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

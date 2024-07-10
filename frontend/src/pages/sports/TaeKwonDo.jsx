@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const TaeKwonDo = () => {
@@ -50,18 +51,22 @@ const TaeKwonDo = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>BABY NINJAS (3 - 5 ANS)</h4>
+            <h4>
+              BABY NINJAS
+              <br />
+              <i>(3 - 5 ANS)</i>
+            </h4>
             <p>
               <b>Gymnase de la Roue</b>
               <br />
               10 Rue des Hautes Sorrières, 92260 Fontenay aux Roses
               <br />
               <br />
-              <b>
-                Gymnase Jean Fournier
-                <br />
-              </b>
+              <br />
+              <b>Gymnase Jean Fournier</b>
+              <br />
               7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />
               <br />
               <br />
               <b>Salle de danse</b>
@@ -70,7 +75,7 @@ const TaeKwonDo = () => {
             </p>
             <p>
               <b>
-                SAMEDI : 10H30-11H15
+                LUNDI : 17H30-18H30
                 <br />
                 <i className="i-style">Gymnase de la Roue</i>
                 <br />
@@ -97,21 +102,26 @@ const TaeKwonDo = () => {
                 <br />
                 JEUDI : 17H-18H
                 <br />
-                <i className="i-style">Gymnase de la Roue</i>
+                <i className="i-style">Salle de Danse</i>
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>GRAND NINJAS (6 - 10 ANS)</h4>
+            <h4>
+              GRANDS NINJAS <br />
+              <i>(6 - 10 ANS)</i>
+            </h4>
             <p>
               <b>Gymnase de la Roue</b>
               <br />
               10 Rue des Hautes Sorcières, 92260 Fontenay-aux-Roses
               <br />
               <br />
+              <br />
               <b>Gymnase Jean Fournier</b>
               7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />
               <br />
               <br />
               <b>SALLE DE DANSE</b>
@@ -154,26 +164,34 @@ const TaeKwonDo = () => {
 
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ADOS (11 - 15 ANS)</h4>
+            <h4>
+              ADOS
+              <br />
+              <i>11 - 15 ANS</i>
+            </h4>
             <p>
               <b>Gymnase Jean Fournier</b>
               <br />7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 18H30-19H30
+                MERCREDI : 18H30-19H30
                 <br />
                 <br />
-                MERCREDI 18H30-19H30
+                VENDREDI : 19H30-21H00
                 <br />
                 <br />
-                SAMEDI 15H00-16H00
+                SAMEDI : 15H00-16H00
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>ADOS - ADULTES 16 ANS ET +</h4>
+            <h4>
+              ADOS - ADULTES
+              <br />
+              <i>16 ANS ET +</i>
+            </h4>
             <p>
               <b>Gymnase de la Roue</b>
               <br />
@@ -229,11 +247,11 @@ const TaeKwonDo = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -270,14 +288,14 @@ const TaeKwonDo = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
                     <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      Auprès de la section, lors de la première séance
+                      d'entraînement.
                     </p>
                   </div>
                 )}
@@ -290,7 +308,7 @@ const TaeKwonDo = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>BABY NINJA 3 À 6 ANS</b>
+                <b>BABY NINJA</b>
               </p>
               <p className="prix-cotisation">
                 <b>270€</b>
@@ -300,7 +318,11 @@ const TaeKwonDo = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b> GRANDS NINJAS 6 À 10 ANS</b>
+                <b>
+                  GRANDS NINJAS
+                  <br />
+                  <i>6 À 10 ANS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>270€</b>
@@ -310,7 +332,10 @@ const TaeKwonDo = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>ADOS 11 À 15 ANS</b>
+                <b>
+                  ADOS <br />
+                  <i>11 À 15 ANS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>300€</b>
@@ -320,7 +345,11 @@ const TaeKwonDo = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>ADOS - ADULTES 16 ANS ET +</b>
+                <b>
+                  ADOS - ADULTES
+                  <br />
+                  <i>16 ANS ET +</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>330€</b>
@@ -397,16 +426,46 @@ const TaeKwonDo = () => {
 
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
-        <div className="infos-contact">
+        <div className="contacts">
           <h4>ASF TAE KWON DO</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> asftkd@gmail.com</span>
-          <span className="label">Téléphone : </span>
-          <span className="email">07 60 62 91 21</span>
-          <span className="label">Site Web : </span>
-          <span className="email"> www.sptrainingfontenayauxroses.com</span>
-          <span className="label">Instagram : </span>
-          <span className="email"> asftaekwondo</span>
+          <div>
+            <div>
+              <span className="label">Mail : </span>
+              <span className="email"> asftkd@gmail.com</span>
+            </div>
+            <br />
+            <div>
+              <span className="label">Téléphone : </span>
+              <span className="email">07 60 62 91 21</span>
+            </div>
+            <br />
+            <div>
+              <span className="label">Site Web : </span>
+              <span className="email"> www.sptrainingfontenayauxroses.com</span>
+            </div>
+            <br />
+            <div>
+              <span className="label">Instagram : </span>
+              <span className="email"> asftaekwondo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/tennis" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

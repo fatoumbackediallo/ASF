@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Parkour = () => {
@@ -38,7 +39,7 @@ const Parkour = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Samedi 14 Septembre 2024
                 </b>
               </p>
             </div>
@@ -47,16 +48,16 @@ const Parkour = () => {
           <div className="entrainement-ligne">
             <h4>9 - 16 ANS</h4>
             <p>
-              <b>SALLE GYMNASTIQUE</b>
+              <b>SALLE DE GYM</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 13H00-15H00</b>
+              <b>SAMEDI : 13H00-15H00</b>
             </p>
           </div>
-          <hr className="ligne"></hr>
+          {/* <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>16 ANS ET +</h4>
             <p>
@@ -70,7 +71,7 @@ const Parkour = () => {
               <br />
               <i>(SOUS RESERVE DU NOMBRE DE PARTICIPANTS)</i>
             </p>
-          </div>
+          </div> */}
         </div>
 
         <h2>COTISATIONS</h2>
@@ -104,11 +105,11 @@ const Parkour = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -145,7 +146,7 @@ const Parkour = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
@@ -164,7 +165,7 @@ const Parkour = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>9-17 ANS ET + /ADULTES</b>
+                <b>9-16 ANS</b>
               </p>
               <p className="prix-cotisation">
                 <b>300€</b>
@@ -236,9 +237,26 @@ const Parkour = () => {
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PROFESSEUR LANDRY LOUIS ROSE : </h4>
+          <h4>PROFESSEUR : LANDRY LOUIS ROSE </h4>
           <span className="label">Mail : </span>
           <span className="email"> landrycoach@yahoo.fr</span>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/rugby" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

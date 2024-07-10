@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const KungFu = () => {
@@ -25,10 +26,10 @@ const KungFu = () => {
           <h4>COURS ENSEIGNÉS</h4>
           <p>
             Au-delà du développement corporel (souplesse, force, coordination,
-            vitesse, endurance, équilibre), la pratique du kung fu enseigne :{" "}
+            vitesse, endurance, équilibre), la pratique du kung fu enseigne :
             <br />
             <br />• Le respect des professeurs et des camarades <br />• La
-            solidarité et l'entraide <br />• L’application dans le travail{" "}
+            solidarité et l'entraide <br />• L’application dans le travail
             <br />• L'auto-discipliné <br />• La confiance en soi et l'estime de
             soi
             <br />• Le courage et la ténacité <br />
@@ -45,8 +46,8 @@ const KungFu = () => {
             <div>
               <p>
                 <b>
-                  Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Les premiers cours se tiendront à partir du Lundi 09 Septembre
+                  2024
                 </b>
               </p>
             </div>
@@ -57,12 +58,11 @@ const KungFu = () => {
             <p>
               <b>Dojo</b>
               <br />
-              <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux,
+              <br /> 15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 17H30-18H30</b>
+              <b>JEUDI : 17H30-18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -71,26 +71,29 @@ const KungFu = () => {
             <p>
               <b>Dojo</b>
               <br />
-              <br />
-              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
-              Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, <br />
+              15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 18H30-19H30</b>
+              <b>JEUDI : 18H30-19H30</b>
             </p>
           </div>
           {/*<hr className='ligne'></hr>*/}
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>18 ANS ET + ADULTES</h4>
+            <h4>
+              18 ans et +
+              <br />
+              ADULTES
+            </h4>
             <p>
               <b>DOJO 2</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI - JEUDI 21H30-22H30</b>
+              <b>LUNDI - JEUDI : 21H00-22H30</b>
             </p>
           </div>
         </div>
@@ -166,7 +169,7 @@ const KungFu = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
@@ -202,7 +205,7 @@ const KungFu = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>18 ANS ET + / ADULTES </b>
+                <b>18 ans et + / ADULTES </b>
               </p>
               <p className="prix-cotisation">
                 <b>300€</b>
@@ -274,9 +277,32 @@ const KungFu = () => {
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PROFESSEUR RODOLPHE POLLET :</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> rpollet@gmail.com</span>
+          <h4>PROFESSEUR : LEROY Jean-Baptiste </h4>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> leroy.jkd@gmail.com</span>
+          </div>
+          <div>
+            <span className="label">Téléphone : </span>
+            <span className="email">06 80 81 12 54</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/natation" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

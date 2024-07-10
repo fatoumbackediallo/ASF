@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Handball = () => {
@@ -82,7 +83,7 @@ const Handball = () => {
               <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 09H00-10H00</b>
+              <b>SAMEDI : 09H00-10H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -98,7 +99,7 @@ const Handball = () => {
               <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 13H00-14H30</b>
+              <b>SAMEDI : 13H00-14H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -115,7 +116,7 @@ const Handball = () => {
               <br />7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 14H30-16H00</b>
+              <b>SAMEDI : 14H30-16H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -142,18 +143,18 @@ const Handball = () => {
               Équipe 1 : <i>(parc)</i>
               <br />
               <b>
-                MARDI 17H00-18H15
+                MARDI : 17H00-18H15
                 <br />
-                JEUDI 17H00-18H15
+                JEUDI : 17H00-18H15
               </b>
               <br />
               <br />
               Équipe 2 :<br />
-              <b>LUNDI 17H00-18H15</b>
+              <b>LUNDI : 17H00-18H15</b>
               <br />
               <i>(panorama)</i>
               <br />
-              <b>VENDREDI 17H00-18H15</b>
+              <b>VENDREDI : 17H00-18H15</b>
               <br />
               <i>(parc)</i>
             </p>
@@ -173,6 +174,8 @@ const Handball = () => {
               21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
               <br />
               <br />
+              <br />
+              <br />
               <b>HALLE</b>
               <br />
               Gymnase du Parc
@@ -181,23 +184,24 @@ const Handball = () => {
             <p>
               Equipe 1 :<br />
               <b>
-                LUNDI 18H15-19H30
+                LUNDI : 18H15-19H30
                 <br />
-                MERCREDI 18H15-19H30
+                MERCREDI : 18H15-19H30
               </b>
               <br />
               <i> (panorama)</i>
               <br />
-              <b>VENDREDI 18H15-19H30</b>
+              <br />
+              <b>VENDREDI : 18H15-19H30 (Entente)</b>
               <br />
               <i> (parc)</i>
               <br />
               <br />
               Equipe 2 : <i>(panorama)</i>
               <br />
-              <b>LUNDI 18H15-19H30</b>
+              <b>LUNDI : 18H15-19H30</b>
               <br />
-              <b>MERCREDI 18H15-19H30</b>
+              <b>MERCREDI : 18H15-19H30</b>
               <br />
             </p>
           </div>
@@ -215,10 +219,14 @@ const Handball = () => {
               <br /> 10bis Av. Augustin Dumont, 92260 Fontenay-aux-Roses
               <br />
               <br />
+              <br />
+              <br />
               <b>HALLE</b>
               <br />
               Gymnase du Parc
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
               <br />
               <br />
               <b>HALLE</b>
@@ -229,29 +237,29 @@ const Handball = () => {
             <p>
               Équipe 1 - Entente : <br />
               <b>
-                MARDI 19H15-20H30
+                MARDI : 19H15-20H30
                 <br />
                 <i className="i-style">(René Rousseau)</i>
                 <br />
-                JEUDI 18H15-19H30
+                JEUDI : 18H15-19H30
               </b>
               <br />
-              <b>VENDREDI 19H30-21H00</b>
+              <b>VENDREDI : 19H30-21H00</b>
               <br />
               <i>(parc)</i>
               <br />
               <br />
-              Équipe 2 - Entente : <i>(panorama)</i>
+              Équipe 2 - Entente :
               <br />
-              <b>LUNDI 18H30- 19H45</b>
+              <b>LUNDI : 18H30- 19H45</b>
               <br />
               <i>(René Rousseau)</i>
               <br />
-              <b>MARDI 18H15-19H30</b>
+              <b>MARDI : 18H15-19H30</b>
               <br />
               <i>(parc)</i>
               <br />
-              <b>VENDREDI 18H15-19H30</b>
+              <b>VENDREDI : 18H15-19H30</b>
               <br />
               <i>(parc)</i>
               <br />
@@ -259,9 +267,9 @@ const Handball = () => {
               Équipe 3 : <i>(panorama)</i>
               <br />
               <b>
-                LUNDI 19H30-21H00
+                LUNDI : 19H30-21H00
                 <br />
-                MERCREDI 17H00-18H15
+                MERCREDI : 17H00-18H15
               </b>
             </p>
           </div>
@@ -270,7 +278,7 @@ const Handball = () => {
             <h4>
               P16
               <br />
-              (2007 et +)
+              (2007 et -)
             </h4>
             <p>
               <b>HALLE</b>
@@ -279,23 +287,25 @@ const Handball = () => {
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
+              <br />
+              <br />
               <b>HALLE</b>
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               Équipe 1 :<br />
               <b>
-                LUNDI 21H-22H30
+                LUNDI : 21H-22H30
                 <br />
                 <i className="i-style">(panorama)</i>
                 <br />
-                MARDI 21H-22H30
+                MARDI : 21H-22H30
                 <br />
                 <i className="i-style">(parc)</i>
                 <br />
-                JEUDI 21H-22H30
+                JEUDI : 21H-22H30
                 <br />
                 <i className="i-style">(parc)</i>
               </b>
@@ -303,11 +313,11 @@ const Handball = () => {
               <br />
               Équipe 2 :<br />
               <b>
-                MERCREDI 21H-22H30
+                MERCREDI : 21H-22H30
                 <br />
                 <i className="i-style">(panorama)</i>
                 <br />
-                VENDREDI 21H-22H30
+                VENDREDI : 21H-22H30
                 <br />
                 <i className="i-style">(parc)</i>
               </b>
@@ -339,15 +349,15 @@ const Handball = () => {
             <p>
               Équipe 1 - Entente :<br />
               <b>
-                MARDI 19H30-21H
+                MARDI : 19H30-21H00
                 <br />
                 <i className="i-style">(parc)</i>
                 <br />
-                JEUDI 19H30-21H
+                JEUDI : 19H30-21H00
                 <br />
                 <i className="i-style">(parc)</i>
                 <br />
-                VENDREDI 19H45-21H
+                VENDREDI : 19H45-21H00
                 <br />
                 <i className="i-style">(René Rousseau)</i>
               </b>
@@ -355,11 +365,11 @@ const Handball = () => {
               <br />
               Équipe 2 - Entente :<br />
               <b>
-                MERCREDI 19H30 -21H
+                MERCREDI : 19H30 -21H00
                 <br />
                 <i className="i-style">(panorama)</i>
                 <br />
-                VENDREDI 19H45-21H
+                VENDREDI : 19H45-21H00
                 <br />
                 <i className="i-style">(René Rousseau)</i>
               </b>
@@ -370,7 +380,7 @@ const Handball = () => {
             <h4>
               SENIORS
               <br />
-              (2007 et +)
+              (2007 et -)
             </h4>
             <p>
               <b>HALLE</b>
@@ -386,12 +396,12 @@ const Handball = () => {
             </p>
             <p>
               <b>
-                MARDI 18H00-22H00
+                MARDI : 18H00-22H00
                 <br />
                 <i className="i-style">(Salle de musculation)</i>
                 <br />
                 <br />
-                VENDREDI 19H30-21H
+                VENDREDI : 19H30-21H00
                 <br />
                 <i className="i-style">(parc)</i>
               </b>
@@ -402,7 +412,7 @@ const Handball = () => {
             <h4>
               LOISIRS
               <br />
-              (2008 et +)
+              (2008 et -)
             </h4>
             <p>
               <b>HALLE</b>
@@ -411,7 +421,7 @@ const Handball = () => {
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 10H00-12H00</b>
+              <b>SAMEDI : 10H00-12H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -419,7 +429,7 @@ const Handball = () => {
             <h4>
               HANDFIT
               <br />
-              (2008 et +)
+              (2008 et -)
             </h4>
             <p>
               <b>HALLE</b>
@@ -435,12 +445,12 @@ const Handball = () => {
             </p>
             <p>
               <b>
-                MARDI 21H00-22H00
+                MARDI : 21H00-22H00
                 <br />
                 <i className="i-style">(Salle polyvalente)</i>
                 <br />
                 <br />
-                SAMEDI 09H00-10H00
+                SAMEDI : 09H00-10H00
                 <br />
                 <i className="i-style">(Halle du parc)</i>
               </b>
@@ -519,7 +529,7 @@ const Handball = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00,
                     </p>
@@ -613,7 +623,7 @@ const Handball = () => {
               <p>
                 <b>P16</b>
                 <br />
-                <i>(2007 et +)</i>
+                <i>(2007 et -)</i>
               </p>
               <p className="prix-cotisation">
                 <b>270€</b>
@@ -623,7 +633,7 @@ const Handball = () => {
               <p>
                 <b>LOISIRS</b>
                 <br />
-                <i>(2007 et +)</i>
+                <i>(2007 et -)</i>
               </p>
               <p className="prix-cotisation">
                 <b>180€</b>
@@ -634,7 +644,7 @@ const Handball = () => {
               <p>
                 <b>HANDFIT</b>
                 <br />
-                <i>(2008 et +)</i>
+                <i>(2008 et -)</i>
               </p>
               <p className="prix-cotisation">
                 <b>190€</b>
@@ -713,11 +723,32 @@ const Handball = () => {
         <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>PRÉSIDENT MICHAËL LARONDE : </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> contact@asf-handball.org</span>
-          <span className="label">Site Web : </span>
-          <span className="email">hhtp://asf-handball.org</span>
+          <h4>PRÉSIDENT : MICHAËL LARONDE </h4>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> contact@asf-handball.org</span>
+          </div>
+          <div>
+            <span className="label">Site Web : </span>
+            <span className="email">hhtp://asf-handball.org</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/judojujitsu" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

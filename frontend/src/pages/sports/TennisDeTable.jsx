@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const TennisDeTable = () => {
@@ -62,170 +63,209 @@ const TennisDeTable = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Lundi 16 Septembre 2024
                 </b>
               </p>
             </div>
           </div>
+
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>ADULTES DÉBUTANTS ET PERFECTIONNEMENT</h4>
+            <h4>LIBRE TOUS PUBLICS</h4>
             <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
               <br />
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>LUNDI 20H30-22H30</b>
-            </p>
-          </div>
-          <hr className="ligne-titre"></hr>
-          <div className="entrainement-ligne">
-            <h4>JEUNES (- 19 ANS)</h4>
-            <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
               <br />
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>SALLE TENNIS DE TABLE</b>
+              <br />
+              Stade du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 20H30-22H30
+                LUNDI : 10H00-17H00
+                <br /> <br />
+                MARDI : 10H00-13H30
+                <br /> <br />
+                MARDI : 16H00-22H30
                 <br />
-                MERCREDI 13H30-15H00
+                <i className="i-style">
+                  (Sauf si compétition CORPO : Entrainement de 16h00 à 18h00 -
+                  voir planning affiché en salle)
+                </i>
+                <br /> <br />
+                MERCREDI : 12H00-13H30
+                <br /> <br />
+                MERCREDI : 18H00-20H30
+                <br /> <br />
+                MERCREDI : 20H30-22H30
+                <br />
+                <i className="i-style">(Sur 1/3 de la salle)</i>
+                <br /> <br />
+                JEUDI : 10H00-18H00
+                <br /> <br />
+                JEUDI : 18H00-22H30
+                <br />
+                <i className="i-style">
+                  (Sauf si compétition CORPO : Entrainement de 18h00 à 19h30 -
+                  voir planning affiché en salle)
+                </i>
+                <br /> <br />
+                VENDREDI : 10H00-17H00
+                <br /> <br />
+                VENDREDI : 19H30-22H30
+                <br />
+                <i className="i-style">
+                  (Sauf si compétition LIBRE - Voir planning affiché en salle)
+                </i>
+                <br /> <br />
+                SAMEDI : 08H00-12H00
+                <br />
+                <i className="i-style">(Sur 1/3 de la salle)</i>
+                <br /> <br />
+                SAMEDI : 12H00-22H30
+                <br />
+                <i className="i-style">
+                  (Sauf si compétition JEUNES : Entrainement de 20h00 à 22h30 -
+                  voir planning affiché en salle)
+                </i>
+                <br />
+                <br />
+                <b>DIMANCHE : 08H00-19H30</b>
+                <br />
+                <i className="i-style">
+                  (Sauf si compétition JEUNES ou compétition ADULTES :
+                  Entrainement de 15h00 à 19h30 - voir planning affiché en
+                  salle)
+                </i>
               </b>
-              <i> (Débutants)</i>
+            </p>
+          </div>
+
+          <hr className="ligne-titre"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              DIRIGE JEUNES
               <br />
-              <b>MERCREDI 15H00-16H30</b>
-              <i> (Confirmés et compétiteurs)</i>
+              <i>Selon niveau défini par l'éducateur</i>
+            </h4>
+            <p>
+              <b>SALLE TENNIS DE TABLE</b>
               <br />
-              <b>VENDREDI 17H00-19H30</b>
-              <i> (Perfectionnement et compétiteurs)</i>
+              Gymnase du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 17H30-19H30</b>
+              <br />
+              <br />
+              <b>MERCREDI : 13H30-15H00</b>
+              <br />
+              <br />
+              <b>MERCREDI : 15H30-16H30</b>
+              <br />
+              <br />
+              <b>MERCREDI : 16H30-18H00</b>
+              <br />
+              <br />
+              <b>VENDREDI : 17H30-19H30</b>
             </p>
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>COMPÉTITEURS</h4>
+            <h4>
+              DIRIGE DEBUTANTS
+              <br />
+              ET PERFECTIONNEMENTS ADULTES{" "}
+            </h4>
             <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
+              <b>SALLE TENNIS DE TABLE</b>
               <br />
+              Gymnase du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 20H30-22H30</b>
+            </p>
+          </div>
+          <hr className="ligne-titre"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              DIRIGE <br />
+              ADULTES COMPETITION
+            </h4>
+            <p>
+              <b>SALLE TENNIS DE TABLE</b>
               <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Gymnase du Panorama <br /> 21 Bd du Moulin de la Tour, 92260
               Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 20H30-22H30</b>
+              <br />
+              <i> ( sur 2/3 de la salle)</i>
+            </p>
+          </div>
+
+          <hr className="ligne-titre"></hr>
+          <div className="entrainement-ligne">
+            <h4>LOISIRS FAMILIAL </h4>
+            <p>
+              <b>SALLE TENNIS DE TABLE</b>
+              <br />
+              Gymnase du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 20H30-22H45
+                SAMEDI : 12H00-22H30
                 <br />
-                VENDREDI 17H30-19H30
-              </b>
-              <i> (Perfectionnement et compétiteurs)</i>
-            </p>
-          </div>
-          <hr className="ligne-titre"></hr>
-          <div className="entrainement-ligne">
-            <h4>LIBRE TOUT PUBLIC</h4>
-            <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                LUNDI 12H00-14H00
+                <i className="i-style">
+                  (Sauf si compétition JEUNES : Entrainement de 20h00 à 22h30 -
+                  voir planning affiché en salle)
+                </i>
                 <br />
-                MARDI 12H00-14H00
                 <br />
-                MERCREDI 12H00-13H30
+                DIMANCHE : 08H00-19H30
                 <br />
-                JEUDI 12H00-14H00 ET 17H00-18H30
-                <br />
-                VENDREDI 12H00-14H00
-                <br />
-                SAMEDI 12H00-22H45
-              </b>
-              <br />
-              <i> (Hors compétition)</i>
-              <br />
-              <b>DIMANCHE 08H00-19H45</b>
-              <br />
-              <i> (Hors compétition)</i>
-            </p>
-          </div>
-          <hr className="ligne-titre"></hr>
-          <div className="entrainement-ligne">
-            <h4>ENTRAÎNEMENTS LIBRE & CORPO</h4>
-            <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                LUNDI 17H00-20H30
-                <br />
-                MERCREDI 16H30-20H30
+                <i className="i-style">
+                  (Sauf si compétition JEUNES ou compétition ADULTES :
+                  Entrainement de 15h00 à 19h30 - voir planning affiché en
+                  salle)
+                </i>
               </b>
             </p>
           </div>
+
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>ENTRAINEMENTS LIBRE (HORS COMPÉTITION)</h4>
+            <h4>
+              HANDI'SPORT <br />
+              <i>(Spécifique Accueil de l'Hôpital de jour de Montrouge)</i>
+            </h4>
             <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
+              <b>SALLE TENNIS DE TABLE</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Gymnase du Panorama <br /> 21 Bd du Moulin de la Tour, 92260
               Fontenay-aux-Roses
             </p>
             <p>
-              <b>
-                MARDI 20H00-23H00
-                <br />
-                JEUDI 20H00-22H45
-                <br />
-                VENDREDI 19H30-22H45
-              </b>
+              <b>MARDI : 14H00-15H30</b>
             </p>
           </div>
-          <hr className="ligne-titre"></hr>
-          <div className="entrainement-ligne">
-            <h4>ENTRAÎNEMENTS CORPOS</h4>
-            <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI 08H00-12H00</b>
-            </p>
-          </div>
-          <hr className="ligne-titre"></hr>
-          <div className="entrainement-ligne">
-            <h4>ACTIVITÉ HANDISPORT</h4>
-            <p>
-              <b>SALLE TENNIS DE TABLE, 1ER ÉTAGE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI 14H00-15H30</b>
-              <br />
-              <i>(Réservé exclusivement à l'hôpital de jour)</i>
-            </p>
-          </div>
-          <hr className="ligne-titre"></hr>
+          {/* <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
             <h4>COMPÉTITIONS CORPORATIVES</h4>
             <p>
@@ -238,7 +278,7 @@ const TennisDeTable = () => {
             <p>
               <b>JEUDI 18H30-22H20</b>
             </p>
-          </div>
+          </div> */}
         </div>
 
         <h2>COTISATIONS</h2>
@@ -248,7 +288,7 @@ const TennisDeTable = () => {
           <h3>MOYENS DE PAIEMENT</h3>
           <div>
             <ul className="ul-paiement">
-              <li>
+              {/* <li>
                 <h4>CARTE BANCAIRE</h4>
                 <p>(en une seule fois)</p>
               </li>
@@ -282,10 +322,10 @@ const TennisDeTable = () => {
                   </ul>
                   <li>Effectuer le virement</li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <h4 onClick={handleToggle} className="menu-deroulant">
-                  AUTRES PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
+                  PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
                   <span>{showOthers ? "v" : ">"}</span>
                 </h4>
                 {showOthers && (
@@ -305,22 +345,34 @@ const TennisDeTable = () => {
                     </p>
 
                     <h4>Par chèque(s) :</h4>
-                    <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+                    <p>
+                      (En plusieurs fois voir avec la section - à l'ordre de
+                      l'ASF){" "}
+                    </p>
 
                     <h4>Par espèces : </h4>
-                    <p>(en 1 seule fois)</p>
+                    <p>(en plusieurs fois, voir avec la section)</p>
                     <div className="remise">
-                      <h4>La remise se fera : </h4>
+                      <h4>
+                        La remise se fera sur place auprès des bénévoles de la
+                        section :{" "}
+                      </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
-                      <b className="gras"> 08 septembre</b> au Gymnase du Parc
-                      entre 10h00 et 18h00
+                      Lors de la journée «portes ouvertes», au Panorama, le
+                      <b className="gras"> samedi 7 septembre</b> de 14 h 00 à
+                      18 h 00,
                     </p>
-                    <p>OU</p>
+                    <p>ou</p>
                     <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
+                      Au Forum des Associations le
+                      <b className="gras"> 08 septembre</b> au Gymnase du Parc
+                      entre 10h00 et 18h00,
+                    </p>
+                    <p>ou</p>
+                    <p>
+                      Lors de la première séance d'accueil, à partir du{" "}
+                      <b className="gras"> lundi 9 septembre 2024</b>.
                     </p>
                   </div>
                 )}
@@ -333,6 +385,8 @@ const TennisDeTable = () => {
           <div className="case-cotisation">
             <p>
               <b>VETERANS (+ 60 ans)</b>
+              <br />
+              <i>né avant le 01/01/1964</i>
             </p>
             <p className="prix-cotisation">
               <b>170€</b>
@@ -341,6 +395,11 @@ const TennisDeTable = () => {
           <div className="case-cotisation">
             <p>
               <b>SENIORS</b>
+              <br />
+              <i>
+                nés du 01/01/1964
+                <br /> au 31/12/2005
+              </i>
             </p>
             <p className="prix-cotisation">
               <b>225€</b>
@@ -349,10 +408,13 @@ const TennisDeTable = () => {
           <div className="case-cotisation">
             <p>
               <b>JUNIORS</b>
+              <br />
+              <i>
+                nés du 01/01/2006
+                <br /> au 31/12/2009
+              </i>
             </p>
-            <p>
-              <i>Ancien adhérent</i>
-            </p>
+
             <p className="prix-cotisation">
               <b>185€</b>
             </p>
@@ -361,6 +423,11 @@ const TennisDeTable = () => {
           <div className="case-cotisation">
             <p>
               <b>CADETS</b>
+              <br />
+              <i>
+                nés du 01/01/2010
+                <br /> au 31/12/2011
+              </i>
             </p>
             <p>
               <i>185€</i>
@@ -369,6 +436,11 @@ const TennisDeTable = () => {
           <div className="case-cotisation">
             <p>
               <b>MINIMES</b>
+              <br />
+              <i>
+                nés du 01/01/2012
+                <br /> au 31/12/2013
+              </i>
             </p>
             <p className="prix-cotisation">
               <b>185€</b>
@@ -377,6 +449,22 @@ const TennisDeTable = () => {
           <div className="case-cotisation">
             <p>
               <b>BENJAMINS </b>
+              <br />
+              <i>
+                nés du 01/01/2014
+                <br /> au 31/12/2015
+              </i>
+            </p>
+            <p className="prix-cotisation">
+              <b>160€</b>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>POUSSINS </b>
+              <br />
+              <i>nés après le 31/12/2015</i>
             </p>
             <p className="prix-cotisation">
               <b>160€</b>
@@ -392,10 +480,12 @@ const TennisDeTable = () => {
           </div>
           <div className="case-cotisation">
             <p>
-              <b>ETUDIANTS </b>
+              <b>ETUDIANTS / DE </b>
             </p>
             <p className="prix-cotisation">
               <b>150€</b>
+              <br />
+              <i className="i-style-cotisations">Sur justificatif</i>
             </p>
           </div>
           <div className="case-cotisation">
@@ -404,6 +494,10 @@ const TennisDeTable = () => {
             </p>
             <p className="prix-cotisation">
               <b>150€</b>
+              <br />
+              <i className="i-style-cotisations">
+                (De 2 à 6 personnes - Forfait)
+              </i>
             </p>
           </div>
           <div className="case-cotisation">
@@ -412,13 +506,15 @@ const TennisDeTable = () => {
             </p>
             <p className="prix-cotisation">
               <b>130€</b>
+              <br />
+              <i className="i-style-cotisations">(Licenciés autres clubs)</i>
             </p>
           </div>
         </div>
         <div className="ligne-cotisations">
           <h4>
             Pour participer aux compétitions individuelles, à régler en sus pour
-            :{" "}
+            les :
           </h4>
         </div>
         <div className="ligne-cotisations">
@@ -511,13 +607,35 @@ const TennisDeTable = () => {
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>REPSONSABLE ADMINISTRATIVE : </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> contact@asftennis.com</span>
-          <span className="label">Téléphone : </span>
-          <span className="email"> 01 46 60 86 21</span>
-          <span className="label">Site Web : </span>
-          <span className="email"> www.asftennis.com</span>
+          <h4>PRESIDENT : MOREAU BERNARD </h4>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> mb.moreau@yahoo.fr</span>
+          </div>
+        </div>
+        <div className="contacts">
+          <h4>SECRETAIRE/CORRESPONDANT SPORTIF : RICHARD REMI </h4>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> richard.r13p@free.fr</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/volleyball" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

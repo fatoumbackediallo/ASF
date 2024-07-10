@@ -20,6 +20,7 @@ import IconeKungFu from "../images/Accueil/iconesSports/kungFu.png";
 import IconeNatation from "../images/Accueil/iconesSports/natation.png";
 import IconeParkour from "../images/Accueil/iconesSports/parkour.png";
 import IconeRugby from "../images/Accueil/iconesSports/rugby.png";
+import IconeSquash from "../images/Accueil/iconesSports/squash.png";
 import IconeTaeKwonDo from "../images/Accueil/iconesSports/TaeKwonDo.png";
 import IconeTennis from "../images/Accueil/iconesSports/tennis.png";
 import IconeTennisDeTable from "../images/Accueil/iconesSports/tennisDeTable.png";
@@ -56,6 +57,7 @@ const sports = [
   { name: "Natation", icon: IconeNatation, path: "/natation" },
   { name: "Parkour", icon: IconeParkour, path: "/parkour" },
   { name: "Rugby", icon: IconeRugby, path: "/rugby" },
+  { name: "Squash", icon: IconeSquash, path: "/squash" },
   { name: "Tae Kwon Do", icon: IconeTaeKwonDo, path: "/taekwondo" },
   { name: "Tennis", icon: IconeTennis, path: "/tennis" },
   { name: "Tennis de table", icon: IconeTennisDeTable, path: "/tennisdetable" },

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Tennis = () => {
@@ -71,27 +72,23 @@ const Tennis = () => {
           <div className="entrainement-ligne">
             <h4>TOUTES LES CATÉGORIES</h4>
             <p>
-              <b>
-                TENNIS MUNICIPAUX <br />
-                COURTS COUVERTS PANORAMA
-              </b>
+              <b>COURTS COUVERTS PANORAMA</b>
               <br />
-              <br />
-              21 Bd de Moulin de la Tour, 92260 Fontenay-aux-Roses
+              27 Avenue du General LECLERC, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 17H00-22H00
+                LUNDI : 17H00-22H00
                 <br />
-                MARDI 17H00-22H00
+                MARDI : 17H00-22H00
                 <br />
-                JEUDI 17H00-22H00
+                JEUDI : 17H00-22H00
                 <br />
-                VENDREDI 17H00-22H00
+                VENDREDI : 17H00-22H00
                 <br />
-                MERCREDI 09H00-22H00
+                MERCREDI : 09H00-22H00
                 <br />
-                SAMEDI 09H00-18H00
+                SAMEDI : 09H00-18H00
                 <br />
               </b>
             </p>
@@ -102,12 +99,11 @@ const Tennis = () => {
             <p>
               <b>SALLE DE TENNIS DE TABLE</b>
               <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Stade du Panorama <br />
+              21 Bd du Moulin de la Tour, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 09H45-11H45</b>
+              <b>SAMEDI : 09H45-11H45</b>
             </p>
           </div>
         </div>
@@ -119,7 +115,7 @@ const Tennis = () => {
           <h3>MOYENS DE PAIEMENT</h3>
           <div>
             <ul className="ul-paiement">
-              <li>
+              {/* <li>
                 <h4>CARTE BANCAIRE</h4>
                 <p>(en une seule fois)</p>
               </li>
@@ -153,10 +149,11 @@ const Tennis = () => {
                   </ul>
                   <li>Effectuer le virement</li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <h4 onClick={handleToggle} className="menu-deroulant">
-                  AUTRES PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
+                  PAIEMENTS (Bénéficiaires d'aides) - PAIEMENT UNIQUEMENT PAR
+                  CHEQUES OU ESPECES AUPRES DE LA SECTION !
                   <span>{showOthers ? "v" : ">"}</span>
                 </h4>
                 {showOthers && (
@@ -184,15 +181,12 @@ const Tennis = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Auprès de la section aux Tennis Municipaux.</p>
                   </div>
                 )}
               </li>
@@ -209,7 +203,7 @@ const Tennis = () => {
 
         <h2>INSCRIPTIONS</h2>
         <hr className="ligne-titre"></hr>
-        <div className="bloc">
+        {/* <div className="bloc">
           <h4 className="h4">
             GUIDE D'INSCRIPTION À DESTINATION DE NOS ADHÉRENT(E)S :
           </h4>
@@ -225,7 +219,7 @@ const Tennis = () => {
               bien comment se connecter si un compte a déjà été créé.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="bloc">
           <h4 className="h4">
             DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
@@ -260,7 +254,7 @@ const Tennis = () => {
           <h4 className="h4">INSCRIPTION EN LIGNE :</h4>
           <div>
             <span className="lien">
-              <a href="https://asfontenaisienne.monclub.app/">
+              <a href="https://www.asftennis.com/preinscriptions">
                 LIEN D'INSCRIPTION
               </a>
             </span>
@@ -271,12 +265,35 @@ const Tennis = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>RESPONSABLE ADMINISTRATIVE : </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> contact@asftennis.com</span>
-          <span className="label"> Téléphone : </span>
-          <span className="email"> 01 46 60 86 21</span>
-          <span className="label">Site Web : </span>
-          <span className="email"> www.asftennis.com</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> contact@asftennis.com</span>
+          </div>
+          <div>
+            <span className="label"> Téléphone : </span>
+            <span className="email"> 01 46 60 86 21</span>
+          </div>
+          <div>
+            <span className="label">Site Web : </span>
+            <span className="email"> www.asftennis.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/tennisdetable" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

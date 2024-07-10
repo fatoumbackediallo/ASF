@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const GymnastiqueArtistique = () => {
@@ -25,16 +26,16 @@ const GymnastiqueArtistique = () => {
           <h4>COURS ENSEIGNÉS</h4>
           <p>
             La gymnastique artistique est une discipline athlétique consistant à
-            enchaîner des mouvements acrobatiques sur des agrès. La compétition
-            se déroule de deux manières : en concours par équipe et en concours
-            individuel. Ce dernier se subdivise en concours général
-            (l'intégralité des agrès) et en concours par appareil. Chez les
-            femmes, il existe quatre agrès : le saut de cheval, les barres
+            enchaîner des mouvements acrobatiques sur des agrès. <br /> <br />
+            La compétition se déroule de deux manières : en concours par équipe
+            et en concours individuel. Ce dernier se subdivise en concours
+            général (l'intégralité des agrès) et en concours par appareil. Chez
+            les femmes, il existe quatre agrès : le saut de cheval, les barres
             asymétriques, la poutre et le sol. <br />
             <br />
             Atelier de motricité parent-bébé : s’adresse aux bébés âgés de 3 à
             18 mois. L’objectif des ateliers est d’offrir un espace de motricité
-            adapté pour soutenir le développement psychomoteur du tout-petit.{" "}
+            adapté pour soutenir le développement psychomoteur du tout-petit.
             <br />
             <br />
             Dans les ateliers, la psychomotricienne est présente pour
@@ -89,95 +90,16 @@ const GymnastiqueArtistique = () => {
 
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>LOISIRS FILLES 2012- 2013</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI : 19H00-20H30</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>LOISIRS FILLES 2014- 2018</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MERCREDI : 10H00-11H30</b>
-            </p>
-          </div>
-
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>BABYGYM 2022</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI : 09H45-10H15</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ÉVEIL 1 2021</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI : 10H15-11H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ÉVEIL 2 2020</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI : 11H45-12H45</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>MINI GYM 2019</h4>
-            <p>
-              <b>SALLE GYMNASTIQUE</b>
-              <br />
-              Gymnase Jean Fournier
-              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>SAMEDI : 11H45 - 12H45</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
             <h4>
-              ATELIER À MOTRICITÉ
+              ATELIER DE MOTRICITÉ
               <br />
-              PARENT-BÉBÉ 3 À 18 MOIS
+              3 À 18 MOIS
               <br />
               <i>(Avec un parent)</i>
             </h4>
 
             <p>
-              <b>SALLE GYM/BIEN ÊTRE</b>
+              <b>SALLE BIEN ÊTRE</b>
               <br />
               Gymnase du Parc
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
@@ -189,11 +111,12 @@ const GymnastiqueArtistique = () => {
               <b>LUNDI : 10H30-11H30</b>
             </p>
           </div>
+
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>YOGA PRÉNATAL (MÉTHODE DE GASQUET)</h4>
+            <h4>YOGA PRÉNATAL </h4>
             <p>
-              <b>SALLE GYM/BIEN ÊTRE</b>
+              <b>SALLE BIEN ÊTRE</b>
               <br />
               Gymnase du Parc
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
@@ -204,28 +127,262 @@ const GymnastiqueArtistique = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>YOGA POSTNATAL (MÉTHODE GASQUET)</h4>
+            <h4>YOGA POSTNATAL </h4>
             <p>
-              <b>SALLE GYM/BIEN ÊTRE</b>
+              <b>SALLE BIEN ÊTRE</b>
               <br />
               Gymnase du Parc
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI : 15H15-16H15</b>
+              <b>LUNDI : 15H00-16H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              BABY GYM
+              <br />
+              <i>(nés en 2022)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>SAMEDI : 09H45-10H15</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
+            <h4>
+              ÉVEIL 1
+              <br />
+              <i>(nés en 2021)</i>
+            </h4>
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>SAMEDI : 10H15-11H00</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              ÉVEIL 2
+              <br />
+              <i>(nés en 2020)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>SAMEDI : 10H45-11H45</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              MINI GYM
+              <br />
+              <i>(Filles nées en 2019)</i>
+            </h4>
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>SAMEDI : 11H45 - 12H45</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              LOISIRS
+              <br />
+              <i>(Filles nées entre 2012- 2013)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MARDI : 19H00-20H30</b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              LOISIRS
+              <br />
+              <i>(Filles nées entre 2014 - 2018)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 10H00-11H30</b>
+              <br />
+              <br />
+              <b>MERCREDI : 11H30-13H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              LOISIRS
+              <br />
+              <i>(Filles nées entre 2017 - 2018)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 16H30-18H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              LOISIRS
+              <br />
+              <i>(Filles nées en 2016)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MERCREDI : 18H00-19H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              LOISIRS
+              <br />
+              <i>(Filles nées entre 2014 - 2015)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>JEUDI : 17H00-18H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              COMPETITIONS
+              <br />
+              <i>(Filles nées entre 2014 - 2018)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 17H00-19H00</b>
+              <br />
+              <b>MARDI : 17H00-19H00</b>
+              <br />
+              <b>VENDREDI : 17H00-19H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              COMPETITIONS
+              <br />
+              <i>(Filles nées avant 2014)</i>
+            </h4>
+
+            <p>
+              <b>SALLE DE GYM</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>LUNDI : 19H00-21H00</b>
+              <br />
+              <b>JEUDI : 19H00-21H00</b>
+              <br />
+              <b>VENDREDI : 19H00-21H00</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
             <h4>FITNESS ADULTES</h4>
             <p>
-              <b>SALLE GYM/BIEN ÊTRE</b>
+              <b>SALLE BIEN ÊTRE</b>
               <br />
               Gymnase du Parc
               <br /> 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI : 20H00-21H15</b>
+              <b>LUNDI : 20H00-21H30</b>
+            </p>
+          </div>
+
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              HANDI'GYM
+              <br />
+              <i>(6 à 16 ans)</i>
+            </h4>
+
+            <p>
+              <b>DOJO</b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>MARDI : 08H30-12H00</b>
             </p>
           </div>
         </div>
@@ -294,19 +451,19 @@ const GymnastiqueArtistique = () => {
                     </p>
 
                     <h4>Par chèque(s) :</h4>
-                    <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+                    <p>(3 fois maximum - à l'ordre de l'ASF) </p>
 
                     <h4>Par espèces : </h4>
                     <p>(en 1 seule fois)</p>
                     <div className="remise">
                       <h4>La remise se fera : </h4>
                     </div>
-                    {/* <p>
-                      Au Forum des Associations le{" "}
+                    <p>
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
-                    <p>OU</p> */}
+                    <p>OU</p>
                     <p>
                       Auprès de la section, lors de la première séance
                       d'entraînement.
@@ -320,57 +477,6 @@ const GymnastiqueArtistique = () => {
 
         <div>
           <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>BABY GYM</b>
-                <br />
-                <i>(Né en 2022)</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>250€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>ÉVEIL 1 et 2</b>
-                <br />
-                <i>(Né en 2021)</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>255€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>MINI GYM</b>
-                <br />
-                <i>(Né en 2019)</i>
-              </p>
-              <p className="prix-cotisation-gym">
-                <b>1H00 - 265€</b>
-              </p>
-            </div>
-
-            <div className="case-cotisation">
-              <p>
-                <b>FITNESS ADULTES</b>
-                <br />
-                <i>1H15</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>210€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>LOISIRS</b>
-                <br />
-                <i>(Nées entre 2012 & 2018)</i>
-              </p>
-              <p className="prix-cotisation-gym">
-                <b>275€</b>
-              </p>
-            </div>
             <div className="case-cotisation">
               <p>
                 <b>ATELIER MOTRICITÉ</b>
@@ -410,6 +516,98 @@ const GymnastiqueArtistique = () => {
               </p>
               <p>
                 <i>100€ les 10 séances</i>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>BABY GYM</b>
+                <br />
+                <i>(Né en 2022)</i>
+              </p>
+              <p className="prix-cotisation">
+                <b>250€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>ÉVEIL 1</b>
+                <br />
+                <i>(Nés en 2021)</i>
+                <br />
+                <br />
+                <b>ÉVEIL 1</b>
+                <br />
+                <i>(Nés en 2020)</i>
+              </p>
+              <p className="prix-cotisation">
+                <b>255€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>MINI GYM</b>
+                <br />
+                <i>(Né en 2019)</i>
+              </p>
+              <p className="prix-cotisation-gym">
+                <b>265€</b>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>LOISIRS FILLES</b>
+                <br />
+                <i>(Nées entre 2012 à 2018)</i>
+              </p>
+              <p className="prix-cotisation-gym">
+                <b>275€</b>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>COMPETITIONS FILLES</b>
+                <br />
+                <i>(Nées entre 2014 à 2018)</i>
+              </p>
+              <p className="prix-cotisation-gym">
+                <b>300€</b>
+                <br />
+                <i className="i-style-cotisations">(1 créneau)</i>
+                <br />
+                <br />
+                <b>435€</b>
+                <br />
+                <i className="i-style-cotisations">(2 créneaux)</i>
+                <br />
+                <br />
+                <b>500€</b>
+                <br />
+                <i className="i-style-cotisations">(3 créneaux)</i>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>FITNESS ADULTES</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>210€</b>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>HANDI'GYM</b>
+                <br />
+                <i>(groupe de 4 - 6 pers.)</i>
+              </p>
+              <p className="prix-cotisation">
+                <b>700€</b>
+                <br />
+                <i className="i-style-cotisations">(1h/semaine)</i>
               </p>
             </div>
           </div>
@@ -488,22 +686,52 @@ const GymnastiqueArtistique = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>
-            GYM ARTISTIQUE <br /> ANNE-SOPHIE BAULON - PRÉSIDENTE :{" "}
+            GYM ARTISTIQUE <br /> PRÉSIDENTE : ANNE-SOPHIE BAULON
           </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> asfgym92@gmail.com</span>
-          <span className="label">Téléphone : </span>
-          <span className="email">06 88 70 39 33</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> asfgym92@gmail.com</span>
+          </div>
+          <div>
+            <span className="label">Téléphone : </span>
+            <span className="email">06 88 70 39 33</span>
+          </div>
         </div>
         <div className="contacts">
           <h4>
-            ATELIER MOTRICITÉ / YOGA PRÉ ET POSTNATAL/ HANDI'GYM <br /> NATACHA
-            ROUAIX - PROFESSEUR :
+            ATELIER MOTRICITÉ / YOGA PRÉ ET POSTNATAL
+            <br /> HANDI'GYM <br />
+            PROFESSEUR : NATACHA ROUAIX
           </h4>
-          <span className="label">Mail : </span>
-          <span className="email"> natacha.rouaix@hotmail.fr</span>
-          <span className="label">Téléphone : </span>
-          <span className="email">07 87 87 33 57</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> natacha.rouaix@hotmail.fr</span>
+          </div>
+          <div>
+            <span className="label">Téléphone : </span>
+            <span className="email">07 87 87 33 57</span>
+          </div>
+          <div>
+            <span className="label">Site Web : </span>
+            <span className="email">www.asfgym92.fr</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/gymnastiquerythmique" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

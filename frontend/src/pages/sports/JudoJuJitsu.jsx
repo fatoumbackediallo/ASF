@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/sports.css";
 
 const JudoJuJitsu = () => {
@@ -439,10 +440,31 @@ const JudoJuJitsu = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>ASF JUDO JU JITSU</h4>
-          <span className="label">Mail : </span>
-          <span className="email"> asfjudo@gmail.com</span>
-          <span className="label">Site Web : </span>
-          <span className="email"> www.asfjudo.com</span>
+          <div>
+            <span className="label">Mail : </span>
+            <span className="email"> asfjudo@gmail.com</span>
+          </div>
+          <div>
+            <span className="label">Site Web : </span>
+            <span className="email"> www.asfjudo.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-button-sportPages">
+        <div>
+          <button className="button-sportPages">
+            <Link to="/" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Retour Accueil</h4>
+            </Link>
+          </button>
+        </div>
+        <div>
+          <button className="button-sportPages">
+            <Link to="/karate" className="link-button-sportPages">
+              <h4 className="h4-button-sportPages">Page suivante</h4>
+            </Link>
+          </button>
         </div>
       </div>
     </div>

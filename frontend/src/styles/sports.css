@@ -170,6 +170,13 @@ h4 {
   background-position: center;
 }
 
+.squash {
+  background-image: url("../images/Sports/banniere-squash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .taekwondo {
   background-image: url("../images/Sports/banniere-taekwondo.png");
   background-repeat: no-repeat;
@@ -430,7 +437,7 @@ h4 {
   align-items: center;
   margin-top: 30px;
   margin-left: 5px;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .infos-contact {
@@ -447,8 +454,9 @@ h4 {
 
 .email {
   color: #0913b1;
-  text-decoration: underline;
+  text-decoration: none;
   padding: 16px;
+  font-weight: bolder;
 }
 
 .i-style {
@@ -484,6 +492,7 @@ h4 {
   color: red;
   text-align: start;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .permanences {

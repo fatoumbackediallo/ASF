@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const KungFu = () => {
@@ -7,6 +7,18 @@ const KungFu = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/natation");
   };
 
   return (
@@ -56,7 +68,7 @@ const KungFu = () => {
           <div className="entrainement-ligne">
             <h4>6 - 12 ANS</h4>
             <p>
-              <b>Dojo</b>
+              <b>Salle Arts Martiaux</b>
               <br />
               Gymnase collège les Ormeaux,
               <br /> 15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
@@ -69,7 +81,7 @@ const KungFu = () => {
           <div className="entrainement-ligne">
             <h4>12 - 17 ANS</h4>
             <p>
-              <b>Dojo</b>
+              <b>Salle Arts Martiaux</b>
               <br />
               Gymnase collège les Ormeaux, <br />
               15 Rue D'Estienne d'Orves, 92260 Fontenay-aux-Roses
@@ -93,7 +105,9 @@ const KungFu = () => {
               Fontenay-aux-Roses
             </p>
             <p>
-              <b>LUNDI - JEUDI : 21H00-22H30</b>
+              <b>LUNDI : 21H00-22H30</b>
+              <br /> <br />
+              <b>JEUDI : 21H00-22H30</b>
             </p>
           </div>
         </div>
@@ -128,11 +142,11 @@ const KungFu = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -291,17 +305,13 @@ const KungFu = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/natation" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

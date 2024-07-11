@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const TaeKwonDo = () => {
@@ -7,6 +7,18 @@ const TaeKwonDo = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/tennis");
   };
 
   return (
@@ -308,7 +320,11 @@ const TaeKwonDo = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>BABY NINJA</b>
+                <b>
+                  BABY NINJA
+                  <br />
+                  <i>3 À 5 ANS</i>
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>270€</b>
@@ -360,7 +376,7 @@ const TaeKwonDo = () => {
           </div>
           <h4 className="h4-inscription">
             REMISE DE 10% À PARTIR DU 2EME ENFANT LORS DE L'INSCRIPTION EN LIGNE
-            SUR MONCLUB AVEC LE CODE DE REMISE FRATERIE10
+            SUR MONCLUB AVEC LE CODE DE REMISE FRATRIE10
           </h4>
         </div>
 
@@ -454,17 +470,13 @@ const TaeKwonDo = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/tennis" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

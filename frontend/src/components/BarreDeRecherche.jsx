@@ -11,7 +11,7 @@ const sports = [
   "capoeira",
   "ecole de danse",
   "ecole des sports",
-  "escrime",
+  "escrime sabre laser",
   "fitness",
   "football",
   "gymnastique artistique",

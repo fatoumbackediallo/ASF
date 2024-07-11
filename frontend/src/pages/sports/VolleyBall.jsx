@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const VolleyBall = () => {
@@ -7,6 +7,18 @@ const VolleyBall = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/yoga");
   };
 
   return (
@@ -562,9 +574,9 @@ const VolleyBall = () => {
             <br />
             <br />
             Remise de 10% à partir du 2eme enfant avec le code Mon Club
-            FRATERIE10
+            FRATRIE10
             <br /> Remise de 20% à partir du 3eme enfant avec le code Mon Club
-            FRATERIE10
+            FRATRIE20
           </p>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
@@ -584,17 +596,13 @@ const VolleyBall = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/yoga" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

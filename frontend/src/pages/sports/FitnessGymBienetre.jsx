@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Fitness = () => {
@@ -7,6 +7,18 @@ const Fitness = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/football");
   };
 
   return (
@@ -23,7 +35,7 @@ const Fitness = () => {
         <h2>QUELQUES INFORMATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="methodes">
-          <h4>AVANT L'INSCRIPTION</h4>
+          <h4>MÉTHODES ENSEIGNÉES</h4>
           <p>
             <b>+ DE 18 ANS ET ADULTES</b>
             <br />
@@ -33,12 +45,11 @@ const Fitness = () => {
             avec le poids du corps.
             <br />
             <br />
-            <b>Fitness / Step :</b> Sur une musique rythmée, vous devez
-            enchaîner les pas d’une chorégraphie créée par le(la) coach : monter
-            et descendre, de face ou de côté, pied à plat ou sur la pointe… En
-            somme, le step se rapproche d’une séance d’aérobic, à la différence
-            près que la hauteur de la planche permet un travail de musculation
-            plus en profondeur et offre une grande variété de mouvements.
+            <b>Fitness / Step :</b> activité de Fitness qui consiste à réaliser
+            des exercices de montées et descentes sur une marche sous forme de
+            chorégraphies en musique. Il améliore l’endurance cardiovasculaire,
+            renforce l’ensemble du corps, fait travailler l’équilibre et la
+            coordination. Il permet de se dépenser en s’amusant !
             <br />
             <br />
             <b>Fit' ballet : </b>crée le lien entre le Fitness et la Danse
@@ -354,11 +365,11 @@ const Fitness = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZEERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZEERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -367,7 +378,7 @@ const Fitness = () => {
               </li>
               <li>
                 <h4 onClick={handleToggle} className="menu-deroulant">
-                  AUTRES PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
+                  AUTRES PAIEMENTS (Bénéficiaires d'aides et chèques)
                   <span>{showOthers ? "v" : ">"}</span>
                 </h4>
                 {showOthers && (
@@ -390,8 +401,8 @@ const Fitness = () => {
                     <h4>Par chèque(s) :</h4>
                     <p>(5 fois maximum - à l'ordre de l'ASF) </p>
 
-                    <h4>Par espèces : </h4>
-                    <p>(en 1 seule fois)</p>
+                    {/* <h4>Par espèces : </h4>
+                    <p>(en 1 seule fois)</p> */}
                     <div className="remise">
                       <h4>La remise se fera : </h4>
                     </div>
@@ -480,7 +491,7 @@ const Fitness = () => {
             </p>
           </div>
         </div>
-        <div className="bloc">
+        {/* <div className="bloc">
           <h4 className="h4">
             DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
           </h4>
@@ -509,7 +520,7 @@ const Fitness = () => {
               </a>
             </span>
           </div>
-        </div>
+        </div> */}
         <div>
           <h4 className="h4-message">
             Certificat d'aptitude à la pratique du sport obligatoire!
@@ -541,17 +552,13 @@ const Fitness = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/football" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

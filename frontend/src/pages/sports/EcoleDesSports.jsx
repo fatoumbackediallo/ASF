@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const EcoleDesSports = () => {
@@ -7,6 +7,18 @@ const EcoleDesSports = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/escrime");
   };
 
   return (
@@ -113,11 +125,11 @@ const EcoleDesSports = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZEERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZEERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -212,7 +224,7 @@ const EcoleDesSports = () => {
             <h5 className="h5-bloc">Mineur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.
             </p>
 
             <span className="lien-span-h5">
@@ -233,11 +245,11 @@ const EcoleDesSports = () => {
             </span>
             <p className="p-inscription">
               Remise de 10% à partir du 2e enfant avec le code Mon Club
-              FRATERIE10
+              FRATRIE10
             </p>
             <p className="p-inscription">
               Remise de 20% à partir du 3e enfant avec le code Mon Club
-              FRATERIE10
+              FRATRIE20
             </p>
           </div>
         </div>
@@ -262,17 +274,13 @@ const EcoleDesSports = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/escrime" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Yoga = () => {
@@ -8,6 +8,19 @@ const Yoga = () => {
   const handleToggle = () => {
     setShowOthers(!showOthers);
   };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/aikido");
+  };
+
   return (
     <div>
       <div className="header yoga">
@@ -212,6 +225,17 @@ const Yoga = () => {
               <p>
                 <b>- 25 ans</b>
                 <br />
+                <i>Yoga simple (1h/semaine)</i>
+              </p>
+              <p className="prix-cotisation">
+                <b>235€</b>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>- 25 ans</b>
+                <br />
                 <i>
                   Yoga simple (1h/semaine)
                   <br /> + cours avancés (1/mois)
@@ -248,7 +272,7 @@ const Yoga = () => {
             DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT
           </h4>
           <div>
-            <h5 className="h5-bloc">Mineur : </h5>
+            {/* <h5 className="h5-bloc">Mineur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
               Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
@@ -259,7 +283,7 @@ const Yoga = () => {
                 CLIQUEZ ICI
               </a>
             </span>
-            <br />
+            <br /> */}
             <h5 className="h5-bloc">Majeur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
@@ -308,17 +332,13 @@ const Yoga = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/aikido" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

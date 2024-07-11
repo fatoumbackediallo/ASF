@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const TennisDeTable = () => {
@@ -8,6 +8,18 @@ const TennisDeTable = () => {
   const handleToggle = () => {
     setShowOthers(!showOthers);
   };
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/volleyball");
+  };
+
   return (
     <div>
       <div className="header tennisDeTable">
@@ -312,11 +324,11 @@ const TennisDeTable = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -347,7 +359,7 @@ const TennisDeTable = () => {
                     <h4>Par chèque(s) :</h4>
                     <p>
                       (En plusieurs fois voir avec la section - à l'ordre de
-                      l'ASF){" "}
+                      l'ASF)
                     </p>
 
                     <h4>Par espèces : </h4>
@@ -355,7 +367,7 @@ const TennisDeTable = () => {
                     <div className="remise">
                       <h4>
                         La remise se fera sur place auprès des bénévoles de la
-                        section :{" "}
+                        section :
                       </h4>
                     </div>
                     <p>
@@ -371,7 +383,7 @@ const TennisDeTable = () => {
                     </p>
                     <p>ou</p>
                     <p>
-                      Lors de la première séance d'accueil, à partir du{" "}
+                      Lors de la première séance d'accueil, à partir du
                       <b className="gras"> lundi 9 septembre 2024</b>.
                     </p>
                   </div>
@@ -624,17 +636,13 @@ const TennisDeTable = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/volleyball" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

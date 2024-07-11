@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Parkour = () => {
@@ -7,6 +7,18 @@ const Parkour = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/rugby");
   };
 
   return (
@@ -210,7 +222,7 @@ const Parkour = () => {
               </a>
             </span>
             <br />
-            <h5 className="h5-bloc">Majeur : </h5>
+            {/* <h5 className="h5-bloc">Majeur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
               Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
@@ -220,7 +232,7 @@ const Parkour = () => {
               <a href="https://admin.sportsregions.fr/media/uploaded/sites/12869/kcupload/files/Majeur%20-%20Questionnaire%20de%20Sant%C3%A9%202021-2022.pdf">
                 CLIQUEZ ICI
               </a>
-            </span>
+            </span> */}
           </div>
         </div>
         <div className="bloc">
@@ -245,17 +257,13 @@ const Parkour = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/rugby" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

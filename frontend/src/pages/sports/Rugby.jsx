@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Rugby = () => {
@@ -7,6 +7,18 @@ const Rugby = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/squash");
   };
 
   return (
@@ -178,7 +190,7 @@ const Rugby = () => {
             </p>
             <p>
               <b>MARDI : 20H00-22H00</b>
-              <br />
+              <br /> <br />
               <b>JEUDI : 20H00-22H00</b>
             </p>
           </div>
@@ -196,6 +208,7 @@ const Rugby = () => {
             </p>
             <p>
               <b>MARDI : 20H00-22H00</b>
+              <br />
               <br />
               <b> SAMEDI : 10H00-12H00</b>
             </p>
@@ -387,12 +400,6 @@ const Rugby = () => {
               </p>
             </div>
           </div>
-          <h4 className="p-inscription">
-            Remises lors de l'inscription en ligne sur MonClub avec les codes
-            suivants : <br />
-            FRATRIE10 -10% à partir du 2ème enfant <br />
-            FRATRIE20 -20% à partir du 3ème enfant
-          </h4>
         </div>
 
         <h2>INSCRIPTIONS</h2>
@@ -455,6 +462,13 @@ const Rugby = () => {
           </div>
         </div>
 
+        <h4 className="p-inscription">
+          Remises lors de l'inscription en ligne sur MonClub avec les codes
+          suivants : <br />
+          FRATRIE10 -10% à partir du 2ème enfant <br />
+          FRATRIE20 -20% à partir du 3ème enfant
+        </h4>
+
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
@@ -504,17 +518,13 @@ const Rugby = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/squash" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

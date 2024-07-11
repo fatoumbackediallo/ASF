@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Badminton = () => {
@@ -7,6 +7,18 @@ const Badminton = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/basketball");
   };
 
   return (
@@ -23,7 +35,7 @@ const Badminton = () => {
         <h2 className="h2">QUELQUES INFORMATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="methodes">
-          <h4>AVANT L'INSCRIPTION</h4>
+          <h4>MÉTHODES ENSEIGNÉES</h4>
           <p>
             Le badminton est un sport rapide et dynamique qui allie agilité,
             précision et stratégie. Joué à l'intérieur ou à l'extérieur, ce
@@ -191,7 +203,7 @@ const Badminton = () => {
             </p>
             <p>
               <br />
-              <b>LUNDI : 20H15-22H30</b>
+              <b>MARDI : 20H15-22H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -274,11 +286,11 @@ const Badminton = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZEERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZEERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -307,7 +319,7 @@ const Badminton = () => {
                     </p>
 
                     <h4>Par chèque(s) :</h4>
-                    <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+                    <p>(3 fois maximum - à l'ordre de l'ASF) </p>
 
                     <h4>Par espèces : </h4>
                     <p>(en 1 seule fois)</p>
@@ -315,7 +327,7 @@ const Badminton = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
@@ -403,12 +415,12 @@ const Badminton = () => {
 
           <div className="case-cotisation">
             <p>
-              <b>
-                ETUDIANT <br /> (réduction de 25€ )
-              </b>
+              <b>ETUDIANT</b>
             </p>
             <p className="prix-cotisation">
-              <b>230€</b>
+              <b className="b-style-cotisations">
+                Réduction de 25€ <br /> sur les tarifs adultes
+              </b>
             </p>
           </div>
         </div>
@@ -479,7 +491,7 @@ const Badminton = () => {
           {/* <h4>PRÉSIDENT GOEFFREY GUYOT :</h4> */}
           <div>
             <span className="label">Mail : </span>
-            <span className="email"> bureau@asf.fr</span>
+            <span className="email"> bureau@asfb.fr</span>
           </div>
           {/* <span className="label">Téléphone : </span>
           <span className="email"> 06 38 43 52 68</span> */}
@@ -492,17 +504,13 @@ const Badminton = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/basketball" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Karate = () => {
@@ -7,6 +7,18 @@ const Karate = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/kungfu");
   };
 
   return (
@@ -127,11 +139,11 @@ const Karate = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -208,7 +220,7 @@ const Karate = () => {
             </div>
           </div>
           <h4>
-            <b>LICENSE COMPRISE: + 40€</b>
+            <b>LICENSE COMPRISE DE 40€</b>
           </h4>
         </div>
 
@@ -239,7 +251,7 @@ const Karate = () => {
             <h5 className="h5-bloc">Mineur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.
             </p>
 
             <span className="lien-span-h5">
@@ -251,7 +263,7 @@ const Karate = () => {
             <h5 className="h5-bloc">Majeur : </h5>
             <p className="p-h5-bloc">
               Questionnaire de santé (à garder par l'adhérent) ou Certificat
-              Médical (si + de 3 ans) si nouveau ou souhait de la section.{" "}
+              Médical (si + de 3 ans) si nouveau ou souhait de la section.
             </p>
 
             <span className="lien-span-h5">
@@ -271,7 +283,7 @@ const Karate = () => {
             </span>
             <p className="p-inscription">
               Remise de 10% à partir du 2e enfant avec le code Mon Club
-              FRATERIE10
+              FRATRIE10
             </p>
           </div>
         </div>
@@ -282,7 +294,7 @@ const Karate = () => {
           <h4>PROFESSEUR : IDIR GUEDJALI </h4>
           <div>
             <span className="label">Mail : </span>
-            <span className="email"> guedjaliidir@yahoo.fr</span>
+            <span className="email"> guedjali_idir@yahoo.fr</span>
           </div>
           <br />
           <div>
@@ -291,7 +303,7 @@ const Karate = () => {
           </div>
         </div>
         <div className="contacts">
-          <h4>PRESIDENT : PIERRE-MATHIEU BESSI </h4>
+          <h4>PRESIDENT : PIERRE-MATTHIEU BESSI </h4>
           {/* <div>
             <span className="label">Mail : </span>
             <span className="email"> guedjaliidir@yahoo.fr</span>
@@ -305,17 +317,13 @@ const Karate = () => {
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/kungfu" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

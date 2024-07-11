@@ -40,7 +40,7 @@ const routes = [
   { path: "/capoeira", element: <Capoeira /> },
   { path: "/ecolededanse", element: <EcoleDeDanse /> },
   { path: "/ecoledessports", element: <EcoleDesSports /> },
-  { path: "/escrime", element: <Escrime /> },
+  { path: "/escrimesabrelaser", element: <Escrime /> },
   { path: "/fitness", element: <Fitness /> },
   { path: "/football", element: <Football /> },
   { path: "/gymnastiqueartistique", element: <GymnastiqueArtistique /> },

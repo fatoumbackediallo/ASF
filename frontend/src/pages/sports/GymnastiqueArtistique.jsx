@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const GymnastiqueArtistique = () => {
@@ -7,6 +7,18 @@ const GymnastiqueArtistique = () => {
 
   const handleToggle = () => {
     setShowOthers(!showOthers);
+  };
+
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/gymnastiquerythmique");
   };
 
   return (
@@ -189,7 +201,7 @@ const GymnastiqueArtistique = () => {
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI : 10H45-11H45</b>
+              <b>SAMEDI : 11H00-11H45</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -536,7 +548,7 @@ const GymnastiqueArtistique = () => {
                 <i>(Nés en 2021)</i>
                 <br />
                 <br />
-                <b>ÉVEIL 1</b>
+                <b>ÉVEIL 2</b>
                 <br />
                 <i>(Nés en 2020)</i>
               </p>
@@ -573,7 +585,7 @@ const GymnastiqueArtistique = () => {
                 <i>(Nées entre 2014 à 2018)</i>
               </p>
               <p className="prix-cotisation-gym">
-                <b>300€</b>
+                <b>330€</b>
                 <br />
                 <i className="i-style-cotisations">(1 créneau)</i>
                 <br />
@@ -670,7 +682,7 @@ const GymnastiqueArtistique = () => {
                 LIEN D'INSCRIPTION
               </a>
             </span>
-            <p className="p-h5-bloc">
+            {/* <p className="p-h5-bloc">
               Possibilité de s'inscrire également :
               <br />
               le 03/07 de 16h30 à 19h30,
@@ -678,7 +690,7 @@ const GymnastiqueArtistique = () => {
               le 06/07 de 10h à 12h au Gymnase Jean Fournier.
               <br />
               (Voir Actualité en page d'accueil!)
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -711,26 +723,22 @@ const GymnastiqueArtistique = () => {
             <span className="label">Téléphone : </span>
             <span className="email">07 87 87 33 57</span>
           </div>
-          <div>
+          {/* <div>
             <span className="label">Site Web : </span>
             <span className="email">www.asfgym92.fr</span>
-          </div>
+          </div> */}
         </div>
       </div>
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/gymnastiquerythmique" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

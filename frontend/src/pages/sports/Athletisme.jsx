@@ -66,7 +66,7 @@ const Athletisme = () => {
           <div className="entrainement-ligne">
             <h4>
               BABY ATHLE <br />
-              2019 à 2020 (4 - 6 ans)
+              2019 à 2020 (4 - 5 ans)
             </h4>
             <p>
               <b>SALLE TENNIS DE TABLE</b>
@@ -119,8 +119,8 @@ const Athletisme = () => {
             </p>
             <p>
               <b>
-                LUNDI - VENDREDI : 18H30-20H00
-                <br />
+                LUNDI - MERCREDI - VENDREDI : <br />
+                18H30-20H00
                 <br />
                 <br />
                 <br />
@@ -154,7 +154,8 @@ const Athletisme = () => {
             </p>
             <p>
               <b>
-                LUNDI - VENDREDI : 18H30-20H00
+                LUNDI - MERCREDI - VENDREDI : <br />
+                18H30-20H00
                 <br />
                 <br />
                 <br />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Escrime = () => {
@@ -8,12 +8,23 @@ const Escrime = () => {
   const handleToggle = () => {
     setShowOthers(!showOthers);
   };
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/fitness");
+  };
 
   return (
     <div>
       <div className="header escrime">
         <div className="nom-sport">
-          <h1>ESCRIME</h1>
+          <h1>ESCRIME - SABRE LASER</h1>
         </div>
         <div className="saison">
           <h2>SAISON 2024-2025</h2>
@@ -100,19 +111,6 @@ const Escrime = () => {
             </p>
             <p>
               <b>MARDI : 18h30-19h30</b>
-            </p>
-          </div>
-          {/* {/* <hr className="ligne"></hr> */}
-          <div className="entrainement-ligne">
-            <h4>Débutants 5 - 8 ans</h4>
-            <p>
-              <b>Gymnase de la roue</b>
-              <br />
-              <br />
-              10 Rue des Hautes Sorrières, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>MARDI 17h15-18h15</b>
             </p>
           </div>
 
@@ -389,7 +387,10 @@ const Escrime = () => {
           <h2>CONTACTS / RENSEIGNEMENTS</h2>
           <hr className="ligne-titre"></hr>
           <div className="contacts">
-            <h4>PRÉSIDENTE MARIE NAPOLITANO :</h4>
+            <h4>
+              ESCRIME SPORTIVE <br />
+              PRÉSIDENTE : MARIE NAPOLITANO{" "}
+            </h4>
             <div className="infos-contact">
               <div>
                 <span className="label">Mail : </span>
@@ -407,22 +408,35 @@ const Escrime = () => {
               </div>
             </div>
           </div>
+          <div className="contacts">
+            <h4>
+              SABRE LASER <br />
+              PROFESSEUR : Jean-Baptiste LEROY
+            </h4>
+            <div className="infos-contact">
+              <div>
+                <span className="label">Mail : </span>
+                <span className="email"> leroy.jkd@gmail.com</span>
+              </div>
+              <br />
+              <div>
+                <span className="label">Téléphone : </span>
+                <span className="email"> 06 80 81 12 54</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/fitness" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Page suivante</h4>
           </button>
         </div>
       </div>

@@ -132,7 +132,6 @@ const Fitness = () => {
               Gymnase du Parc
               <br /> 7 avenue du Parc 92260 Fontenay-aux-Roses <br />
               <br />
-              <br />
               <b>SALLE POLYVALENTE</b>
               <br />
               Gymnase du Parc
@@ -152,7 +151,6 @@ const Fitness = () => {
               Fontenay-aux-Roses
             </p>
             <p>
-              <br />
               <b>LUNDI : 12H30-13H30</b> <br />
               <br />
               <br /> <br />
@@ -163,7 +161,7 @@ const Fitness = () => {
               <br />
               <b>JEUDI : 12H30-13H30</b>
               <br />
-              <b>VENDREDI : 19H15-20H15</b>
+              <b>VENDREDI : 09H15-10H15</b>
               <br />
               <br />
               <br />
@@ -173,7 +171,7 @@ const Fitness = () => {
               <br />
               <b>JEUDI : 09H00-10H00</b>
               <br />
-              <b>VENDREDI : 09H15-10H15</b>
+              <b>VENDREDI : 19H15-20H15</b>
               <br />
               <br />
               <br />

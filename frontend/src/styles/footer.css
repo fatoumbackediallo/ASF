@@ -1,18 +1,25 @@
 .main-footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 80px;
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  /* border-top: 1px solid #b8bcef; */
+}
+
+.top-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-color: #b8bcef;
-  margin-top: 80px;
 }
 
-.footerText {
-  color: #0913b1;
-  font-weight: bolder;
-}
-
-.div-logoFooter {
-  display: flex;
+.logoFooter {
+  width: 100%;
+  justify-content: center;
 }
 
 .nav-link {
@@ -32,6 +39,99 @@
   background-color: blue;
   border-radius: 5px;
 }
+.adresse-footer {
+  background-image: url("../images/Footer/footer-localisation-icone.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.adresse-footer p {
+  padding-left: 32px;
+}
+
+.tel-hor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.telephone-footer {
+  background-image: url("../images/Footer/footer-telephone-icone.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.telephone-footer p {
+  padding-left: 32px;
+}
+
+.horaires-footer {
+  background-image: url("../images/Footer/footer-horaires-icone.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.horaires-footer p {
+  padding-left: 32px;
+}
+
+.reseaux-sociaux {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.reseaux-sociaux-icones {
+  display: flex;
+}
+
+.reseaux-sociaux-icones img {
+  margin-left: 12px;
+}
+
+.liens-footer {
+  border-top: 1px solid #b8bcef;
+  width: 90%;
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-footer {
+  text-decoration: none;
+  font-weight: light;
+  font-size: 16px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+link-footer:hover {
+  color: gray;
+}
+
+.titres-liens ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 12px;
+  list-style: none;
+}
+
+.titres-liens {
+  flex: 1 1 auto;
+}
+
+.titres-liens li {
+  margin-right: 40px;
+}
+
+.titres-liens li.btn {
+  text-decoration: none;
+}
+
+.mentions-legales {
+  margin-top: 10px;
+}
 
 @media (max-width: 760px) {
   .main-footer {
@@ -46,5 +146,12 @@
   .logoFooter {
     width: 50%;
     height: auto;
+  }
+  .liens-footer {
+    flex-direction: column;
+  }
+
+  .reseaux-sociaux p {
+    display: none;
   }
 }

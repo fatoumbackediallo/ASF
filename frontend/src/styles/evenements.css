@@ -82,6 +82,8 @@
 .titre-details {
   color: #b8bcef;
   font-size: 1.2rem;
+  margin-block-end: 10px;
+  margin-block-start: 40px;
 }
 
 .contact-event-container {

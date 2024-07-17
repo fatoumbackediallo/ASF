@@ -25,7 +25,7 @@
   color: #0913b1;
   padding: 10px;
   font-weight: bolder;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  /* transition: color 0.3s ease, background-color 0.3s ease; */
 }
 
 .nav-link:hover {
@@ -137,12 +137,19 @@ link-footer:hover {
     text-align: center;
   }
 
+  .top-footer {
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 80%;
+  }
+
   .footerText {
     font-size: 12px;
   }
 
   .logoFooter {
-    width: 50%;
+    width: 100%;
     height: auto;
   }
   .liens-footer {
@@ -151,5 +158,39 @@ link-footer:hover {
 
   .reseaux-sociaux p {
     display: none;
+  }
+
+  .tel-hor {
+    flex-direction: column;
+    padding: 0 45px;
+  }
+
+  .titres-liens {
+    display: flex;
+  }
+
+  .titres-liens li {
+    margin-right: 16px;
+  }
+
+  .h4-link-footer {
+    font-size: 14px;
+  }
+
+  .adresse-footer p {
+    font-size: 13px;
+  }
+
+  .telephone-footer p {
+    font-size: 13px;
+  }
+
+  .horaires-footer p {
+    font-size: 13px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+    color: gray;
   }
 }

@@ -23,7 +23,7 @@ function Footer() {
               <p>01 46 01 98 01</p>
             </div>
             <div className="horaires-footer">
-              <p>Lun - Ven 15h00 - 18h15</p>
+              <p>Lun - Ven : 15h00 - 18h15</p>
             </div>
           </div>
         </div>
@@ -47,32 +47,32 @@ function Footer() {
           <ul>
             <li>
               <Link to="/" className="link-footer">
-                <h4>Accueil</h4>
+                <h4 className="h4-link-footer">Accueil</h4>
               </Link>
             </li>
             <li>
               <Link to="/historique" className="link-footer">
-                <h4>Association</h4>
+                <h4 className="h4-link-footer">Association</h4>
               </Link>
             </li>
             <li>
               <Link to="/contact" className="link-footer">
-                <h4>Contact</h4>
+                <h4 className="h4-link-footer">Contact</h4>
               </Link>
             </li>
             <li>
               <Link to="/benevole" className="link-footer">
-                <h4>Devenir bénévole</h4>
+                <h4 className="h4-link-footer">Devenir bénévole</h4>
               </Link>
             </li>
             <li>
               <Link to="/evenements" className="link-footer">
-                <h4>Évènements</h4>
+                <h4 className="h4-link-footer">Évènements</h4>
               </Link>
             </li>
             <li>
               <Link to="/albums" className="link-footer">
-                <h4>Albums</h4>
+                <h4 className="h4-link-footer">Albums</h4>
               </Link>
             </li>
           </ul>

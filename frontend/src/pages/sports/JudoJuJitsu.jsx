@@ -25,10 +25,10 @@ const JudoJuJitsu = () => {
     <div>
       <div className="header judoJuJitsu">
         <div className="nom-sport">
-          <h1>JUDO / JU JITSU</h1>
+          <h1 className="h1-mon-sport">JUDO / JU JITSU</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -63,131 +63,161 @@ const JudoJuJitsu = () => {
             <div>
               <p>
                 <b>
-                  Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Les premiers cours se tiendront à partir du :
+                  <br />
+                  Cours juniors et adultes : Lundi 02 Septembre 2024
+                  <br />
+                  Cours enfants et jeunes : Lundi 09 Septembre 2024
                 </b>
               </p>
             </div>
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>ÉVEILS JUIL. À DEC. 2018/2019</h4>
+            <h4>
+              JUDO <br />
+              EVEILS <br />
+              2019 (né(e)s entre juil. et déc.) - 2020
+              <br />
+              <br />
+              Eveils CONFIRMÉS
+              <br />
+              2019 (né(e)s entre janv. et juin)
+            </h4>
             <p>
-              <b>DOJO 2</b>
+              <b>DOJO </b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MERCREDI 17H00-18H00</b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>ÉVEILS CONFIRMÉS JANV. À JUIN. 2018</h4>
-            <p>
-              <b>
-                DOJO 2 <br /> DOJO 1+2
-              </b>
+              <b>MARDI : 17H45-18H45</b>
               <br />
+              <b>MERCREDI : 17H00-18H00</b>
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                MERCREDI 16H00-17H00
-                <br />
-                MARDI 17H45-18H45
-                <br />
-                VENDREDI 17H45-18H45
-              </b>
+              <b>MERCREDI : 16H00-17H00</b>
+              <br />
+              <b>MERCREDI : 17H45-18H45</b>
+              <br />
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>PRÉ-POUSSINS 2016 - 2017</h4>
+            <h4>
+              JUDO <br />
+              Pré-POUSSINS <br />
+              2017 - 2018
+            </h4>
             <p>
-              <b>
-                DOJO 2 <br /> DOJO 1+2
-              </b>
+              <b>DOJO</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 16H00-17H00
+                MARDI : 17H45-18H45 <br />
+                MERCREDI : 16H00-17H00
                 <br />
-                MARDI 17H45-18H45
+                VENDREDI : 17H00-18H00
                 <br />
-                VENDREDI 17H45-18H45
+                VENDREDI : 18h00-19h00
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>POUSSINS 2014 - 2015</h4>
+            <h4>
+              JUDO <br />
+              POUSSINS <br />
+              2015 - 2016
+            </h4>
             <p>
-              <b>
-                DOJO 2 <br /> DOJO 1+2
-              </b>
+              <b>DOJO</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                MERCREDI 15H00-16H00
+                MARDI : 18H45-19H45
                 <br />
-                MARDI 15H00-16H00
+                MERCREDI : 15H00-16H00
                 <br />
-                VENDREDI 18H45-19H45
-              </b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>BENJAMINS 2012 - 2013</h4>
-            <p>
-              <b>
-                DOJO 2 <br /> DOJO 1+2 <br /> DOJO 2
-              </b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                LUNDI 18H00-19H30
+                VENDREDI : 18H00-19H00
                 <br />
-                JEUDI 18H00-19H30
-                <br />
-                MERCREDI 14H00-15H00
+                VENDREDI : 19H00-20H00
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>MINIMES 2010 - 2011</h4>
+            <h4>
+              JUDO <br />
+              BENJAMINS <br />
+              2013 - 2014
+            </h4>
             <p>
-              <b>
-                DOJO 2 <br /> DOJO 1+2 <br /> DOJO 2
-              </b>
+              <b>DOJO</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                LUNDI 18H00-19H30
+                LUNDI : 18H00-19H30
                 <br />
-                JEUDI 18H00-19H30
+                MERCREDI : 14H00-15H00
                 <br />
-                MERCREDI 18H00-19H00
+                JEUDI : 18H00-19H30
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              JUDO <br />
+              MINIMES <br />
+              2011 - 2012
+            </h4>
+            <p>
+              <b>DOJO </b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                LUNDI : 18H00-19H30
+                <br />
+                MERCREDI : 18H00-19H00
+                <br />
+                JEUDI : 18H00-19H30
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              JUDO <br />
+              CADETS <br /> 2008 - 2010
+            </h4>
+            <p>
+              <b>DOJO</b>
+              <br />
+              Gymnase Jean Fournier <br />7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                LUNDI : 19H30-21H00
+                <br />
+                MERCREDI : 18H00-19H00 <br />
+                JEUDI : 19H30-21H15
+              </b>
+            </p>
+          </div>
+          {/* <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>CADETS 2007 - 2009</h4>
             <p>
@@ -207,43 +237,45 @@ const JudoJuJitsu = () => {
                 MERCREDI 18H00-19H00
               </b>
             </p>
+          </div> */}
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>
+              {" "}
+              JUDO <br />
+              JUNIORS et ADLUTES
+              <br />
+              2007 et -
+            </h4>
+            <p>
+              <b>DOJO</b>
+              <br />
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              <b>
+                LUNDI : 19H30-21H00
+                <br />
+                MARDI : 19H45-21H45 (Ju Jitsu) <br />
+                JEUDI : 19H30-21H15
+              </b>
+            </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>JUNIORS ET ADLUTES (2006 ET AVANT)</h4>
+            <h4>
+              JU JITSU <br />
+              2008 et -
+            </h4>
             <p>
-              <b>
-                DOJO 2 <br /> DOJO 1+2
-              </b>
+              <b>DOJO</b>
               <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase Jean Fournier <br /> 7 Rue des Potiers, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>
-                LUNDI 19H45-21H15
-                <br />
-                JEUDI 19H45-21H15
-              </b>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>JU JITSU 2006 ET AVANT</h4>
-            <p>
-              <b>
-                DOJO 2 <br /> DOJO 1+2
-              </b>
-              <br />
-              <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
-            </p>
-            <p>
-              <b>
-                MARDI 19H45-21H15
-                <br />
-                JEUDI 19H45-21H15
-              </b>
+              <b>MARDI / 19H45-21H45</b>
             </p>
           </div>
         </div>
@@ -278,11 +310,11 @@ const JudoJuJitsu = () => {
                   </li>
                   <ul>
                     <li>
-                      a. Section concernée + Nom et Prénom de l'enfant si
+                      Section concernée + Nom et Prénom de l'enfant si
                       inscription d'un mineur ou de l'adulte inscrit{" "}
                     </li>
                     <li>
-                      b. Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
+                      Exemple : ASF VOLLEY - enfant AZERTYUI Noémie ou ASF
                       VOLLEY - adulte AZERTYUI Marc
                     </li>
                   </ul>
@@ -319,15 +351,12 @@ const JudoJuJitsu = () => {
                       <h4>La remise se fera : </h4>
                     </div>
                     <p>
-                      Au Forum des Associations le{" "}
+                      Au Forum des Associations le
                       <b className="gras"> 08 septembre</b> au Gymnase du Parc
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>
-                      Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du
-                      château Ste Barbe - 2ème Étage - Porte 7
-                    </p>
+                    <p>Ayx horaires des cours au Gymnase Jean Fournier.</p>
                   </div>
                 )}
               </li>
@@ -339,7 +368,11 @@ const JudoJuJitsu = () => {
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>ÉVEIL (JUIL. À DEC. 2018 - 2019)</b>
+                <b>
+                  ÉVEIL <br /> 2019 - 2020
+                  <br />
+                  (né(e)s entre juil. et déc. 2019)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>241€</b>
@@ -347,7 +380,10 @@ const JudoJuJitsu = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>ÉVEILS CONFIRMÉS (JANV. À JUIN 2018)</b>
+                <b>
+                  ÉVEILS CONFIRMÉS <br />
+                  (né(e)s entre janv. et juin 2019)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>275€</b>
@@ -355,7 +391,10 @@ const JudoJuJitsu = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>PRÉ-POUSSINS ET POUSSINS (2014 À 2017)</b>
+                <b>
+                  PRÉ-POUSSINS ET POUSSINS <br />
+                  (2015 À 2018)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>275€</b>
@@ -363,7 +402,10 @@ const JudoJuJitsu = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>BENJAMINS ET MINIMES (2010 À 2013)</b>
+                <b>
+                  BENJAMINS ET MINIMES <br />
+                  (2011 À 2014)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>288€</b>
@@ -371,7 +413,11 @@ const JudoJuJitsu = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>CADETS, JUNIORS ET ADULTES (JUDO 2007 ET AVANT)</b>
+                <b>
+                  JUDO CADETS, <br />
+                  JUNIORS ET ADULTES <br />
+                  (2007 et -)
+                </b>
               </p>
               <p className="prix-cotisation">
                 <b>334€</b>
@@ -379,10 +425,10 @@ const JudoJuJitsu = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>JU JITSU (2067 ET AVANT)</b>
+                <b>JU JITSU (2008 et -)</b>
               </p>
               <p className="prix-cotisation">
-                <b>334€</b>
+                <b>275€</b>
               </p>
             </div>
           </div>
@@ -451,7 +497,7 @@ const JudoJuJitsu = () => {
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
-          <h4>ASF JUDO JU JITSU</h4>
+          <h4>ASF JUDO - JU JITSU</h4>
           <div>
             <span className="label">Mail : </span>
             <span className="email"> asfjudo@gmail.com</span>

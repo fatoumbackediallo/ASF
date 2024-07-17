@@ -25,10 +25,10 @@ import Athletisme from "./pages/sports/Athletisme.jsx";
 import EcoleDesSports from "./pages/sports/EcoleDesSports.jsx";
 import Squash from "./pages/sports/Squash.jsx";
 import Yoga from "./pages/sports/Yoga.jsx";
-// import JudoJuJitsu from "./pages/sports/JudoJuJitsu.jsx";
+import JudoJuJitsu from "./pages/sports/JudoJuJitsu.jsx";
 
 // Liste des pages désactivées
-const disabledPages = ["judojujitsu"];
+const disabledPages = [];
 
 // Configuration des routes
 const routes = [
@@ -46,7 +46,7 @@ const routes = [
   { path: "/gymnastiqueartistique", element: <GymnastiqueArtistique /> },
   { path: "/gymnastiquerythmique", element: <GymnastiqueRythmique /> },
   { path: "/handball", element: <Handball /> },
-  // { path: "/judojujitsu", element: <JudoJuJitsu /> },
+  { path: "/judojujitsu", element: <JudoJuJitsu /> },
   { path: "/karate", element: <Karate /> },
   { path: "/kungfu", element: <KungFu /> },
   { path: "/natation", element: <Natation /> },

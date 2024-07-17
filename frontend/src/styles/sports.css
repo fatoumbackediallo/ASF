@@ -518,6 +518,8 @@ h4 {
   align-items: center;
   border-color: #fff;
   box-shadow: #474966 5px 5px 5px 0;
+  width: 120px;
+  justify-content: center;
 }
 
 .link-button-sportPages {
@@ -641,10 +643,9 @@ h4 {
     margin-block-start: 2px;
   }
 
-  /* .h2-saisons {
-    margin-block-start: 10px;
-    margin-block-end: 10px;
-  } */
+  .h2-saisons {
+    margin-top: 0;
+  }
 
   .infos {
     margin: 54px 12px 8px 12px;
@@ -696,12 +697,18 @@ h4 {
     max-width: 100%;
   }
 
+  .entrainements {
+    margin: 5px 5px;
+    padding: 5px 5px;
+  }
+
   .case {
     margin-right: 0%;
   }
 
   .bloc {
     display: block;
+    margin: 0 10px 10px;
   }
 
   .inscription {
@@ -726,6 +733,8 @@ h4 {
 
   .ligne-cotisations {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contacts {
@@ -750,5 +759,10 @@ h4 {
   .ul-paiement {
     padding-inline-start: 25px;
     padding-inline-end: 10px;
+  }
+
+  .box-button-sportPages {
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }

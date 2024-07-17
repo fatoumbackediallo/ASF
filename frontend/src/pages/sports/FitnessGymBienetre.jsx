@@ -177,9 +177,9 @@ const Fitness = () => {
               <br />
               <b>MARDI : 12H30-13H30</b>
               <br />
-              <b>VENDREDI : 12H30-13H30</b>
-              <br />
               <b>MERCREDI : 19H45-20H45</b>
+              <br />
+              <b>VENDREDI : 12H30-13H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>

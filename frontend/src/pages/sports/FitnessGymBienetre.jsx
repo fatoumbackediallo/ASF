@@ -222,7 +222,7 @@ const Fitness = () => {
               <br />
               <br />
               <br />
-              <br />
+
               <b>
                 MARDI : 08H00-09H00
                 <br />

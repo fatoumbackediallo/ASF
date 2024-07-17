@@ -1,11 +1,16 @@
 .header-accueil {
+  display: flex;
   width: 100%;
-  margin-bottom: 18px;
+  height: 400px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  border-radius: 10px;
+  justify-content: center;
 }
 
 .header-accueil img {
-  width: 100%;
-  height: auto;
+  width: 70%;
+  height: 300px;
 }
 
 .sports-icones-container {
@@ -196,6 +201,14 @@
 }
 
 @media (max-width: 760px) {
+  .header-accueil {
+    height: 200px;
+  }
+  .header-accueil img {
+    width: 85%;
+    height: 150px;
+  }
+
   .evenements {
     display: flex;
   }

@@ -1,12 +1,18 @@
 import React from "react";
 import "../styles/card.css";
+import { useNavigate } from "react-router-dom";
 
-const Card = ({ title, photo, informations, date, location, contact }) => {
+const Card = ({ title, photo }) => {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate("/evenements");
+  };
   return (
-    <div className="card">
+    <div className="card" onClick={handleCardClick}>
       <h2 className="card-title">{title}</h2>
       {photo && <img src={photo} alt={title} className="card-photo" />}
-      <p
+      {/* <p
         className="card-info"
         dangerouslySetInnerHTML={{ __html: informations }}
       ></p>
@@ -15,7 +21,7 @@ const Card = ({ title, photo, informations, date, location, contact }) => {
       <p
         className="card-contact"
         dangerouslySetInnerHTML={{ __html: contact }}
-      ></p>
+      ></p> */}
     </div>
   );
 };

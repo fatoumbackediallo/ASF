@@ -1,17 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/pageDesactivee.css";
+import "../styles/construction.css";
 import BandeauConstruction from "../images/Evenements/bandeau-construction.png";
 
-const PageDesactivee = () => {
+const Construction = () => {
   return (
     <div>
       <div className="header-construction">
         <img src={BandeauConstruction} alt="bandeau"></img>
       </div>
       <div className="contenu-contruction">
-        <h1>Page en cours d'actualisation</h1>
-        <p className="p-contruction">Nous faisons vite!</p>
+        <h1>BIENTÔT</h1>
+        <p>
+          Cette partie du site est en construction, elle sera bientôt
+          disponible.
+        </p>
         <button className="bouton-construction">
           <Link to="/">
             <b>RETOUR À L'ACCUEIL</b>
@@ -22,4 +25,4 @@ const PageDesactivee = () => {
   );
 };
 
-export default PageDesactivee;
+export default Construction;

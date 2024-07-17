@@ -38,7 +38,7 @@ const sports = [
   { name: "Ecole De Danse", icon: IconeDanse, path: "/ecolededanse" },
   { name: "Ecole Des Sports", icon: IconeSports, path: "/ecoledessports" },
   {
-    name: "Escrime Sabre Laser",
+    name: "Escrime-Sabre Laser",
     icon: IconeEscrime,
     path: "/escrimesabrelaser",
   },

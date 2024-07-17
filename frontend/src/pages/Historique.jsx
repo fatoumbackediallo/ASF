@@ -21,7 +21,7 @@ const Historique = () => {
             important.
           </p>
           <p>
-            Elle compte aujourd'hui plus de 3 600 adhérents, porpose près de 30
+            Elle compte aujourd'hui plus de 3 600 adhérents, propose près de 30
             activités sportives différentes et met en place des projets, des
             compétitions, des activités handisports, des animations, des
             spectacles... seule ou en partenariat avec d'autres associations
@@ -146,7 +146,7 @@ const Historique = () => {
           </div>
           <div className="status">
             <h3>STATUS ET RÈGLEMENTS</h3>
-            <p>Les Status de l'association modifés en 2021</p>
+            <p>Les Status de l'association modifiés en 2021</p>
           </div>
         </div>
       </div>

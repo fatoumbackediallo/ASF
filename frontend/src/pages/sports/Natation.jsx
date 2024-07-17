@@ -693,7 +693,7 @@ const Natation = () => {
         </div>
         <div>
           <button className="button-sportPages" onClick={handleNextPageClick}>
-            <h4 className="h4-button-sportPages">Page suivante</h4>
+            <h4 className="h4-button-sportPages">Parkour</h4>
           </button>
         </div>
       </div>

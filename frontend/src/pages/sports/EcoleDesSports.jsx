@@ -18,7 +18,7 @@ const EcoleDesSports = () => {
 
   const handleNextPageClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    navigate("/escrime");
+    navigate("/escrimesabrelaser");
   };
 
   return (
@@ -280,7 +280,7 @@ const EcoleDesSports = () => {
         </div>
         <div>
           <button className="button-sportPages" onClick={handleNextPageClick}>
-            <h4 className="h4-button-sportPages">Page suivante</h4>
+            <h4 className="h4-button-sportPages">Escrime</h4>
           </button>
         </div>
       </div>

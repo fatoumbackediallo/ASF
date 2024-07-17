@@ -300,7 +300,7 @@ const GymnastiqueRythmique = () => {
               <p>
                 <b>
                   LOISIRS + (1h30)
-                  <br /> Licene UFOLEP incluse
+                  <br /> Licence UFOLEP incluse
                 </b>
                 <br />
                 <i>(8 ans et +)</i>
@@ -312,13 +312,13 @@ const GymnastiqueRythmique = () => {
                   (1 Cours) <br /> Fontenaisien
                 </i>
                 <br /> <br />
-                <b>310€</b>
+                <b>370€</b>
                 <br />
                 <i className="i-style-cotisations">
                   (2 Cours) <br /> Fontenaisien
                 </i>
                 <br /> <br />
-                <b>370€</b>
+                <b>310€</b>
                 <br />
                 <i className="i-style-cotisations">
                   (1 Cours) <br /> Non Fontenaisien
@@ -356,8 +356,8 @@ const GymnastiqueRythmique = () => {
             <div className="case-cotisation">
               <p>
                 <b>
-                  LOISIRS + (1 cours - 1h) <br />
-                  PRE-COMPETITIONS <br />
+                  LOISIRS (1 cours - 1h) <br />
+                  + PRE-COMPETITIONS <br />
                   (1 cours- 2h)
                   <br />
                   Licence FFG incluse
@@ -486,7 +486,7 @@ const GymnastiqueRythmique = () => {
         </div>
         <div>
           <button className="button-sportPages" onClick={handleNextPageClick}>
-            <h4 className="h4-button-sportPages">Page suivante</h4>
+            <h4 className="h4-button-sportPages">Handball</h4>
           </button>
         </div>
       </div>

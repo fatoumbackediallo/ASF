@@ -37,18 +37,18 @@ const Capoeira = () => {
         <div className="methodes">
           <h4>COURS ENSEIGNÉS</h4>
           <p>
-            De 3 à 6 ans : éveil de la capoeira, travaille de la motricité, de
+            De 3 à 6 ans : éveil de la capoeira, travail de la motricité, de
             l'autonomie mentale et physique, de la confiance en soi. <br /> De 6
-            à 10 ans : travaille de la confiance en soi, de l'agilité, de la
+            à 10 ans : travail de la confiance en soi, de l'agilité, de la
             souplesse et la vision panoramique, de la force mentale et physique
             et des responsabilités du groupes. <br />
-            De 11 à 14 ans : travaille de l'agilité, de la souplesse, de la
-            force et de la rapidité physique et mentale et des responsabilités
-            du groupe.
+            De 11 à 14 ans : travail de l'agilité, de la souplesse, de la force
+            et de la rapidité physique et mentale et des responsabilités du
+            groupe.
             <br />
-            De 15 ans à adulte : Travaille de la perfection, l’acquisition de
+            De 15 ans à adulte : Travail de la perfection, l’acquisition de
             l'expérience dans la capoeira.
-            <br />A tout âge travaille du chant et des jeux.
+            <br />A tout âge travail du chant et des jeux.
           </p>
         </div>
         <div className="entrainements">
@@ -281,7 +281,7 @@ const Capoeira = () => {
         </div>
         <div>
           <button className="button-sportPages" onClick={handleNextPageClick}>
-            <h4 className="h4-button-sportPages">Page suivante</h4>
+            <h4 className="h4-button-sportPages">Ecole de Danse</h4>
           </button>
         </div>
       </div>

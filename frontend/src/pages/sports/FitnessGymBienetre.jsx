@@ -159,12 +159,11 @@ const Fitness = () => {
               <br />
               <b>LUNDI : 19H00-20H00</b>
               <br />
+              <b>MERCREDI : 12H30-13H30</b>
+              <br />
               <b>JEUDI : 12H30-13H30</b>
               <br />
-              <b>
-                VENDREDI : 09H15-10H15 <br />
-                VENDREDI : 19H15-20H15
-              </b>
+              <b>VENDREDI : 19H15-20H15</b>
               <br />
               <br />
               <br />
@@ -174,6 +173,7 @@ const Fitness = () => {
               <br />
               <b>JEUDI : 09H00-10H00</b>
               <br />
+              <b>VENDREDI : 09H15-10H15</b>
               <br />
               <br />
               <br />
@@ -206,7 +206,7 @@ const Fitness = () => {
               5 Rue de l'Avenir, 92260 Fontenay-aux-Roses
               <br />
               <br />
-              <b>SALLE DE GYM</b> <br />
+              <b>SALLE DE DANSE</b> <br />
               Gymnase du Jean Fournier <br /> 7 Rue des Potiers, 92260
               Fontenay-aux-Roses
               <br />
@@ -558,7 +558,7 @@ const Fitness = () => {
         </div>
         <div>
           <button className="button-sportPages" onClick={handleNextPageClick}>
-            <h4 className="h4-button-sportPages">Page suivante</h4>
+            <h4 className="h4-button-sportPages">Football</h4>
           </button>
         </div>
       </div>

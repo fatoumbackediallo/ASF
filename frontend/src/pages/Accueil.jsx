@@ -4,6 +4,7 @@ import "../styles/accueil.css";
 import SlideShowIcones from "../components/SlideShowIcones";
 import BarreDeRecherche from "../components/BarreDeRecherche";
 import BandeauAccueil from "../images/Accueil/bandeau-accueil.png";
+// import zigzag from "../images/zigzag.png";
 import Photo1 from "../images/Accueil/photosEtVideos/photo1.png";
 import Photo2 from "../images/Accueil/photosEtVideos/photo2.png";
 import Photo3 from "../images/Accueil/photosEtVideos/photo3.png";
@@ -20,63 +21,67 @@ const Accueil = () => {
     {
       title: "Stage Foot",
       photo: stageFoot,
-      informations: "U9 à U13",
-      date: "8 Juillet au 12 juillet",
-      location: "Stade du Panorama",
-      contact: "06 89 86 78 11",
+      // informations: "U9 à U13",
+      // date: "8 Juillet au 12 juillet",
+      // location: "Stade du Panorama",
+      // contact: "06 89 86 78 11",
     },
     {
       title: "Stage Tennis",
       photo: stageTennis,
-      informations: `<ul>
-                      <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
-                      <li>De 9h30 à 16h30</li>
-                      <li>Inscription : www.asftennis.com</li>
-                    </ul>`,
-      date: `<ul>
-                      <li>24 juin au 28 juin 2024)</li>
-                      <li>01 au 05 juillet 2024</li>
-                      <li>08 juillet au 12 juillet 2024</li>
-                      <li>15 au 19 juillet 2024</li>
-                      <li>26 au 30 Août 2024</li>
-                    </ul>`,
+      // informations: `<ul>
+      //                 <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+      //                 <li>De 9h30 à 16h30</li>
+      //                 <li>Inscription : www.asftennis.com</li>
+      //               </ul>`,
+      // date: `<ul>
+      //                 <li>24 juin au 28 juin 2024)</li>
+      //                 <li>01 au 05 juillet 2024</li>
+      //                 <li>08 juillet au 12 juillet 2024</li>
+      //                 <li>15 au 19 juillet 2024</li>
+      //                 <li>26 au 30 Août 2024</li>
+      //               </ul>`,
 
-      location: "Tennis municipaux",
-      contact:
-        "Responsable administrative : contact@asftennis.com <br/> 01 46 60 86 21",
+      // location: "Tennis municipaux",
+      // contact:
+      //   "Responsable administrative : contact@asftennis.com <br/> 01 46 60 86 21",
     },
 
     {
       title: "Stage Tennis de Table",
       photo: stageTennisDeTable,
-      informations: `<ul>
-                      <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
-                      <li>A partir de 6 ans</li>
-                      <li>De 9h à 12h</li>
-                    </ul>`,
-      date: "8 Juillet au 12 juillet",
-      location: "Stade du Panorama",
-      contact:
-        "Rémi RICHARD - Secrétaire/Correspondant sportif : richard.r13p@free.fr",
+      // informations: `<ul>
+      //                 <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+      //                 <li>A partir de 6 ans</li>
+      //                 <li>De 9h à 12h</li>
+      //               </ul>`,
+      // date: "8 Juillet au 12 juillet",
+      // location: "Stade du Panorama",
+      // contact:
+      //   "Rémi RICHARD - Secrétaire/Correspondant sportif : richard.r13p@free.fr",
     },
 
     {
       title: "Stage Handball",
       photo: stageHandball,
-      informations: `<ul>
-                     <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
-                      <li>De 7 à 11 ans </li>
-                      <li>De 9h à 17h</li>
-                    </ul>`,
-      date: "8 Juillet au 12 juillet",
-      location: "Halle du Panorama",
-      contact: "Hugo Brutelle : 06 11 75 85 35",
+      // informations: `<ul>
+      //                <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+      //                 <li>De 7 à 11 ans </li>
+      //                 <li>De 9h à 17h</li>
+      //               </ul>`,
+      // date: "8 Juillet au 12 juillet",
+      // location: "Halle du Panorama",
+      // contact: "Hugo Brutelle : 06 11 75 85 35",
     },
   ];
   return (
     <div>
       <div className="header-accueil">
-        <img alt="bandeau" src={BandeauAccueil}></img>
+        <img
+          className="header-accueil img "
+          alt="bandeau"
+          src={BandeauAccueil}
+        ></img>
       </div>
       <div className="barre-de-recherche">
         <BarreDeRecherche></BarreDeRecherche>
@@ -92,17 +97,17 @@ const Accueil = () => {
               key={index}
               title={card.title}
               photo={card.photo}
-              informations={card.informations}
-              date={card.date}
-              location={card.location}
-              contact={card.contact}
+              // informations={card.informations}
+              // date={card.date}
+              // location={card.location}
+              // contact={card.contact}
             />
           ))}
         </div>
       </div>
       <div className="bouton">
         <button className="bouton-accueil">
-          <Link to="/construction">
+          <Link to="/evenements">
             <h4>VOIR TOUS LES EVENEMENTS</h4>
           </Link>
         </button>
@@ -130,7 +135,7 @@ const Accueil = () => {
         </div>
         <div className="bouton-espace-bouton">
           <button className="bouton-accueil">
-            <Link to="/construction">
+            <Link to="/albums">
               <h4>VOIR LES ALBUMS</h4>
             </Link>
           </button>

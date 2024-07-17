@@ -7,7 +7,8 @@ import Benevole from "./pages/Benevole.jsx";
 import Admin from "./pages/Admin.jsx";
 import ErrorBoundary from "./ErrorBoundary.js";
 import Menu from "./components/Menu.jsx";
-import Construction from "./pages/Construction.jsx";
+import Evenements from "./pages/Evenements.jsx";
+import Albums from "./pages/Albums.jsx";
 import Footer from "./components/Footer.jsx";
 import MentionsLegales from "./pages/MentionsLégales.jsx";
 import { DataProvider } from "./pages/DataContext.jsx";
@@ -25,7 +26,8 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/historique" element={<Historique />} />
               <Route path="/benevole" element={<Benevole />} />
-              <Route path="/construction" element={<Construction />} />
+              <Route path="/evenements" element={<Evenements />} />
+              <Route path="/albums" element={<Albums />} />
               <Route path="/admin" element={<Admin />} />
               {routes.map((route, index) => (
                 <Route key={index} path={route.path} element={route.element} />

@@ -154,7 +154,7 @@ const Athletisme = () => {
             </p>
             <p>
               <b>
-                LUNDI - MERCREDI - VENDREDI : <br />
+                LUNDI - MERCREDI (hormis LOISIRS) - VENDREDI : <br />
                 18H30-20H00
                 <br />
                 <br />
@@ -492,7 +492,7 @@ const Athletisme = () => {
         <div>
           <button className="button-sportPages">
             <Link to="/badminton" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Page suivante</h4>
+              <h4 className="h4-button-sportPages">Badminton</h4>
             </Link>
           </button>
         </div>

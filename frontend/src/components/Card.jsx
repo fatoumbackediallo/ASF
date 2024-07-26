@@ -9,7 +9,7 @@ const Card = ({ title, photo }) => {
     navigate("/evenements");
   };
   return (
-    <div className="card" onClick={handleCardClick}>
+    <div alt="photo-evenement" className="card" onClick={handleCardClick}>
       <h2 className="card-title">{title}</h2>
       {photo && <img src={photo} alt={title} className="card-photo" />}
       {/* <p

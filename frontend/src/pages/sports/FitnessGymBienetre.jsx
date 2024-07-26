@@ -25,10 +25,10 @@ const Fitness = () => {
     <div>
       <div className="header fitness">
         <div className="nom-sport">
-          <h1>FITNESS / GYM / BIEN ÊTRE</h1>
+          <h1 className="h1-mon-sport">FITNESS / GYM / BIEN ÊTRE</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -284,7 +284,7 @@ const Fitness = () => {
               <b>MARDI : 10H00-11H00</b>
               <br />
               <b>MARDI : 11H00-12H00</b>
-              <br /> <br />
+              <br />
               <b>VENDREDI : 10H15-11H15</b>
               <br />
               <b>VENDREDI : 11H15 - 12H15</b>
@@ -541,10 +541,9 @@ const Fitness = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENTE HÉLÈNE CHATEL : </h4>
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> asfculturephysique@gmail.com</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> asfculturephysique@gmail.com</span>
         </div>
       </div>
 

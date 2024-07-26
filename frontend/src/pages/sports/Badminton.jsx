@@ -25,10 +25,10 @@ const Badminton = () => {
     <div>
       <div className="header badminton">
         <div className="nom-sport">
-          <h1>BADMINTON</h1>
+          <h1 className="h1-mon-sport">BADMINTON</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -42,7 +42,7 @@ const Badminton = () => {
             sport de raquette se pratique en simple ou en double, et consiste à
             frapper un volant léger au-dessus d'un filet, avec l'objectif de le
             faire tomber dans le terrain adverse.
-            <br />
+            {/* <br />
             Notre section badminton au sein de l'association sportive propose un
             cadre convivial et motivant pour les joueurs de tous niveaux. Nos
             entraîneurs expé-rimentés sont dédiés à développer tant les
@@ -60,7 +60,7 @@ const Badminton = () => {
             <br />
             <br />
             Rejoignez-nous pour partager la passion du badminton et vivre des
-            moments sportifs inoubliables !
+            moments sportifs inoubliables ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -489,16 +489,12 @@ const Badminton = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           {/* <h4>PRÉSIDENT GOEFFREY GUYOT :</h4> */}
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> bureau@asfb.fr</span>
-          </div>
-          {/* <span className="label">Téléphone : </span>
-          <span className="email"> 06 38 43 52 68</span> */}
-          <div>
-            <span className="label">Site Web : </span>
-            <span className="email"> www.asfb.fr</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> bureau@asfb.fr</span>
+
+          <span className="label">Site Web : </span>
+          <span className="email"> www.asfb.fr</span>
         </div>
       </div>
 

@@ -25,10 +25,10 @@ const Tennis = () => {
     <div>
       <div className="header tennis">
         <div className="nom-sport">
-          <h1>TENNIS</h1>
+          <h1 className="h1-mon-sport">TENNIS</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -43,7 +43,7 @@ const Tennis = () => {
             avec pour objectif de frapper une balle au-dessus d’un filet pour
             qu’elle atterrisse dans le terrain adverse, rendant la balle
             difficile à retourner pour l’adversaire.
-            <br />
+            {/* <br />
             <br />
             Notre section de tennis au sein de l'association sportive offre un
             environnement accueillant et dynamique pour tous les âges et
@@ -65,7 +65,7 @@ const Tennis = () => {
             stratégie, notre section de tennis vous propose des programmes
             adaptés à vos besoins et objectifs. Rejoignez-nous pour partager la
             passion du tennis et vivre des moments sportifs inoubliables sur le
-            court !
+            court ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -282,15 +282,15 @@ const Tennis = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>RESPONSABLE ADMINISTRATIVE : </h4>
-          <div>
+          <div className="span-contact">
             <span className="label">Mail : </span>
             <span className="email"> contact@asftennis.com</span>
           </div>
-          <div>
+          <div className="span-contact">
             <span className="label"> Téléphone : </span>
             <span className="email"> 01 46 60 86 21</span>
           </div>
-          <div>
+          <div className="span-contact">
             <span className="label">Site Web : </span>
             <span className="email"> www.asftennis.com</span>
           </div>

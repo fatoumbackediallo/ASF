@@ -25,10 +25,10 @@ const TaeKwonDo = () => {
     <div>
       <div className="header taekwondo">
         <div className="nom-sport">
-          <h1>TAE KWON DO</h1>
+          <h1 className="h1-mon-sport">TAE KWON DO</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -41,12 +41,13 @@ const TaeKwonDo = () => {
             pour les enfants âgés de 3 à 5 ans. À cet âge où l’énergie est
             parfois débordante, le Taekwondo représente une vraie solution. En
             effet, cet art martial permet d’apprendre à se mouvoir plus
-            efficacement et aborde les techniques de base du Taekwondo. Ainsi,
-            parcours de motricité, assouplissements, premières frappes sur cible
-            et légers renforcements musculaires sont au programme des séances
-            pour les petits baptisés « Babys ninjas ». Cet Art Martial s'adresse
-            aussi aux plus grands, en favorisant l’apprentissage par la
-            technique et le combat.
+            efficacement et aborde les techniques de base du Taekwondo.
+            <br /> Ainsi, parcours de motricité, assouplissements, premières
+            frappes sur cible et légers renforcements musculaires sont au
+            programme des séances pour les petits baptisés « Babys ninjas ».{" "}
+            <br />
+            Cet Art Martial s'adresse aussi aux plus grands, en favorisant
+            l’apprentissage par la technique et le combat.
           </p>
         </div>
         <div className="entrainements">
@@ -444,7 +445,7 @@ const TaeKwonDo = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>ASF TAE KWON DO</h4>
-          <div>
+          <div className="infos-contact">
             <div>
               <span className="label">Mail : </span>
               <span className="email"> asftkd@gmail.com</span>

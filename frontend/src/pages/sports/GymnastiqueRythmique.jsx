@@ -25,10 +25,10 @@ const GymnastiqueRythmique = () => {
     <div>
       <div className="header gymnastiqueRythmique">
         <div className="nom-sport">
-          <h1>GYMNASTIQUE RYTHMIQUE</h1>
+          <h1 className="h1-mon-sport">GYMNASTIQUE RYTHMIQUE</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">

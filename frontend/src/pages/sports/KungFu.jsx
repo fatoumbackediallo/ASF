@@ -25,10 +25,10 @@ const KungFu = () => {
     <div>
       <div className="header kungFu">
         <div className="nom-sport">
-          <h1>KUNG FU</h1>
+          <h1 className="h1-mon-sport">KUNG FU</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -292,7 +292,7 @@ const KungFu = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PROFESSEUR : LEROY Jean-Baptiste </h4>
-          <div>
+          <div className="span-contact">
             <span className="label">Mail : </span>
             <span className="email"> leroy.jkd@gmail.com</span>
           </div>

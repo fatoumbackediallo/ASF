@@ -25,10 +25,10 @@ const VolleyBall = () => {
     <div>
       <div className="header volleyball">
         <div className="nom-sport">
-          <h1>VOLLEY BALL</h1>
+          <h1 className="h1-mon-sport">VOLLEY BALL</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -44,7 +44,7 @@ const VolleyBall = () => {
             toucher le sol de leur côté. Le volley-ball développe des
             compétences en saut, en passe et en frappe, tout en renforçant la
             coordination et l'esprit d'équipe.
-            <br />
+            {/* <br />
             <br />
             Notre section de volley-ball au sein de l'association sportive offre
             un environnement accueillant et énergique pour tous les âges et
@@ -66,7 +66,7 @@ const VolleyBall = () => {
             technique et votre stratégie, notre section de volley-ball vous
             propose des programmes adaptés à vos besoins et objectifs.
             Rejoignez-nous pour partager la passion du volley-ball et vivre des
-            moments sportifs inoubliables sur le terrain !
+            moments sportifs inoubliables sur le terrain ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -583,7 +583,7 @@ const VolleyBall = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENT : PHILIPPE SCHAUB </h4>
-          <div>
+          <div className="span-contact">
             <span className="label">Mail : </span>
             <span className="email"> philoufox@gmail.com</span>
           </div>

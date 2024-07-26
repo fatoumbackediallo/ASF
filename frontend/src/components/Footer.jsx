@@ -44,7 +44,7 @@ function Footer() {
       </div>
       <div className="liens-footer">
         <div className="titres-liens">
-          <ul>
+          <ul className="titres-liens ul">
             <li>
               <Link to="/" className="link-footer">
                 <h4 className="h4-link-footer">Accueil</h4>

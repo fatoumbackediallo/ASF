@@ -55,7 +55,7 @@ const sports = [
     path: "/gymnastiquerythmique",
   },
   { name: "Handball", icon: IconeHandball, path: "/handball" },
-  { name: "Judo Ju Jitsu", icon: IconeJudoJuJitsu, path: "/judojujitsu" },
+  { name: "Judo-Ju Jitsu", icon: IconeJudoJuJitsu, path: "/judojujitsu" },
   { name: "Karate", icon: IconeKarate, path: "/karate" },
   { name: "Kung Fu", icon: IconeKungFu, path: "/kungfu" },
   { name: "Natation", icon: IconeNatation, path: "/natation" },
@@ -99,7 +99,7 @@ const SlideShowIcones = () => {
           {sports.map((sport, index) => (
             <Link key={index} to={sport.path} className="sport-link">
               <div className="sport-item">
-                <img src={sport.icon} alt={sport.name} />
+                <img src={sport.icon} alt={`Icone de ${sport.name}`} />
                 <span>{sport.name}</span>
               </div>
             </Link>

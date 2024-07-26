@@ -89,15 +89,25 @@ const JudoJuJitsu = () => {
               <br />
               Gymnase Jean Fournier
               <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>DOJO </b>
+              <br />
+              Gymnase Jean Fournier
+              <br /> 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI : 17H45-18H45</b>
-              <br />
+              {/* <b>MARDI : 17H45-18H45</b>
+              <br /> */}
               <b>MERCREDI : 17H00-18H00</b>
+              <br />
+              <br />
+              <br />
+              <br />
               <br />
               <b>MERCREDI : 16H00-17H00</b>
               <br />
-              <b>MERCREDI : 17H45-18H45</b>
+              <b>VENDREDI : 17H45-18H45</b>
               <br />
             </p>
           </div>
@@ -120,6 +130,8 @@ const JudoJuJitsu = () => {
                 MERCREDI : 16H00-17H00
                 <br />
                 VENDREDI : 17H00-18H00
+                <br />
+                <i className="i-style">ou</i>
                 <br />
                 VENDREDI : 18h00-19h00
               </b>
@@ -145,6 +157,8 @@ const JudoJuJitsu = () => {
                 MERCREDI : 15H00-16H00
                 <br />
                 VENDREDI : 18H00-19H00
+                <br />
+                <i className="i-style">ou</i>
                 <br />
                 VENDREDI : 19H00-20H00
               </b>
@@ -286,7 +300,7 @@ const JudoJuJitsu = () => {
           <h3>MOYENS DE PAIEMENT</h3>
           <div>
             <ul className="ul-paiement">
-              <li>
+              {/* <li>
                 <h4>CARTE BANCAIRE</h4>
                 <p>(en une seule fois)</p>
               </li>
@@ -320,10 +334,10 @@ const JudoJuJitsu = () => {
                   </ul>
                   <li>Effectuer le virement</li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <h4 onClick={handleToggle} className="menu-deroulant">
-                  AUTRES PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
+                  PAIEMENTS (Bénéficiaires d'aides, chèques et Espèces)
                   <span>{showOthers ? "v" : ">"}</span>
                 </h4>
                 {showOthers && (
@@ -356,7 +370,7 @@ const JudoJuJitsu = () => {
                       entre 10h00 et 18h00
                     </p>
                     <p>OU</p>
-                    <p>Ayx horaires des cours au Gymnase Jean Fournier.</p>
+                    <p>Aux horaires des cours au Gymnase Jean Fournier.</p>
                   </div>
                 )}
               </li>
@@ -498,7 +512,7 @@ const JudoJuJitsu = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>ASF JUDO - JU JITSU</h4>
-          <div>
+          <div className="span-contact">
             <span className="label">Mail : </span>
             <span className="email"> asfjudo@gmail.com</span>
           </div>

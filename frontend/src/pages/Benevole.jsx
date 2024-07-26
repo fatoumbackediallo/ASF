@@ -10,7 +10,7 @@ import Case6 from "../images/Benevoles/case6.png";
 import Case7 from "../images/Benevoles/case7.png";
 import Case8 from "../images/Benevoles/case8.png";
 import Case9 from "../images/Benevoles/case9.png";
-import Zigzag from "../images/zigzag.png";
+// import Zigzag from "../images/zigzag.png";
 import ContactFormBenevole from "../components/FormulaireBenevole";
 
 const Benevole = () => {
@@ -67,9 +67,9 @@ const Benevole = () => {
           </div>
         </div>
       </div>
-      <div className="separation">
+      {/* <div className="separation">
         <img alt="bénévoles" src={Zigzag}></img>
-      </div>
+      </div> */}
       <div className="formulaire-benevole">
         <div className="formulaire-contact-benevole">
           <ContactFormBenevole></ContactFormBenevole>

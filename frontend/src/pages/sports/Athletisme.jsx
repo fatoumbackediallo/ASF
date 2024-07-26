@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/sports.css";
 
 const Athletisme = () => {
@@ -9,14 +9,26 @@ const Athletisme = () => {
     setShowOthers(!showOthers);
   };
 
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
+
+  const handleNextPageClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/badminton");
+  };
+
   return (
     <div>
       <div className="header athletisme">
         <div className="nom-sport">
-          <h1>ATHLÉTISME</h1>
+          <h1 className="h1-mon-sport">ATHLÉTISME</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -32,7 +44,7 @@ const Athletisme = () => {
             s'agisse de courir sur des pistes, de sauter en hauteur ou en
             longueur, ou encore de lancer des objets tels que le javelot ou le
             disque. <br />
-            <br />
+            {/* <br />
             Notre section d'athlétisme au sein de l'association sportive offre
             un environnement accueillant et dynamique pour tous les âges et
             niveaux. Nos entraîneurs qualifiés mettent un point d'honneur à
@@ -47,7 +59,7 @@ const Athletisme = () => {
             section d'athlétisme vous propose des programmes adaptés et des
             opportunités de participation à des compétitions locales et
             régionales. Rejoignez-nous pour vivre des moments sportifs
-            inoubliables et partager notre passion pour l’athlétisme !
+            inoubliables et partager notre passion pour l’athlétisme ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -470,30 +482,24 @@ const Athletisme = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>ASF ATHLÉTISME</h4>
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> asfathletisme2@gmail.com</span>
-          </div>
-          <div>
-            <span className="label">Site Web : </span>
-            <span className="email"> www.asfathletisme.free.fr</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> asfathletisme2@gmail.com</span>
+
+          <span className="label">Site Web : </span>
+          <span className="email"> www.asfathletisme.free.fr</span>
         </div>
       </div>
 
       <div className="box-button-sportPages">
         <div>
-          <button className="button-sportPages">
-            <Link to="/" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Retour Accueil</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleHomeClick}>
+            <h4 className="h4-button-sportPages">Retour Accueil</h4>
           </button>
         </div>
         <div>
-          <button className="button-sportPages">
-            <Link to="/badminton" className="link-button-sportPages">
-              <h4 className="h4-button-sportPages">Badminton</h4>
-            </Link>
+          <button className="button-sportPages" onClick={handleNextPageClick}>
+            <h4 className="h4-button-sportPages">Badminton</h4>
           </button>
         </div>
       </div>

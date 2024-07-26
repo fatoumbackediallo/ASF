@@ -24,10 +24,10 @@ const TennisDeTable = () => {
     <div>
       <div className="header tennisDeTable">
         <div className="nom-sport">
-          <h1>TENNIS DE TABLE</h1>
+          <h1 className="h1-mon-sport">TENNIS DE TABLE</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -42,7 +42,7 @@ const TennisDeTable = () => {
             raquettes pour frapper une petite balle légère, avec pour objectif
             de marquer des points en rendant la balle difficile à retourner pour
             l'adversaire.
-            <br />
+            {/* <br />
             <br />
             Notre section de tennis de table au sein de l'association sportive
             offre un environnement convivial et stimulant pour tous les âges et
@@ -65,7 +65,7 @@ const TennisDeTable = () => {
             et votre stratégie, notre section de tennis de table vous propose
             des programmes adaptés à vos besoins et objectifs. Rejoignez-nous
             pour partager la passion du tennis de table et vivre des moments
-            sportifs inoubliables autour de la table !
+            sportifs inoubliables autour de la table ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -85,6 +85,7 @@ const TennisDeTable = () => {
           <div className="entrainement-ligne">
             <h4>LIBRE TOUS PUBLICS</h4>
             <p>
+              {/* <br />
               <br />
               <br />
               <br />
@@ -98,8 +99,7 @@ const TennisDeTable = () => {
               <br />
               <br />
               <br />
-              <br />
-              <br />
+              <br /> */}
               <b>SALLE TENNIS DE TABLE</b>
               <br />
               Stade du Panorama <br />

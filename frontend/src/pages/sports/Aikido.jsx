@@ -18,17 +18,17 @@ const Aikido = () => {
 
   const handleNextPageClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    navigate("/basketball");
+    navigate("/athletisme");
   };
 
   return (
     <div>
       <div className="header aikido">
         <div className="nom-sport">
-          <h1>AIKIDO</h1>
+          <h1 className="h1-mon-sport">AIKIDO</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -45,7 +45,7 @@ const Aikido = () => {
             bâton-jo, poignard-tanto). Il consiste à contrôler les attaques de
             ses adversaires, sans opposition ou exercice de la force, en
             utilisant des techniques d'esquive et d'immobilisation.
-            <br /> <br />
+            {/* <br /> <br />
             Les pratiquants peuvent découvrir un art martial d'autodéfense
             efficace et non violent. Les principes présentés durant les cours
             peuvent déboucher pour certains sur un véritable art de vivre.
@@ -59,7 +59,7 @@ const Aikido = () => {
             L’Aïkido se distingue cependant des autres arts martiaux en
             cherchant à neutraliser l'intention agressive de l'adversaire.
             L'Aïkido étant un art martial avec un objectif de dissuasion, sa
-            pratique exclut toute idée de compétition.
+            pratique exclut toute idée de compétition. */}
           </p>
         </div>
         <div className="entrainements">
@@ -357,10 +357,9 @@ const Aikido = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PROFESSEUR BENOIT CROZIER</h4>
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> admin.asf.aikido@sfr.fr</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> admin.asf.aikido@sfr.fr</span>
         </div>
       </div>
 

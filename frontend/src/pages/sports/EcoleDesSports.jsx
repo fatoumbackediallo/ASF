@@ -25,10 +25,10 @@ const EcoleDesSports = () => {
     <div>
       <div className="header ecoledessports">
         <div className="nom-sport">
-          <h1>ÉCOLE DES SPORTS</h1>
+          <h1 className="h1-mon-sport">ÉCOLE DES SPORTS</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -43,7 +43,7 @@ const EcoleDesSports = () => {
             répartition sera faite par les encadrants. Les enfants tourneront
             sur les différents cycles d'activités au cours de l'année ( 2 sites
             : Gymnase Jean Fournier et Gymnase du Parc).
-            <br />
+            {/* <br />
             Les adultes découvriront de nouveaux sports à chaque séance afin de
             trouver celui qui pourrait leur correspondre ou simplement de se
             défouler en toute sécurité sans jamais se lasser.
@@ -53,7 +53,7 @@ const EcoleDesSports = () => {
             parc - Pierre Bonnard).
             <br />
             Les enfants de la maternelle (grande section) restent à la charge de
-            leurs parents à la fin de l’activité.
+            leurs parents à la fin de l’activité. */}
           </p>
         </div>
         <div className="entrainements">
@@ -258,17 +258,15 @@ const EcoleDesSports = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>INTERVENANTE JULIE PALENZUELA :</h4>
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> j.palenzuela95@hotmail.fr</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> j.palenzuela95@hotmail.fr</span>
         </div>
         <div className="contacts">
           <h4>PRÉSIDENT CHRISTOPHE MEYNIAL</h4>
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> c.meynial@as-fontenay.fr</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> c.meynial@as-fontenay.fr</span>
         </div>
       </div>
 

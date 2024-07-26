@@ -25,10 +25,10 @@ const Natation = () => {
     <div>
       <div className="header natation">
         <div className="nom-sport">
-          <h1>NATATION</h1>
+          <h1 className="h1-mon-sport">NATATION</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -43,7 +43,7 @@ const Natation = () => {
             de travailler l'ensemble des muscles du corps tout en améliorant la
             condition physique et la santé cardiovasculaire. La natation est
             également reconnue pour ses bienfaits relaxants et thérapeutiques.
-            <br />
+            {/* <br />
             <br />
             Notre section de natation au sein de l'association sportive propose
             un cadre accueillant et professionnel pour tous les âges et niveaux.
@@ -63,7 +63,7 @@ const Natation = () => {
             Sachant déjà nager, notre section de natation vous propose des
             programmes adaptés à vos besoins et objectifs. Rejoignez-nous pour
             partager la passion de la natation et vivre des moments inoubliables
-            dans l’eau !
+            dans l’eau ! */}
           </p>
         </div>
         <div className="entrainements">

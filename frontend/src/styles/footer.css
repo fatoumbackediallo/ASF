@@ -169,6 +169,12 @@ link-footer:hover {
     display: flex;
   }
 
+  .titres-liens ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
   .titres-liens li {
     margin-right: 16px;
   }

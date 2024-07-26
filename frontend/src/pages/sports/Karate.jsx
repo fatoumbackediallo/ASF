@@ -25,10 +25,10 @@ const Karate = () => {
     <div>
       <div className="header karate">
         <div className="nom-sport">
-          <h1>KARATE</h1>
+          <h1 className="h1-mon-sport">KARATE</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -42,14 +42,14 @@ const Karate = () => {
             Le Karaté est un art martial Japonais qui consiste en l’utilisation
             de techniques à la fois offensives et défensives faisant appel à
             toutes les parties du corps : mains, pieds, etc.
-            <br />
+            {/* <br />
             <br />
             Le Karaté enfant est un véritable outil d’éveil et d’éducation. Les
             enchainements de techniques lui permettent de développer réflexes,
             coordination et de se repérer dans l’espace. La concentration,
             inhérente au Karaté, permet à l’enfant de canaliser son énergie. Son
             évolution sportive et la socialisation due à la pratique augmente sa
-            confiance en lui.
+            confiance en lui. */}
           </p>
         </div>
         <div className="entrainements">

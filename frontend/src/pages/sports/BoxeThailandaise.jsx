@@ -25,10 +25,10 @@ const BoxeThailandaise = () => {
     <div>
       <div className="header boxe-thailandaise">
         <div className="nom-sport">
-          <h1>BOXE THAILANDAISE</h1>
+          <h1 className="h1-mon-sport">BOXE THAILANDAISE</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -42,10 +42,10 @@ const BoxeThailandaise = () => {
             apprendre à vous défendre dans n'importe quelle situation. <br />
             Cet Art Martial permet d'avoir des enchaînements très variés et un
             art du combat à la fois dense et complet.
-            <br />
+            {/* <br />
             La section s'adresse à tous les sportifs souhaitant apprendre la
             discipline dans une ambiance conviviale. Débutants ou confirmés,
-            tous les cours sont mixtes et adaptés au niveau de chacun
+            tous les cours sont mixtes et adaptés au niveau de chacun */}
           </p>
         </div>
         <div className="entrainements">
@@ -250,34 +250,28 @@ const BoxeThailandaise = () => {
         <div className="contacts">
           <h4>ASF ATHLÉTISME</h4>
           <div className="infos-contact">
-            <div>
-              <span className="label">Mail : </span>
-              <span className="email">
-                {" "}
-                asftkd@gmail.com <br />
-                <br />
-              </span>
-            </div>
-            <div>
-              <span className="label">Téléphone : </span>
-              <span className="email">
-                07 60 62 91 21
-                <br />
-                <br />
-              </span>
-            </div>
-            <div>
-              <span className="label">Site Web : </span>
-              <span className="email">
-                www.sptrainingfontenayauxroses.com
-                <br />
-                <br />
-              </span>
-            </div>
-            <div>
-              <span className="label">Instagram : </span>
-              <span className="email"> asftaekwondo</span>
-            </div>
+            <span className="label">Mail : </span>
+            <span className="email">
+              asftkd@gmail.com <br />
+              <br />
+            </span>
+
+            <span className="label">Téléphone : </span>
+            <span className="email">
+              07 60 62 91 21
+              <br />
+              <br />
+            </span>
+
+            <span className="label">Site Web : </span>
+            <span className="email">
+              www.sptrainingfontenayauxroses.com
+              <br />
+              <br />
+            </span>
+
+            <span className="label">Instagram : </span>
+            <span className="email"> asftaekwondo</span>
           </div>
         </div>
       </div>

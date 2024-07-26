@@ -25,10 +25,10 @@ const Handball = () => {
     <div>
       <div className="header handball">
         <div className="nom-sport">
-          <h1>HANDBALL</h1>
+          <h1 className="h1-mon-sport">HANDBALL</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -44,7 +44,7 @@ const Handball = () => {
             adverse tout en défendant le leur. Ce sport exige des compétences en
             passe, en tir et en défense, tout en favorisant la coopération et
             l'esprit d'équipe.
-            <br />
+            {/* <br />
             <br />
             Notre section de handball au sein de l'association sportive offre un
             environnement stimulant et accueillant pour tous les âges et
@@ -67,7 +67,7 @@ const Handball = () => {
             votre stratégie, notre section de handball vous propose des
             programmes adaptés et une ambiance conviviale. Rejoignez-nous pour
             partager la passion du handball et vivre des moments inoubliables
-            sur le terrain !
+            sur le terrain ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -736,7 +736,7 @@ const Handball = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENT : MICHAËL LARONDE </h4>
-          <div>
+          <div className="span-contact">
             <span className="label">Mail : </span>
             <span className="email"> contact@asf-handball.org</span>
           </div>

@@ -25,10 +25,10 @@ const GymnastiqueArtistique = () => {
     <div>
       <div className="header gymnastiqueArtistique">
         <div className="nom-sport">
-          <h1>GYMNASTIQUE ARTISTIQUE</h1>
+          <h1 className="h1-mon-sport">GYMNASTIQUE ARTISTIQUE</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -44,7 +44,7 @@ const GymnastiqueArtistique = () => {
             général (l'intégralité des agrès) et en concours par appareil. Chez
             les femmes, il existe quatre agrès : le saut de cheval, les barres
             asymétriques, la poutre et le sol. <br />
-            <br />
+            {/* <br />
             Atelier de motricité parent-bébé : s’adresse aux bébés âgés de 3 à
             18 mois. L’objectif des ateliers est d’offrir un espace de motricité
             adapté pour soutenir le développement psychomoteur du tout-petit.
@@ -81,7 +81,7 @@ const GymnastiqueArtistique = () => {
             permet d'accueillir 3 groupes Handi’gym. Les enfants et adolescents
             sont accompagnés par les professionnels de santé de la structure
             afin que nous puissions répondre aux mieux à leurs besoins
-            psychomoteurs.
+            psychomoteurs. */}
           </p>
         </div>
         <div className="entrainements">

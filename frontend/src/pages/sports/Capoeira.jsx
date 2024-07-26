@@ -25,10 +25,10 @@ const Capoeira = () => {
     <div>
       <div className="header capoeira">
         <div className="nom-sport">
-          <h1>CAPOEIRA</h1>
+          <h1 className="h1-mon-sport">CAPOEIRA</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -38,8 +38,8 @@ const Capoeira = () => {
           <h4>COURS ENSEIGNÉS</h4>
           <p>
             De 3 à 6 ans : éveil de la capoeira, travail de la motricité, de
-            l'autonomie mentale et physique, de la confiance en soi. <br /> De 6
-            à 10 ans : travail de la confiance en soi, de l'agilité, de la
+            l'autonomie mentale et physique, de la confiance en soi. <br />
+            De 6 à 10 ans : travail de la confiance en soi, de l'agilité, de la
             souplesse et la vision panoramique, de la force mentale et physique
             et des responsabilités du groupes. <br />
             De 11 à 14 ans : travail de l'agilité, de la souplesse, de la force
@@ -262,14 +262,12 @@ const Capoeira = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PROFESSEUR THOMAS MASSIMI :</h4>
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> mass.tho@hotmail.fr</span>
-          </div>
-          <div>
-            <span className="label">Téléphone : </span>
-            <span className="email"> 06 18 50 00 90</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> mass.tho@hotmail.fr</span>
+
+          <span className="label">Téléphone : </span>
+          <span className="email"> 06 18 50 00 90</span>
         </div>
       </div>
 

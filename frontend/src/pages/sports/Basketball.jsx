@@ -25,10 +25,10 @@ const BasketBall = () => {
     <div>
       <div className="header basketball">
         <div className="nom-sport">
-          <h1>BASKETBALL</h1>
+          <h1 className="h1-mon-sport">BASKETBALL</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -43,7 +43,7 @@ const BasketBall = () => {
             points en lançant le ballon dans le panier adverse tout en défendant
             le leur. Le basketball développe non seulement les capacités
             physiques mais aussi la coopération et l'esprit d'équipe. <br />
-            <br />
+            {/* <br />
             Notre section de basketball au sein de l'association sportive offre
             un environnement stimulant et inclusif pour tous les âges et
             niveaux. Nos entraîneurs qualifiés sont engagés à perfectionner les
@@ -64,7 +64,7 @@ const BasketBall = () => {
             technique et votre stratégie, notre section de basketball vous
             propose des programmes adaptés et une ambiance conviviale.
             Rejoignez-nous pour partager la passion du basketball et vivre des
-            moments inoubliables sur le terrain !
+            moments inoubliables sur le terrain ! */}
           </p>
         </div>
         <div className="entrainements">

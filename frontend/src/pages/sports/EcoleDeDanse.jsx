@@ -44,7 +44,7 @@ const EcoleDeDanse = () => {
             autres. La danse améliore la condition physique, la coordination et
             la confiance en soi, tout en offrant une expérience joyeuse et
             créative.
-            <br />
+            {/* <br />
             <br />
             Notre section de danse au sein de l'association sportive propose une
             variété de cours pour tous les âges et niveaux, allant des débutants
@@ -65,7 +65,7 @@ const EcoleDeDanse = () => {
             explorer de nouveaux styles, notre section de danse vous propose des
             programmes adaptés à vos envies et à vos objectifs. Rejoignez-nous
             pour partager la passion de la danse et vivre des moments magiques
-            en mouvement !
+            en mouvement ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -771,10 +771,9 @@ const EcoleDeDanse = () => {
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENTE</h4>
-          <div>
-            <span className="label">Mail : </span>
-            <span className="email"> asf.danse.far@gmail.com</span>
-          </div>
+
+          <span className="label">Mail : </span>
+          <span className="email"> asf.danse.far@gmail.com</span>
         </div>
       </div>
 

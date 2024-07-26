@@ -24,10 +24,10 @@ const Escrime = () => {
     <div>
       <div className="header escrime">
         <div className="nom-sport">
-          <h1>ESCRIME - SABRE LASER</h1>
+          <h1 className="h1-mon-sport">ESCRIME - SABRE LASER</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -41,7 +41,7 @@ const Escrime = () => {
             pour tous avec son équipement identique pour tout le monde <br />
             (Un masque, une veste et une arme) il n’exclut pas, permet la mixité
             et l’égalité des chances.
-            <br />
+            {/* <br />
             <br />
             Notre approche pédagogique est basée dans un premier temps sur des
             mises en situation d’entraide ou d’oppositions ludiques, puis dans
@@ -62,7 +62,7 @@ const Escrime = () => {
             ou cinq points sont comptabilisés pour respectivement la main, un
             membre ou la tête et le reste du corps. Des protections, notamment
             un masque, permettent de pratiquer en toute sécurité ce qu’Obi-Wan
-            Kenobi qualifie de “l’arme noble d’une époque civilisée”.
+            Kenobi qualifie de “l’arme noble d’une époque civilisée”. */}
           </p>
         </div>
         <div className="entrainements">
@@ -389,41 +389,31 @@ const Escrime = () => {
           <div className="contacts">
             <h4>
               ESCRIME SPORTIVE <br />
-              PRÉSIDENTE : MARIE NAPOLITANO{" "}
+              <br />
+              PRÉSIDENTE : MARIE NAPOLITANO
             </h4>
-            <div className="infos-contact">
-              <div>
-                <span className="label">Mail : </span>
-                <span className="email"> escrimepourtous@gmail.com</span>
-              </div>
-              <br />
-              <div>
-                <span className="label">Téléphone : </span>
-                <span className="email"> 06 15 70 80 26</span>
-              </div>
-              <br />
-              <div>
-                <span className="label">Site Web : </span>
-                <span className="email"> www.escrime-pour-tous.com</span>
-              </div>
-            </div>
+
+            <span className="label">Mail : </span>
+            <span className="email"> escrimepourtous@gmail.com</span>
+
+            <span className="label">Téléphone : </span>
+            <span className="email"> 06 15 70 80 26</span>
+
+            <span className="label">Site Web : </span>
+            <span className="email"> www.escrime-pour-tous.com</span>
           </div>
           <div className="contacts">
             <h4>
               SABRE LASER <br />
+              <br />
               PROFESSEUR : Jean-Baptiste LEROY
             </h4>
-            <div className="infos-contact">
-              <div>
-                <span className="label">Mail : </span>
-                <span className="email"> leroy.jkd@gmail.com</span>
-              </div>
-              <br />
-              <div>
-                <span className="label">Téléphone : </span>
-                <span className="email"> 06 80 81 12 54</span>
-              </div>
-            </div>
+
+            <span className="label">Mail : </span>
+            <span className="email"> leroy.jkd@gmail.com</span>
+
+            <span className="label">Téléphone : </span>
+            <span className="email"> 06 80 81 12 54</span>
           </div>
         </div>
       </div>

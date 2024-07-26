@@ -6,7 +6,7 @@ import Localisation from "../images/Contact/iconeLocalisation.png";
 import Horaire from "../images/Contact/iconeHoraire.png";
 import Souris from "../images/Contact/iconeSouris.png";
 import ContactForm from "../components/FormulaireContact.jsx";
-import ZigZag from "../images/zigzag.png";
+// import ZigZag from "../images/zigzag.png";
 
 const Contact = () => {
   return (
@@ -52,9 +52,9 @@ const Contact = () => {
           <img src={Carte} alt="carte Google Maps"></img>
         </div>
       </div>
-      <div className="zigzag">
+      {/* <div className="zigzag">
         <img alt="bandeau zigzag" src={ZigZag}></img>
-      </div>
+      </div> */}
       <div className="formulaire-bandeau">
         <div className="formulaire">
           <ContactForm />

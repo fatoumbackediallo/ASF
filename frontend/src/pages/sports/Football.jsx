@@ -25,10 +25,10 @@ const Football = () => {
     <div>
       <div className="header football">
         <div className="nom-sport">
-          <h1>FOOTBALL</h1>
+          <h1 className="h1-mon-sport">FOOTBALL</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -44,7 +44,7 @@ const Football = () => {
             buts en envoyant le ballon dans le filet adverse. Ce sport développe
             non seulement les compétences physiques mais aussi la camaraderie et
             l'esprit d'équipe.
-            <br />
+            {/* <br />
             <br />
             Notre section de football au sein de l'association sportive offre un
             cadre dynamique et accueillant pour tous les âges et niveaux. Nos
@@ -67,7 +67,7 @@ const Football = () => {
             et votre stratégie, notre section de football vous propose des
             programmes adaptés à vos besoins et objectifs. Rejoignez-nous pour
             partager la passion du football et vivre des moments inoubliables
-            sur le terrain !
+            sur le terrain ! */}
           </p>
         </div>
         <div className="entrainements">
@@ -675,33 +675,25 @@ const Football = () => {
           <p>
             Permanences Accueil Bureau de la section Football :
             <br />
-            Mercredis : 03 Juillet + 21 août 2024 - Stade du Panorama de 16h30 à
-            19h.
+            Les Mercredis 03 Juillet et 21 août 2024 : Stade du Panorama de
+            16h30 à 19h.
           </p>
         </div>
+
         <div className="contacts">
           <h4>ASF FOOTBALL :</h4>
-
           <div className="infos-contact">
-            <div>
-              <span className="label">Mail : </span>
-              <span className="email"> football@as-fontenay.fr</span>
-            </div>
+            <span className="label">Mail : </span>
+            <span className="email"> football@as-fontenay.fr</span>
             <br />
-            <div>
-              <span className="label">Téléphone : </span>
-              <span className="email"> 06 68 75 53 41</span>
-            </div>
-            <br />
-            <div>
-              <span className="label">Site Web : </span>
-              <span className="email"> www.asf-football.net</span>
-            </div>
-            <br />
-            <div>
-              <span className="label"> Instagram : </span>
-              <span className="email"> @asf_football92</span>
-            </div>
+            <span className="label">Téléphone : </span>
+            <span className="email"> 06 68 75 53 41</span>
+
+            <span className="label">Site Web : </span>
+            <span className="email"> www.asf-football.net</span>
+
+            <span className="label"> Instagram : </span>
+            <span className="email"> @asf_football92</span>
           </div>
         </div>
       </div>

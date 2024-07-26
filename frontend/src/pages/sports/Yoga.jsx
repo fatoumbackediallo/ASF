@@ -25,10 +25,10 @@ const Yoga = () => {
     <div>
       <div className="header yoga">
         <div className="nom-sport">
-          <h1>YOGA</h1>
+          <h1 className="h1-mon-sport">YOGA</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -46,9 +46,9 @@ const Yoga = () => {
             Elle se poursuit par la pratique posturale qui mobilise les cinq
             sens de la colonne vertébrale de façon dynamique et statique, dans
             le respect de chaque pratiquant.
-            <br />
-            <br />
-            L'accent est mis sur l'attention permanente au souffle et au
+            {/* <br />
+            <br /> */}
+            {/* L'accent est mis sur l'attention permanente au souffle et au
             ressenti.
             <br />
             Les bénéfices de cette séquence d'exercices sont pleinement intégrés
@@ -56,7 +56,7 @@ const Yoga = () => {
             <br />
             Puis le travail respiratoire est le prélude à l'assise, grâce au
             calme intérieur et à la verticalité que la séance a permis
-            d'apprivoiser.
+            d'apprivoiser. */}
           </p>
         </div>
         <div className="entrainements">

@@ -7,7 +7,7 @@
 }
 
 .scroll-button {
-  background: #b8bcef;
+  background: #ccc;
   border: none;
   font-size: 24px;
   cursor: pointer;
@@ -78,4 +78,26 @@
 
 .sport-link {
   text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .sports-icones-container {
+    width: 100%;
+    margin: 30px 22px;
+  }
+
+  .sports-icones-wrapper {
+    margin: 15px auto;
+    width: 70%;
+  }
+
+  .sports-liste {
+    gap: 10px;
+  }
+
+  .sport-item {
+    text-align: center;
+    padding: 10px;
+    min-width: 60px;
+  }
 }

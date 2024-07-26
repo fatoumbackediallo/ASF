@@ -25,10 +25,10 @@ const Rugby = () => {
     <div>
       <div className="header rugby">
         <div className="nom-sport">
-          <h1>RUGBY</h1>
+          <h1 className="h1-mon-sport">RUGBY</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -44,7 +44,7 @@ const Rugby = () => {
             marquer des points en portant ou en bottant le ballon ovale dans
             l'en-but adverse. Ce sport développe non seulement les capacités
             physiques mais aussi la coopération et l'esprit d'équipe.
-            <br />
+            {/* <br />
             <br />
             Notre section de rugby au sein de l'association sportive offre un
             environnement stimulant et inclusif pour tous les âges et niveaux.
@@ -66,7 +66,7 @@ const Rugby = () => {
             joueur expérimenté visant à affiner votre technique et votre
             stratégie, notre section de rugby vous propose des programmes
             adaptés à vos besoins et objectifs. Rejoignez-nous pour partager la
-            passion du rugby et vivre des moments inoubliables sur le terrain !
+            passion du rugby et vivre des moments inoubliables sur le terrain ! */}
           </p>
         </div>
         <div className="entrainements">

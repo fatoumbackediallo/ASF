@@ -28,7 +28,7 @@ const sports = [
   "tae kwon do",
   "tennis",
   "tennis de table",
-  "volley ball",
+  "volleyball",
   "yoga",
 ];
 

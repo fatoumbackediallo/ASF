@@ -25,7 +25,7 @@ const VolleyBall = () => {
     <div>
       <div className="header volleyball">
         <div className="nom-sport">
-          <h1 className="h1-mon-sport">VOLLEY BALL</h1>
+          <h1 className="h1-mon-sport">VOLLEYBALL</h1>
         </div>
         <div className="saison">
           <h2 className="h2-saisons">SAISON 2024-2025</h2>

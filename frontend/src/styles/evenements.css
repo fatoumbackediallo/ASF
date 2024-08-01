@@ -102,7 +102,23 @@
   border: 1px solid #e1e1e1;
 }
 
+@media (max-width: 1528px) {
+  .page-cards-container {
+    width: 100%;
+  }
+}
+
 @media (max-width: 728px) {
+  .page-cards-container {
+    width: 100%;
+  }
+
+  .header-event {
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+  }
+
   .evenements-page {
     display: flex;
     align-items: center;
@@ -111,15 +127,38 @@
 
   .page-event-card {
     flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: flex-start;
   }
 
-  .page-cards-container {
-    width: 100%;
+  .event-titre {
+    margin-block-end: 20px;
   }
-}
 
-@media (max-width: 1528px) {
-  .page-cards-container {
-    width: 100%;
+  .event-photo {
+    width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+
+  .date-event-container p {
+    margin-left: 32px;
+    font-weight: 600;
+  }
+
+  .contenu-events {
+    margin: 25px;
+  }
+
+  .page-event-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .titre-details {
+    margin-block-start: 20px;
   }
 }

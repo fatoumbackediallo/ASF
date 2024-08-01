@@ -38,7 +38,7 @@ h4 {
 }
 
 .basketball {
-  background-image: url("../images/Sports/bannière-basketball.png");
+  background-image: url("../images/Sports/banniere-basketball.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -94,14 +94,14 @@ h4 {
 }
 
 .gymnastiqueArtistique {
-  background-image: url("../images/Sports/banniere-gymnastiqueArtistique.png");
+  background-image: url("../images/Sports/banniere-gymArtistique.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .gymnastiqueRythmique {
-  background-image: url("../images/Sports/banniere-gymnastiqueRythmique.png");
+  background-image: url("../images/Sports/banniere-gymRythmique.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -199,7 +199,7 @@ h4 {
 }
 
 .volleyball {
-  background-image: url("../images/Sports/banniere-volleyBall.png");
+  background-image: url("../images/Sports/banniere-volleyball.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -24,21 +24,10 @@
 
 .card-photo {
   width: 100%;
-  border-radius: 8px;
   margin-bottom: 8px;
   max-height: 250px;
   object-fit: contain;
 }
-
-/* .card-info,
-.card-date,
-.card-location,
-.card-contact {
-  margin: 4px 0;
-  color: #0913b1;
-  font-size: 12px;
-  font-weight: bold;
-} */
 
 @media (max-width: 760px) {
   .card {

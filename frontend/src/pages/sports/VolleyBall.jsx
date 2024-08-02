@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
+// import "react-lazy-load-image-/src/effects/blur.css";
 import "../../styles/sports.css";
 
 const VolleyBall = () => {
@@ -30,6 +32,12 @@ const VolleyBall = () => {
         <div className="saison">
           <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
+
+        {/* <LazyLoadImage
+          src="../images/Sports/banniere-volleyball.png"
+          alt="volleyball banner"
+          effect="blur"
+        /> */}
       </div>
       <div className="infos">
         <h2>QUELQUES INFORMATIONS</h2>
